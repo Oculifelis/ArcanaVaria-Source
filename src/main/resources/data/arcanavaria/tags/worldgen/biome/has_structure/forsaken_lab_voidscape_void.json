@@ -1,0 +1,16 @@
+{
+  "values": [
+    {
+      "id": "voidscape:void",
+      "required": false
+    },
+    {
+      "id": "voidscape:null",
+      "required": false
+    },
+    {
+      "id": "voidscape:antispires",
+      "required": false
+    }
+  ]
+}

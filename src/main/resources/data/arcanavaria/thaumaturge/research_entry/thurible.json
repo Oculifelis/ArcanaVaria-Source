@@ -1,0 +1,55 @@
+{
+  "category": "arcanavaria:arcanavaria",
+  "name": "research.arcanavaria.thurible.title",
+  "parents": [
+    "arcanavaria:intro",
+    "thaumaturge:essentia_smelter"
+  ],
+  "column": 0,
+  "row": 2,
+  "icons": [
+    "arcanavaria:thurible"
+  ],
+  "stages": [
+    {
+      "text": "research.arcanavaria.thurible.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:alchemy",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:alchemy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.arcanavaria.thurible.stage_1",
+      "recipes": [
+        "arcanavaria:arcane/thurible"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:permutatio",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:alkimia",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:motus",
+      "amount": 1
+    }
+  ],
+  "complexity": 2
+}

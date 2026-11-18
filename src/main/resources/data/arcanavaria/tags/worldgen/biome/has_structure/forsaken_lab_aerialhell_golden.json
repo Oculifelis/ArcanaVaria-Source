@@ -1,0 +1,24 @@
+{
+  "values": [
+    {
+      "id": "aerialhell:aerial_hell_plains",
+      "required": false
+    },
+    {
+      "id": "aerialhell:aerial_tree_forest",
+      "required": false
+    },
+    {
+      "id": "aerialhell:copper_pine_forest",
+      "required": false
+    },
+    {
+      "id": "aerialhell:copper_pine_highland_forest",
+      "required": false
+    },
+    {
+      "id": "aerialhell:giant_red_mushroom_forest",
+      "required": false
+    }
+  ]
+}

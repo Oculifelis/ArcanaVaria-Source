@@ -1,0 +1,16 @@
+{
+  "name": "lab_trait.arcanavaria.eldritch",
+  "colour": 4202592,
+  "particle": {
+    "type": "minecraft:sculk_soul"
+  },
+  "champion": "thaumaturge:warp",
+  "aura": {
+    "radius": 7,
+    "effect": {
+      "effect": "minecraft:darkness",
+      "duration": 80,
+      "amplifier": 0
+    }
+  }
+}

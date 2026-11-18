@@ -1,0 +1,16 @@
+{
+  "values": [
+    {
+      "id": "aerialhell:crystal_forest",
+      "required": false
+    },
+    {
+      "id": "aerialhell:crystal_plains",
+      "required": false
+    },
+    {
+      "id": "aerialhell:lapis_robinia_savana",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " II",
+    "I S",
+    "  S"
+  ],
+  "key": {
+    "I": "#c:ingots/void_metal",
+    "S": "#c:rods/wooden"
+  },
+  "result": {
+    "id": "arcanavaria:void_scythe"
+  }
+}

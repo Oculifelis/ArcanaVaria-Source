@@ -1,0 +1,14 @@
+{
+  "item": "arcanavaria:void_scythe",
+  "damage": 8,
+  "reach": 4,
+  "moves": {
+    "sweet_spot": {},
+    "reap_pull": {
+      "input": "use"
+    },
+    "harvest_souls": {
+      "heal_per_soul": 1
+    }
+  }
+}

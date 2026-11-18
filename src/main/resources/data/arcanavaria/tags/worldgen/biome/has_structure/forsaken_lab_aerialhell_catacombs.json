@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "aerialhell:shadow_forest",
+      "required": false
+    },
+    {
+      "id": "aerialhell:shadow_plain",
+      "required": false
+    }
+  ]
+}

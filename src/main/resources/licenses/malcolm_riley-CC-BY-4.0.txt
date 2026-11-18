@@ -1,0 +1,4 @@
+Arcana Varia's Warden's Amber Heart texture (assets/arcanavaria/textures/item/warden_amber_heart.png and its .mcmeta)
+is artifact_woodheart.png from "unused-textures" by Malcolm Riley, https://github.com/malcolmriley/unused-textures,
+licensed under Creative Commons Attribution 4.0 International: https://creativecommons.org/licenses/by/4.0/
+Changes: the wood tones were recoloured to Thaumaturge's amber; shape, leaves and animation are unchanged.

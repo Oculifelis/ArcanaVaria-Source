@@ -1,0 +1,8 @@
+{
+  "values": {
+    "arcanavaria:eclipse": {"damage_per_level": 2},
+    "arcanavaria:soul_devourer": {"chance_1": 0.4, "chance_2": 0.6, "chance_3": 0.8, "heal_per_level": 2},
+    "arcanavaria:grim_harvest": {"chance_1": 0.3, "chance_2": 0.5, "chance_3": 0.7, "ticks_1": 120, "ticks_2": 180, "ticks_3": 240, "damage_reduction_per_level": 0.2},
+    "arcanavaria:reapers_step": {"damage_1": 4, "damage_2": 6, "damage_3": 8, "power": 1.25, "upward": 0.3, "range": 3, "radius": 0.9, "cooldown": 30}
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "arcanavaria:wizard_tower/classic/roof_copper",
+        "processors": "arcanavaria:wf/wizard_tower",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "arcanavaria:wizard_tower/classic/roof_slate",
+        "processors": "arcanavaria:wf/wizard_tower",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "arcanavaria:wizard_tower/thaumic/floor_4_combat",
+        "processors": "arcanavaria:wf/wizard_tower",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "arcanavaria:wizard_tower/thaumic/floor_4_puzzle_aspect",
+        "processors": "arcanavaria:wf/wizard_tower",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "arcanavaria:wizard_tower/thaumic/floor_4_puzzle_lattice",
+        "processors": "arcanavaria:wf/wizard_tower",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "arcanavaria:wizard_tower/thaumic/floor_4_puzzle_beam",
+        "processors": "arcanavaria:wf/wizard_tower",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "arcanavaria:wizard_tower/thaumic/floor_4_puzzle_rune",
+        "processors": "arcanavaria:wf/wizard_tower",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "arcanavaria:wizard_tower/thaumic/floor_4_parkour_platforms",
+        "processors": "arcanavaria:wf/wizard_tower",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "arcanavaria:wizard_tower/thaumic/floor_4_parkour_lift",
+        "processors": "arcanavaria:wf/wizard_tower",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "arcanavaria:wizard_tower/thaumic/floor_4_parkour_timed",
+        "processors": "arcanavaria:wf/wizard_tower",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

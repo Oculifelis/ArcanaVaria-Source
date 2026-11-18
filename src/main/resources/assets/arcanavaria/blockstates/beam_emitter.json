@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "arcanavaria:block/beam_emitter"
+    },
+    "facing=east": {
+      "model": "arcanavaria:block/beam_emitter",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "arcanavaria:block/beam_emitter",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arcanavaria:block/beam_emitter",
+      "y": 270
+    }
+  }
+}

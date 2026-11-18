@@ -1,0 +1,87 @@
+{
+  "scythe.sweep": {
+    "subtitle": "subtitles.arcanavaria.scythe.sweep",
+    "sounds": [
+      {
+        "name": "arcanavaria:scythe/sweep1",
+        "volume": 0.7
+      },
+      {
+        "name": "arcanavaria:scythe/sweep2",
+        "volume": 0.7
+      },
+      {
+        "name": "arcanavaria:scythe/sweep3",
+        "volume": 0.7
+      },
+      {
+        "name": "arcanavaria:scythe/sweep4",
+        "volume": 0.7
+      }
+    ]
+  },
+  "scythe.dash": {
+    "subtitle": "subtitles.arcanavaria.scythe.dash",
+    "sounds": [
+      {
+        "name": "arcanavaria:scythe/dash1",
+        "volume": 0.9
+      },
+      {
+        "name": "arcanavaria:scythe/dash2",
+        "volume": 0.9
+      },
+      {
+        "name": "arcanavaria:scythe/dash3",
+        "volume": 0.9
+      }
+    ]
+  },
+  "enchant.eclipse.kill": {
+    "subtitle": "subtitles.arcanavaria.enchant.eclipse.kill",
+    "sounds": [
+      {
+        "name": "arcanavaria:enchant/eclipse/kill1",
+        "volume": 1.0
+      },
+      {
+        "name": "arcanavaria:enchant/eclipse/kill2",
+        "volume": 1.0
+      }
+    ]
+  },
+  "enchant.soul_devourer.heal": {
+    "subtitle": "subtitles.arcanavaria.enchant.soul_devourer.heal",
+    "sounds": [
+      {
+        "name": "arcanavaria:enchant/soul_devourer/heal1",
+        "volume": 0.8
+      },
+      {
+        "name": "arcanavaria:enchant/soul_devourer/heal2",
+        "volume": 0.8
+      },
+      {
+        "name": "arcanavaria:enchant/soul_devourer/heal3",
+        "volume": 0.8
+      }
+    ]
+  },
+  "enchant.grim_harvest.proc": {
+    "subtitle": "subtitles.arcanavaria.enchant.grim_harvest.proc",
+    "sounds": [
+      {
+        "name": "arcanavaria:enchant/grim_harvest/proc1",
+        "volume": 0.8
+      },
+      {
+        "name": "arcanavaria:enchant/grim_harvest/proc2",
+        "volume": 0.8
+      },
+      {
+        "name": "arcanavaria:enchant/grim_harvest/proc3",
+        "volume": 0.8
+      }
+    ]
+  }
+}

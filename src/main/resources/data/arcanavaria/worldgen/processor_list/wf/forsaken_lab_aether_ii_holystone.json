@@ -1,0 +1,402 @@
+{
+  "processors": [
+    {
+      "processor_type": "arcanavaria:markers"
+    },
+    {
+      "processor_type": "arcanavaria:block_swap",
+      "whole": true,
+      "mode": "random",
+      "sets": [
+        {
+          "requires": "aether_ii",
+          "swap": {
+            "aether_ii:holystone_base_bricks": "aether_ii:undershale_base_bricks"
+          },
+          "weight": 1.0
+        },
+        {
+          "requires": "aether_ii",
+          "swap": {
+            "aether_ii:holystone_base_bricks": "aether_ii:undershale_capstone_bricks"
+          },
+          "weight": 0.986
+        },
+        {
+          "requires": "minecraft",
+          "swap": {},
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "processor_type": "arcanavaria:block_swap",
+      "whole": true,
+      "mode": "random",
+      "sets": [
+        {
+          "requires": "hybrid_aquatic",
+          "swap": {
+            "aether_ii:skyroot_floorboards": "hybrid_aquatic:polished_chimneystone"
+          },
+          "weight": 1.0
+        },
+        {
+          "requires": "hybrid_aquatic",
+          "swap": {
+            "aether_ii:skyroot_floorboards": "hybrid_aquatic:chimneystone_bricks"
+          },
+          "weight": 0.976
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "aether_ii:skyroot_floorboards": "undergarden:polished_depthrock"
+          },
+          "weight": 0.722
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "aether_ii:skyroot_floorboards": "undergarden:depthrock_tiles"
+          },
+          "weight": 0.636
+        },
+        {
+          "requires": "hybrid_aquatic",
+          "swap": {
+            "aether_ii:skyroot_floorboards": "hybrid_aquatic:chimneystone"
+          },
+          "weight": 0.628
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "aether_ii:skyroot_floorboards": "undergarden:chiseled_depthrock_bricks"
+          },
+          "weight": 0.149
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "aether_ii:skyroot_floorboards": "undergarden:cracked_depthrock_bricks"
+          },
+          "weight": 0.14
+        },
+        {
+          "requires": "hybrid_aquatic",
+          "swap": {
+            "aether_ii:skyroot_floorboards": "hybrid_aquatic:chiseled_chimneystone"
+          },
+          "weight": 0.13
+        },
+        {
+          "requires": "minecraft",
+          "swap": {},
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "processor_type": "arcanavaria:block_swap",
+      "whole": true,
+      "mode": "random",
+      "sets": [
+        {
+          "requires": "dndecor",
+          "swap": {
+            "aether_ii:holystone_keystone": "dndecor:light_gray_small_deepslate_tiles"
+          },
+          "weight": 1.0
+        },
+        {
+          "requires": "twilightforest",
+          "swap": {
+            "aether_ii:holystone_keystone": "twilightforest:encased_castle_brick_tile"
+          },
+          "weight": 0.811
+        },
+        {
+          "requires": "twilightforest",
+          "swap": {
+            "aether_ii:holystone_keystone": "twilightforest:terrorcotta_arcs"
+          },
+          "weight": 0.778
+        },
+        {
+          "requires": "twilightforest",
+          "swap": {
+            "aether_ii:holystone_keystone": "twilightforest:bold_stone_pillar"
+          },
+          "weight": 0.763
+        },
+        {
+          "requires": "cave_stuff",
+          "swap": {
+            "aether_ii:holystone_keystone": "cave_stuff:blueandredtiles"
+          },
+          "weight": 0.726
+        },
+        {
+          "requires": "aether_ii",
+          "swap": {
+            "aether_ii:holystone_keystone": "aether_ii:undershale_flagstones"
+          },
+          "weight": 0.723
+        },
+        {
+          "requires": "cave_stuff",
+          "swap": {
+            "aether_ii:holystone_keystone": "cave_stuff:polishedcharnockite"
+          },
+          "weight": 0.718
+        },
+        {
+          "requires": "aether_ii",
+          "swap": {
+            "aether_ii:holystone_keystone": "aether_ii:undershale_tile"
+          },
+          "weight": 0.7
+        },
+        {
+          "requires": "quark",
+          "swap": {
+            "aether_ii:holystone_keystone": "quark:sturdy_stone"
+          },
+          "weight": 0.69
+        },
+        {
+          "requires": "arsmoriendi",
+          "swap": {
+            "aether_ii:holystone_keystone": "arsmoriendi:lethe_granite"
+          },
+          "weight": 0.687
+        },
+        {
+          "requires": "quark",
+          "swap": {
+            "aether_ii:holystone_keystone": "quark:cobblestone_bricks"
+          },
+          "weight": 0.678
+        },
+        {
+          "requires": "minecraft",
+          "swap": {},
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "processor_type": "arcanavaria:block_swap",
+      "whole": true,
+      "mode": "random",
+      "sets": [
+        {
+          "requires": "create",
+          "swap": {
+            "aether_ii:skyroot_beam": "create:cut_tuff_bricks"
+          },
+          "weight": 1.0
+        },
+        {
+          "requires": "minecraft",
+          "swap": {},
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "processor_type": "arcanavaria:block_swap",
+      "whole": true,
+      "mode": "random",
+      "sets": [
+        {
+          "requires": "aether_ii",
+          "swap": {
+            "aether_ii:skyroot_planks": "aether_ii:greatroot_planks",
+            "aether_ii:skyroot_stairs": "aether_ii:greatroot_stairs"
+          },
+          "weight": 1.0
+        },
+        {
+          "requires": "minecraft",
+          "swap": {},
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "processor_type": "arcanavaria:block_swap",
+      "whole": true,
+      "mode": "random",
+      "sets": [
+        {
+          "requires": "createdeco",
+          "swap": {
+            "aether_ii:holystone_capstone_bricks": "createdeco:tiled_blue_bricks"
+          },
+          "weight": 1.0
+        },
+        {
+          "requires": "arsmoriendi",
+          "swap": {
+            "aether_ii:holystone_capstone_bricks": "arsmoriendi:ossuary_bricks"
+          },
+          "weight": 0.996
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "aether_ii:holystone_capstone_bricks": "createdeco:short_blue_bricks"
+          },
+          "weight": 0.991
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "aether_ii:holystone_capstone_bricks": "dndecor:small_stone_bricks"
+          },
+          "weight": 0.956
+        },
+        {
+          "requires": "rechiseled",
+          "swap": {
+            "aether_ii:holystone_capstone_bricks": "rechiseled:cobblestone_polished"
+          },
+          "weight": 0.896
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "aether_ii:holystone_capstone_bricks": "createdeco:blue_bricks"
+          },
+          "weight": 0.895
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "aether_ii:holystone_capstone_bricks": "createdeco:long_blue_bricks"
+          },
+          "weight": 0.868
+        },
+        {
+          "requires": "arsmoriendi",
+          "swap": {
+            "aether_ii:holystone_capstone_bricks": "arsmoriendi:polished_lethe_granite"
+          },
+          "weight": 0.867
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "aether_ii:holystone_capstone_bricks": "createdeco:corner_blue_bricks"
+          },
+          "weight": 0.841
+        },
+        {
+          "requires": "aether_ii",
+          "swap": {
+            "aether_ii:holystone_capstone_bricks": "aether_ii:undershale_bricks"
+          },
+          "weight": 0.755
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "aether_ii:holystone_capstone_bricks": "dndecor:polished_cut_stone"
+          },
+          "weight": 0.677
+        },
+        {
+          "requires": "arsmoriendi",
+          "swap": {
+            "aether_ii:holystone_capstone_bricks": "arsmoriendi:lethe_granite_bricks"
+          },
+          "weight": 0.676
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "aether_ii:holystone_capstone_bricks": "dndecor:cut_stone_bricks"
+          },
+          "weight": 0.673
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "aether_ii:holystone_capstone_bricks": "createdeco:cracked_blue_bricks"
+          },
+          "weight": 0.611
+        },
+        {
+          "requires": "arsmoriendi",
+          "swap": {
+            "aether_ii:holystone_capstone_bricks": "arsmoriendi:tomb_ashlar"
+          },
+          "weight": 0.523
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "aether_ii:holystone_capstone_bricks": "dndecor:cut_stone"
+          },
+          "weight": 0.46
+        },
+        {
+          "requires": "cave_stuff",
+          "swap": {
+            "aether_ii:holystone_capstone_bricks": "cave_stuff:oligocenelimestonelapislazuliore"
+          },
+          "weight": 0.232
+        },
+        {
+          "requires": "twilightforest",
+          "swap": {
+            "aether_ii:holystone_capstone_bricks": "twilightforest:encased_castle_brick_pillar"
+          },
+          "weight": 0.199
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "aether_ii:holystone_capstone_bricks": "dndecor:layered_stone"
+          },
+          "weight": 0.193
+        },
+        {
+          "requires": "twilightforest",
+          "swap": {
+            "aether_ii:holystone_capstone_bricks": "twilightforest:twisted_stone"
+          },
+          "weight": 0.182
+        },
+        {
+          "requires": "aether",
+          "swap": {
+            "aether_ii:holystone_capstone_bricks": "aether:carved_stone"
+          },
+          "weight": 0.172
+        },
+        {
+          "requires": "twilightforest",
+          "swap": {
+            "aether_ii:holystone_capstone_bricks": "twilightforest:weathered_deadrock"
+          },
+          "weight": 0.135
+        },
+        {
+          "requires": "twilightforest",
+          "swap": {
+            "aether_ii:holystone_capstone_bricks": "twilightforest:cracked_deadrock"
+          },
+          "weight": 0.119
+        },
+        {
+          "requires": "minecraft",
+          "swap": {},
+          "weight": 1.0
+        }
+      ]
+    }
+  ]
+}

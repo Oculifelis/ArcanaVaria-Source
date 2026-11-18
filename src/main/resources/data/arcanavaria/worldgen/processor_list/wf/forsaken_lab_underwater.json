@@ -1,0 +1,822 @@
+{
+  "processors": [
+    {
+      "processor_type": "arcanavaria:markers"
+    },
+    {
+      "processor_type": "arcanavaria:block_swap",
+      "whole": true,
+      "mode": "random",
+      "sets": [
+        {
+          "requires": "stellaris",
+          "swap": {
+            "thaumaturge:stone_arcane_brick": "stellaris:moon_stone_bricks"
+          },
+          "weight": 1.0
+        },
+        {
+          "requires": "aerialhell",
+          "swap": {
+            "thaumaturge:stone_arcane_brick": "aerialhell:stellar_stone_bricks"
+          },
+          "weight": 0.949
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "thaumaturge:stone_arcane_brick": "undergarden:sediment_stone_bricks"
+          },
+          "weight": 0.921
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "thaumaturge:stone_arcane_brick": "createdeco:corner_dusk_bricks"
+          },
+          "weight": 0.903
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "thaumaturge:stone_arcane_brick": "createdeco:long_dusk_bricks"
+          },
+          "weight": 0.873
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "thaumaturge:stone_arcane_brick": "createdeco:dusk_bricks"
+          },
+          "weight": 0.855
+        },
+        {
+          "requires": "hybrid_aquatic",
+          "swap": {
+            "thaumaturge:stone_arcane_brick": "hybrid_aquatic:schist_bricks"
+          },
+          "weight": 0.788
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "thaumaturge:stone_arcane_brick": "create:small_scorchia_bricks"
+          },
+          "weight": 0.762
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "thaumaturge:stone_arcane_brick": "dndecor:small_basalt_bricks"
+          },
+          "weight": 0.759
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "thaumaturge:stone_arcane_brick": "createdeco:short_dusk_bricks"
+          },
+          "weight": 0.758
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "thaumaturge:stone_arcane_brick": "createdeco:tiled_dusk_bricks"
+          },
+          "weight": 0.732
+        },
+        {
+          "requires": "terrestria",
+          "swap": {
+            "thaumaturge:stone_arcane_brick": "terrestria:volcanic_rock_bricks"
+          },
+          "weight": 0.662
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "thaumaturge:stone_arcane_brick": "dndecor:small_blackstone_bricks"
+          },
+          "weight": 0.648
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "thaumaturge:stone_arcane_brick": "createdeco:cracked_dusk_bricks"
+          },
+          "weight": 0.644
+        },
+        {
+          "requires": "embers",
+          "swap": {
+            "thaumaturge:stone_arcane_brick": "embers:archaic_bricks"
+          },
+          "weight": 0.63
+        },
+        {
+          "requires": "stellaris",
+          "swap": {
+            "thaumaturge:stone_arcane_brick": "stellaris:moon_stone"
+          },
+          "weight": 0.617
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "thaumaturge:stone_arcane_brick": "undergarden:shiverstone_bricks"
+          },
+          "weight": 0.608
+        },
+        {
+          "requires": "rechiseled",
+          "swap": {
+            "thaumaturge:stone_arcane_brick": "rechiseled:blackstone_rotated_bricks"
+          },
+          "weight": 0.601
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "thaumaturge:stone_arcane_brick": "undergarden:sediment_stone"
+          },
+          "weight": 0.591
+        },
+        {
+          "requires": "arsmoriendi",
+          "swap": {
+            "thaumaturge:stone_arcane_brick": "arsmoriendi:cinder_bricks"
+          },
+          "weight": 0.58
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "thaumaturge:stone_arcane_brick": "create:cut_scorchia_bricks"
+          },
+          "weight": 0.554
+        },
+        {
+          "requires": "occultism",
+          "swap": {
+            "thaumaturge:stone_arcane_brick": "occultism:otherrock_bricks"
+          },
+          "weight": 0.552
+        },
+        {
+          "requires": "embers",
+          "swap": {
+            "thaumaturge:stone_arcane_brick": "embers:archaic_large_bricks"
+          },
+          "weight": 0.547
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "thaumaturge:stone_arcane_brick": "dndecor:cut_basalt_bricks"
+          },
+          "weight": 0.546
+        },
+        {
+          "requires": "quark",
+          "swap": {
+            "thaumaturge:stone_arcane_brick": "quark:blackstone_bricks"
+          },
+          "weight": 0.541
+        },
+        {
+          "requires": "hybrid_aquatic",
+          "swap": {
+            "thaumaturge:stone_arcane_brick": "hybrid_aquatic:schist"
+          },
+          "weight": 0.53
+        },
+        {
+          "requires": "aerialhell",
+          "swap": {
+            "thaumaturge:stone_arcane_brick": "aerialhell:stellar_stone"
+          },
+          "weight": 0.51
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "thaumaturge:stone_arcane_brick": "create:small_deepslate_bricks"
+          },
+          "weight": 0.501
+        },
+        {
+          "requires": "occultism",
+          "swap": {
+            "thaumaturge:stone_arcane_brick": "occultism:othercobblerock"
+          },
+          "weight": 0.497
+        },
+        {
+          "requires": "occultism",
+          "swap": {
+            "thaumaturge:stone_arcane_brick": "occultism:otherrock"
+          },
+          "weight": 0.487
+        },
+        {
+          "requires": "terrestria",
+          "swap": {
+            "thaumaturge:stone_arcane_brick": "terrestria:volcanic_rock_cobblestone"
+          },
+          "weight": 0.465
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "thaumaturge:stone_arcane_brick": "dndecor:cut_blackstone_bricks"
+          },
+          "weight": 0.451
+        },
+        {
+          "requires": "terrestria",
+          "swap": {
+            "thaumaturge:stone_arcane_brick": "terrestria:volcanic_rock"
+          },
+          "weight": 0.433
+        },
+        {
+          "requires": "terrestria",
+          "swap": {
+            "thaumaturge:stone_arcane_brick": "terrestria:smooth_volcanic_rock"
+          },
+          "weight": 0.428
+        },
+        {
+          "requires": "occultism",
+          "swap": {
+            "thaumaturge:stone_arcane_brick": "occultism:polished_otherrock"
+          },
+          "weight": 0.421
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "thaumaturge:stone_arcane_brick": "undergarden:tremblecrust_bricks"
+          },
+          "weight": 0.42
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "thaumaturge:stone_arcane_brick": "create:cut_scorchia"
+          },
+          "weight": 0.412
+        },
+        {
+          "requires": "tconstruct",
+          "swap": {
+            "thaumaturge:stone_arcane_brick": "tconstruct:nahuatl"
+          },
+          "weight": 0.407
+        },
+        {
+          "requires": "embers",
+          "swap": {
+            "thaumaturge:stone_arcane_brick": "embers:ashen_stone"
+          },
+          "weight": 0.397
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "thaumaturge:stone_arcane_brick": "undergarden:polished_sediment_stone"
+          },
+          "weight": 0.384
+        },
+        {
+          "requires": "embers",
+          "swap": {
+            "thaumaturge:stone_arcane_brick": "embers:archaic_tile"
+          },
+          "weight": 0.378
+        },
+        {
+          "requires": "aerialhell",
+          "swap": {
+            "thaumaturge:stone_arcane_brick": "aerialhell:stellar_cobblestone"
+          },
+          "weight": 0.377
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "thaumaturge:stone_arcane_brick": "create:polished_cut_scorchia"
+          },
+          "weight": 0.371
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "thaumaturge:stone_arcane_brick": "dndecor:cut_basalt"
+          },
+          "weight": 0.37
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "thaumaturge:stone_arcane_brick": "create:cut_deepslate_bricks"
+          },
+          "weight": 0.369
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "thaumaturge:stone_arcane_brick": "dndecor:polished_cut_basalt"
+          },
+          "weight": 0.363
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "thaumaturge:stone_arcane_brick": "undergarden:shiverstone"
+          },
+          "weight": 0.348
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "thaumaturge:stone_arcane_brick": "undergarden:smooth_sediment_stone"
+          },
+          "weight": 0.344
+        },
+        {
+          "requires": "hybrid_aquatic",
+          "swap": {
+            "thaumaturge:stone_arcane_brick": "hybrid_aquatic:chimneystone"
+          },
+          "weight": 0.335
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "thaumaturge:stone_arcane_brick": "dndecor:cut_blackstone"
+          },
+          "weight": 0.321
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "thaumaturge:stone_arcane_brick": "undergarden:dirty_sediment_stone_bricks"
+          },
+          "weight": 0.315
+        },
+        {
+          "requires": "quark",
+          "swap": {
+            "thaumaturge:stone_arcane_brick": "quark:shale_bricks"
+          },
+          "weight": 0.303
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "thaumaturge:stone_arcane_brick": "undergarden:dreadrock_bricks"
+          },
+          "weight": 0.302
+        },
+        {
+          "requires": "stellaris",
+          "swap": {
+            "thaumaturge:stone_arcane_brick": "stellaris:ash_stone"
+          },
+          "weight": 0.301
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "thaumaturge:stone_arcane_brick": "dndecor:polished_cut_blackstone"
+          },
+          "weight": 0.297
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "thaumaturge:stone_arcane_brick": "dndecor:black_small_deepslate_tiles"
+          },
+          "weight": 0.276
+        },
+        {
+          "requires": "embers",
+          "swap": {
+            "thaumaturge:stone_arcane_brick": "embers:ashen_brick"
+          },
+          "weight": 0.273
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "thaumaturge:stone_arcane_brick": "undergarden:tremblecrust"
+          },
+          "weight": 0.257
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "thaumaturge:stone_arcane_brick": "create:polished_cut_scoria"
+          },
+          "weight": 0.251
+        },
+        {
+          "requires": "quark",
+          "swap": {
+            "thaumaturge:stone_arcane_brick": "quark:tuff_bricks"
+          },
+          "weight": 0.246
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "thaumaturge:stone_arcane_brick": "create:polished_cut_deepslate"
+          },
+          "weight": 0.236
+        },
+        {
+          "requires": "stellaris",
+          "swap": {
+            "thaumaturge:stone_arcane_brick": "stellaris:moon_cracked_stone_bricks"
+          },
+          "weight": 0.23
+        },
+        {
+          "requires": "arsmoriendi",
+          "swap": {
+            "thaumaturge:stone_arcane_brick": "arsmoriendi:lethe_granite_bricks"
+          },
+          "weight": 0.227
+        },
+        {
+          "requires": "embers",
+          "swap": {
+            "thaumaturge:stone_arcane_brick": "embers:ashen_tile"
+          },
+          "weight": 0.224
+        },
+        {
+          "requires": "minecraft",
+          "swap": {},
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "processor_type": "arcanavaria:block_swap",
+      "whole": true,
+      "mode": "random",
+      "sets": [
+        {
+          "requires": "stellaris",
+          "swap": {
+            "thaumaturge:stone_arcane_pillar": "stellaris:polished_moon_stone"
+          },
+          "weight": 1.0
+        },
+        {
+          "requires": "hybrid_aquatic",
+          "swap": {
+            "thaumaturge:stone_arcane_pillar": "hybrid_aquatic:polished_schist"
+          },
+          "weight": 0.949
+        },
+        {
+          "requires": "stellaris",
+          "swap": {
+            "thaumaturge:stone_arcane_pillar": "stellaris:moon_stone_pillar"
+          },
+          "weight": 0.892
+        },
+        {
+          "requires": "stellaris",
+          "swap": {
+            "thaumaturge:stone_arcane_pillar": "stellaris:chiseled_moon_stone"
+          },
+          "weight": 0.892
+        },
+        {
+          "requires": "hybrid_aquatic",
+          "swap": {
+            "thaumaturge:stone_arcane_pillar": "hybrid_aquatic:chiseled_schist"
+          },
+          "weight": 0.884
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "thaumaturge:stone_arcane_pillar": "undergarden:chiseled_shiverstone_bricks"
+          },
+          "weight": 0.833
+        },
+        {
+          "requires": "stellaris",
+          "swap": {
+            "thaumaturge:stone_arcane_pillar": "stellaris:moon_pillar"
+          },
+          "weight": 0.81
+        },
+        {
+          "requires": "rechiseled",
+          "swap": {
+            "thaumaturge:stone_arcane_pillar": "rechiseled:basalt_chiseled_piglin"
+          },
+          "weight": 0.808
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "thaumaturge:stone_arcane_pillar": "undergarden:chiseled_tremblecrust_bricks"
+          },
+          "weight": 0.685
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "thaumaturge:stone_arcane_pillar": "dndecor:gray_small_deepslate_tiles"
+          },
+          "weight": 0.67
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "thaumaturge:stone_arcane_pillar": "dndecor:small_deepslate_tiles"
+          },
+          "weight": 0.669
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "thaumaturge:stone_arcane_pillar": "dndecor:layered_basalt"
+          },
+          "weight": 0.654
+        },
+        {
+          "requires": "hybrid_aquatic",
+          "swap": {
+            "thaumaturge:stone_arcane_pillar": "hybrid_aquatic:black_pearl_block"
+          },
+          "weight": 0.635
+        },
+        {
+          "requires": "regions_unexplored",
+          "swap": {
+            "thaumaturge:stone_arcane_pillar": "regions_unexplored:ash_vent"
+          },
+          "weight": 0.61
+        },
+        {
+          "requires": "stellaris",
+          "swap": {
+            "thaumaturge:stone_arcane_pillar": "stellaris:moon_deepslate"
+          },
+          "weight": 0.6
+        },
+        {
+          "requires": "stellaris",
+          "swap": {
+            "thaumaturge:stone_arcane_pillar": "stellaris:moon_cobblestone"
+          },
+          "weight": 0.596
+        },
+        {
+          "requires": "twilightforest",
+          "swap": {
+            "thaumaturge:stone_arcane_pillar": "twilightforest:castle_roof_tile"
+          },
+          "weight": 0.579
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "thaumaturge:stone_arcane_pillar": "create:scorchia"
+          },
+          "weight": 0.563
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "thaumaturge:stone_arcane_pillar": "create:layered_scorchia"
+          },
+          "weight": 0.554
+        },
+        {
+          "requires": "quark",
+          "swap": {
+            "thaumaturge:stone_arcane_pillar": "quark:shale_pillar"
+          },
+          "weight": 0.543
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "thaumaturge:stone_arcane_pillar": "create:layered_deepslate"
+          },
+          "weight": 0.524
+        },
+        {
+          "requires": "quark",
+          "swap": {
+            "thaumaturge:stone_arcane_pillar": "quark:tuff_pillar"
+          },
+          "weight": 0.522
+        },
+        {
+          "requires": "quark",
+          "swap": {
+            "thaumaturge:stone_arcane_pillar": "quark:chiseled_shale_bricks"
+          },
+          "weight": 0.488
+        },
+        {
+          "requires": "quark",
+          "swap": {
+            "thaumaturge:stone_arcane_pillar": "quark:polished_shale"
+          },
+          "weight": 0.482
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "thaumaturge:stone_arcane_pillar": "undergarden:loose_tremblecrust"
+          },
+          "weight": 0.471
+        },
+        {
+          "requires": "quark",
+          "swap": {
+            "thaumaturge:stone_arcane_pillar": "quark:polished_tuff"
+          },
+          "weight": 0.448
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "thaumaturge:stone_arcane_pillar": "undergarden:cracked_shiverstone_bricks"
+          },
+          "weight": 0.433
+        },
+        {
+          "requires": "arsmoriendi",
+          "swap": {
+            "thaumaturge:stone_arcane_pillar": "arsmoriendi:cinder_flagstones"
+          },
+          "weight": 0.417
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "thaumaturge:stone_arcane_pillar": "dndecor:layered_blackstone"
+          },
+          "weight": 0.412
+        },
+        {
+          "requires": "arsmoriendi",
+          "swap": {
+            "thaumaturge:stone_arcane_pillar": "arsmoriendi:tomb_flagstones"
+          },
+          "weight": 0.409
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "thaumaturge:stone_arcane_pillar": "undergarden:cracked_tremblecrust_bricks"
+          },
+          "weight": 0.346
+        },
+        {
+          "requires": "twilightforest",
+          "swap": {
+            "thaumaturge:stone_arcane_pillar": "twilightforest:bold_stone_pillar"
+          },
+          "weight": 0.343
+        },
+        {
+          "requires": "quark",
+          "swap": {
+            "thaumaturge:stone_arcane_pillar": "quark:chiseled_tuff_bricks"
+          },
+          "weight": 0.328
+        },
+        {
+          "requires": "cave_stuff",
+          "swap": {
+            "thaumaturge:stone_arcane_pillar": "cave_stuff:charnockite"
+          },
+          "weight": 0.321
+        },
+        {
+          "requires": "cave_stuff",
+          "swap": {
+            "thaumaturge:stone_arcane_pillar": "cave_stuff:blueandredtiles"
+          },
+          "weight": 0.311
+        },
+        {
+          "requires": "aether_ii",
+          "swap": {
+            "thaumaturge:stone_arcane_pillar": "aether_ii:undershale_tile"
+          },
+          "weight": 0.31
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "thaumaturge:stone_arcane_pillar": "dndecor:light_gray_small_deepslate_tiles"
+          },
+          "weight": 0.294
+        },
+        {
+          "requires": "aether_ii",
+          "swap": {
+            "thaumaturge:stone_arcane_pillar": "aether_ii:undershale_flagstones"
+          },
+          "weight": 0.294
+        },
+        {
+          "requires": "aether_ii",
+          "swap": {
+            "thaumaturge:stone_arcane_pillar": "aether_ii:undershale_capstone_bricks"
+          },
+          "weight": 0.294
+        },
+        {
+          "requires": "twilightforest",
+          "swap": {
+            "thaumaturge:stone_arcane_pillar": "twilightforest:deadrock"
+          },
+          "weight": 0.291
+        },
+        {
+          "requires": "aether_ii",
+          "swap": {
+            "thaumaturge:stone_arcane_pillar": "aether_ii:undershale_base_bricks"
+          },
+          "weight": 0.286
+        },
+        {
+          "requires": "cave_stuff",
+          "swap": {
+            "thaumaturge:stone_arcane_pillar": "cave_stuff:polishedcharnockite"
+          },
+          "weight": 0.276
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "thaumaturge:stone_arcane_pillar": "dndecor:andesite_floor"
+          },
+          "weight": 0.274
+        },
+        {
+          "requires": "arsmoriendi",
+          "swap": {
+            "thaumaturge:stone_arcane_pillar": "arsmoriendi:lethe_granite"
+          },
+          "weight": 0.273
+        },
+        {
+          "requires": "quark",
+          "swap": {
+            "thaumaturge:stone_arcane_pillar": "quark:sturdy_stone"
+          },
+          "weight": 0.267
+        },
+        {
+          "requires": "twilightforest",
+          "swap": {
+            "thaumaturge:stone_arcane_pillar": "twilightforest:terrorcotta_arcs"
+          },
+          "weight": 0.228
+        },
+        {
+          "requires": "arsmoriendi",
+          "swap": {
+            "thaumaturge:stone_arcane_pillar": "arsmoriendi:tomb_ashlar"
+          },
+          "weight": 0.216
+        },
+        {
+          "requires": "twilightforest",
+          "swap": {
+            "thaumaturge:stone_arcane_pillar": "twilightforest:encased_castle_brick_tile"
+          },
+          "weight": 0.213
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "thaumaturge:stone_arcane_pillar": "create:cut_tuff_bricks"
+          },
+          "weight": 0.152
+        },
+        {
+          "requires": "minecraft",
+          "swap": {},
+          "weight": 1.0
+        }
+      ]
+    }
+  ]
+}

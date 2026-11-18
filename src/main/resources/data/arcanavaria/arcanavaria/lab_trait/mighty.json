@@ -1,0 +1,17 @@
+{
+  "name": "lab_trait.arcanavaria.mighty",
+  "colour": 14725184,
+  "particle": {
+    "type": "minecraft:crit"
+  },
+  "champion": "thaumaturge:mighty",
+  "attributes": [
+    {
+      "attribute": "minecraft:attack_damage",
+      "amount": 0.5
+    }
+  ],
+  "on_hit": {
+    "knockback": 1.0
+  }
+}

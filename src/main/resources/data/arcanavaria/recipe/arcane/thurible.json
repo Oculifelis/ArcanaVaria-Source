@@ -1,0 +1,31 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "crystals": [
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 1
+    }
+  ],
+  "key": {
+    "C": "minecraft:iron_chain",
+    "B": "thaumaturge:plate_brass",
+    "G": "minecraft:glass"
+  },
+  "pattern": [
+    " C ",
+    "BGB",
+    " B "
+  ],
+  "research": {
+    "entry": "arcanavaria:thurible",
+    "stage": 0
+  },
+  "result": {
+    "id": "arcanavaria:thurible"
+  },
+  "vis": 20
+}

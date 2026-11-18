@@ -1,0 +1,50 @@
+{
+  "category": "arcanavaria:arcanavaria",
+  "name": "research.arcanavaria.scythes.title",
+  "parents": [
+    "arcanavaria:intro"
+  ],
+  "column": -2,
+  "row": 2,
+  "icons": [
+    "arcanavaria:thaumium_scythe"
+  ],
+  "stages": [
+    {
+      "text": "research.arcanavaria.scythes.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:alchemy",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:alchemy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.arcanavaria.scythes.stage_1",
+      "recipes": [
+        "arcanavaria:thaumium_scythe"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:instrumentum",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:aversio",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:herba",
+      "amount": 2
+    }
+  ],
+  "complexity": 1
+}

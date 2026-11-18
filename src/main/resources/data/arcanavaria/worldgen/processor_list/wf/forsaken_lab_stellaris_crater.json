@@ -1,0 +1,1167 @@
+{
+  "processors": [
+    {
+      "processor_type": "arcanavaria:markers"
+    },
+    {
+      "processor_type": "arcanavaria:block_swap",
+      "whole": true,
+      "mode": "random",
+      "sets": [
+        {
+          "requires": "stellaris",
+          "swap": {
+            "stellaris:moon_cracked_stone_bricks": "stellaris:moon_cracked_stone_bricks",
+            "stellaris:moon_stone_brick_slab": "stellaris:moon_stone_brick_slab",
+            "stellaris:moon_stone_brick_stairs": "stellaris:moon_stone_brick_stairs",
+            "stellaris:moon_stone_bricks": "stellaris:moon_stone_bricks"
+          },
+          "weight": 1.0
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "stellaris:moon_cracked_stone_bricks": "undergarden:cracked_sediment_stone_bricks",
+            "stellaris:moon_stone_brick_slab": "undergarden:sediment_stone_brick_slab",
+            "stellaris:moon_stone_brick_stairs": "undergarden:sediment_stone_brick_stairs",
+            "stellaris:moon_stone_bricks": "undergarden:sediment_stone_bricks"
+          },
+          "weight": 0.53
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "stellaris:moon_cracked_stone_bricks": "createdeco:cracked_dusk_bricks",
+            "stellaris:moon_stone_brick_slab": "createdeco:dusk_brick_slab",
+            "stellaris:moon_stone_brick_stairs": "createdeco:dusk_brick_stairs",
+            "stellaris:moon_stone_bricks": "createdeco:dusk_bricks"
+          },
+          "weight": 0.503
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "stellaris:moon_cracked_stone_bricks": "undergarden:cracked_shiverstone_bricks",
+            "stellaris:moon_stone_brick_slab": "undergarden:shiverstone_brick_slab",
+            "stellaris:moon_stone_brick_stairs": "undergarden:shiverstone_brick_stairs",
+            "stellaris:moon_stone_bricks": "undergarden:shiverstone_bricks"
+          },
+          "weight": 0.484
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "stellaris:moon_cracked_stone_bricks": "undergarden:cracked_tremblecrust_bricks",
+            "stellaris:moon_stone_brick_slab": "undergarden:tremblecrust_brick_slab",
+            "stellaris:moon_stone_brick_stairs": "undergarden:tremblecrust_brick_stairs",
+            "stellaris:moon_stone_bricks": "undergarden:tremblecrust_bricks"
+          },
+          "weight": 0.373
+        },
+        {
+          "requires": "minecraft",
+          "swap": {},
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "processor_type": "arcanavaria:block_swap",
+      "whole": true,
+      "mode": "random",
+      "sets": [
+        {
+          "requires": "createdeco",
+          "swap": {
+            "stellaris:polished_moon_stone": "createdeco:short_dusk_bricks"
+          },
+          "weight": 1.0
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "stellaris:polished_moon_stone": "dndecor:small_basalt_bricks"
+          },
+          "weight": 0.994
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "stellaris:polished_moon_stone": "createdeco:tiled_dusk_bricks"
+          },
+          "weight": 0.978
+        },
+        {
+          "requires": "hybrid_aquatic",
+          "swap": {
+            "stellaris:polished_moon_stone": "hybrid_aquatic:polished_schist"
+          },
+          "weight": 0.919
+        },
+        {
+          "requires": "hybrid_aquatic",
+          "swap": {
+            "stellaris:polished_moon_stone": "hybrid_aquatic:schist_bricks"
+          },
+          "weight": 0.912
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "stellaris:polished_moon_stone": "createdeco:long_dusk_bricks"
+          },
+          "weight": 0.885
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "stellaris:polished_moon_stone": "createdeco:corner_dusk_bricks"
+          },
+          "weight": 0.85
+        },
+        {
+          "requires": "rechiseled",
+          "swap": {
+            "stellaris:polished_moon_stone": "rechiseled:basalt_bricks"
+          },
+          "weight": 0.843
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "stellaris:polished_moon_stone": "create:small_deepslate_bricks"
+          },
+          "weight": 0.813
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "stellaris:polished_moon_stone": "dndecor:cut_basalt_bricks"
+          },
+          "weight": 0.729
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "stellaris:polished_moon_stone": "dndecor:polished_cut_basalt"
+          },
+          "weight": 0.718
+        },
+        {
+          "requires": "occultism",
+          "swap": {
+            "stellaris:polished_moon_stone": "occultism:polished_otherrock"
+          },
+          "weight": 0.707
+        },
+        {
+          "requires": "embers",
+          "swap": {
+            "stellaris:polished_moon_stone": "embers:archaic_bricks"
+          },
+          "weight": 0.67
+        },
+        {
+          "requires": "embers",
+          "swap": {
+            "stellaris:polished_moon_stone": "embers:archaic_large_bricks"
+          },
+          "weight": 0.654
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "stellaris:polished_moon_stone": "createdeco:cracked_dusk_bricks"
+          },
+          "weight": 0.63
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "stellaris:polished_moon_stone": "create:small_scorchia_bricks"
+          },
+          "weight": 0.628
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "stellaris:polished_moon_stone": "dndecor:small_blackstone_bricks"
+          },
+          "weight": 0.605
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "stellaris:polished_moon_stone": "create:cut_deepslate_bricks"
+          },
+          "weight": 0.596
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "stellaris:polished_moon_stone": "undergarden:polished_sediment_stone"
+          },
+          "weight": 0.591
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "stellaris:polished_moon_stone": "create:polished_cut_deepslate"
+          },
+          "weight": 0.578
+        },
+        {
+          "requires": "aerialhell",
+          "swap": {
+            "stellaris:polished_moon_stone": "aerialhell:stellar_stone_bricks"
+          },
+          "weight": 0.567
+        },
+        {
+          "requires": "terrestria",
+          "swap": {
+            "stellaris:polished_moon_stone": "terrestria:volcanic_rock_bricks"
+          },
+          "weight": 0.562
+        },
+        {
+          "requires": "arsmoriendi",
+          "swap": {
+            "stellaris:polished_moon_stone": "arsmoriendi:cinder_bricks"
+          },
+          "weight": 0.558
+        },
+        {
+          "requires": "hybrid_aquatic",
+          "swap": {
+            "stellaris:polished_moon_stone": "hybrid_aquatic:schist"
+          },
+          "weight": 0.524
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "stellaris:polished_moon_stone": "undergarden:shiverstone"
+          },
+          "weight": 0.504
+        },
+        {
+          "requires": "quark",
+          "swap": {
+            "stellaris:polished_moon_stone": "quark:blackstone_bricks"
+          },
+          "weight": 0.481
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "stellaris:polished_moon_stone": "create:polished_cut_scorchia"
+          },
+          "weight": 0.467
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "stellaris:polished_moon_stone": "dndecor:cut_basalt"
+          },
+          "weight": 0.46
+        },
+        {
+          "requires": "occultism",
+          "swap": {
+            "stellaris:polished_moon_stone": "occultism:otherrock_bricks"
+          },
+          "weight": 0.459
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "stellaris:polished_moon_stone": "create:cut_scorchia_bricks"
+          },
+          "weight": 0.456
+        },
+        {
+          "requires": "embers",
+          "swap": {
+            "stellaris:polished_moon_stone": "embers:archaic_tile"
+          },
+          "weight": 0.442
+        },
+        {
+          "requires": "tconstruct",
+          "swap": {
+            "stellaris:polished_moon_stone": "tconstruct:nahuatl"
+          },
+          "weight": 0.423
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "stellaris:polished_moon_stone": "dndecor:polished_cut_blackstone"
+          },
+          "weight": 0.42
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "stellaris:polished_moon_stone": "dndecor:cut_blackstone_bricks"
+          },
+          "weight": 0.42
+        },
+        {
+          "requires": "terrestria",
+          "swap": {
+            "stellaris:polished_moon_stone": "terrestria:smooth_volcanic_rock"
+          },
+          "weight": 0.413
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "stellaris:polished_moon_stone": "undergarden:sediment_stone"
+          },
+          "weight": 0.41
+        },
+        {
+          "requires": "occultism",
+          "swap": {
+            "stellaris:polished_moon_stone": "occultism:otherrock"
+          },
+          "weight": 0.405
+        },
+        {
+          "requires": "occultism",
+          "swap": {
+            "stellaris:polished_moon_stone": "occultism:othercobblerock"
+          },
+          "weight": 0.399
+        },
+        {
+          "requires": "terrestria",
+          "swap": {
+            "stellaris:polished_moon_stone": "terrestria:volcanic_rock_cobblestone"
+          },
+          "weight": 0.394
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "stellaris:polished_moon_stone": "create:cut_scorchia"
+          },
+          "weight": 0.364
+        },
+        {
+          "requires": "terrestria",
+          "swap": {
+            "stellaris:polished_moon_stone": "terrestria:volcanic_rock"
+          },
+          "weight": 0.363
+        },
+        {
+          "requires": "aerialhell",
+          "swap": {
+            "stellaris:polished_moon_stone": "aerialhell:stellar_stone"
+          },
+          "weight": 0.362
+        },
+        {
+          "requires": "aerialhell",
+          "swap": {
+            "stellaris:polished_moon_stone": "aerialhell:stellar_cobblestone"
+          },
+          "weight": 0.337
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "stellaris:polished_moon_stone": "dndecor:cut_blackstone"
+          },
+          "weight": 0.305
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "stellaris:polished_moon_stone": "undergarden:smooth_sediment_stone"
+          },
+          "weight": 0.265
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "stellaris:polished_moon_stone": "undergarden:dreadrock_bricks"
+          },
+          "weight": 0.251
+        },
+        {
+          "requires": "embers",
+          "swap": {
+            "stellaris:polished_moon_stone": "embers:ashen_brick"
+          },
+          "weight": 0.232
+        },
+        {
+          "requires": "embers",
+          "swap": {
+            "stellaris:polished_moon_stone": "embers:ashen_stone"
+          },
+          "weight": 0.223
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "stellaris:polished_moon_stone": "undergarden:dirty_sediment_stone_bricks"
+          },
+          "weight": 0.199
+        },
+        {
+          "requires": "embers",
+          "swap": {
+            "stellaris:polished_moon_stone": "embers:ashen_tile"
+          },
+          "weight": 0.192
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "stellaris:polished_moon_stone": "undergarden:dreadrock"
+          },
+          "weight": 0.17
+        },
+        {
+          "requires": "evilcraft",
+          "swap": {
+            "stellaris:polished_moon_stone": "evilcraft:dark_brick"
+          },
+          "weight": 0.155
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "stellaris:polished_moon_stone": "undergarden:cracked_sediment_stone_bricks"
+          },
+          "weight": 0.138
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "stellaris:polished_moon_stone": "undergarden:sediment"
+          },
+          "weight": 0.126
+        },
+        {
+          "requires": "terrestria",
+          "swap": {
+            "stellaris:polished_moon_stone": "terrestria:chiseled_volcanic_rock_bricks"
+          },
+          "weight": 0.121
+        },
+        {
+          "requires": "terrestria",
+          "swap": {
+            "stellaris:polished_moon_stone": "terrestria:cracked_volcanic_rock_bricks"
+          },
+          "weight": 0.118
+        },
+        {
+          "requires": "occultism",
+          "swap": {
+            "stellaris:polished_moon_stone": "occultism:cracked_otherrock_bricks"
+          },
+          "weight": 0.099
+        },
+        {
+          "requires": "cave_stuff",
+          "swap": {
+            "stellaris:polished_moon_stone": "cave_stuff:polishedsculkerite"
+          },
+          "weight": 0.098
+        },
+        {
+          "requires": "cave_stuff",
+          "swap": {
+            "stellaris:polished_moon_stone": "cave_stuff:sculkeritetiles"
+          },
+          "weight": 0.094
+        },
+        {
+          "requires": "occultism",
+          "swap": {
+            "stellaris:polished_moon_stone": "occultism:chiseled_otherrock_bricks"
+          },
+          "weight": 0.093
+        },
+        {
+          "requires": "cave_stuff",
+          "swap": {
+            "stellaris:polished_moon_stone": "cave_stuff:sculkeritebricks"
+          },
+          "weight": 0.091
+        },
+        {
+          "requires": "cave_stuff",
+          "swap": {
+            "stellaris:polished_moon_stone": "cave_stuff:crackedsculkeritetiles"
+          },
+          "weight": 0.088
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "stellaris:polished_moon_stone": "undergarden:chiseled_sediment_stone"
+          },
+          "weight": 0.088
+        },
+        {
+          "requires": "cave_stuff",
+          "swap": {
+            "stellaris:polished_moon_stone": "cave_stuff:sculkerite"
+          },
+          "weight": 0.082
+        },
+        {
+          "requires": "minecraft",
+          "swap": {},
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "processor_type": "arcanavaria:block_swap",
+      "whole": true,
+      "mode": "random",
+      "sets": [
+        {
+          "requires": "dndecor",
+          "swap": {
+            "stellaris:chiseled_moon_stone": "dndecor:gray_small_deepslate_tiles"
+          },
+          "weight": 1.0
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "stellaris:chiseled_moon_stone": "dndecor:small_deepslate_tiles"
+          },
+          "weight": 0.99
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "stellaris:chiseled_moon_stone": "dndecor:black_small_deepslate_tiles"
+          },
+          "weight": 0.701
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "stellaris:chiseled_moon_stone": "dndecor:light_gray_small_deepslate_tiles"
+          },
+          "weight": 0.588
+        },
+        {
+          "requires": "minecraft",
+          "swap": {},
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "processor_type": "arcanavaria:block_swap",
+      "whole": true,
+      "mode": "random",
+      "sets": [
+        {
+          "requires": "stellaris",
+          "swap": {
+            "stellaris:moon_stone_pillar": "stellaris:moon_stone_pillar"
+          },
+          "weight": 1.0
+        },
+        {
+          "requires": "stellaris",
+          "swap": {
+            "stellaris:moon_stone_pillar": "stellaris:chiseled_moon_stone"
+          },
+          "weight": 1.0
+        },
+        {
+          "requires": "stellaris",
+          "swap": {
+            "stellaris:moon_stone_pillar": "stellaris:polished_moon_stone"
+          },
+          "weight": 0.848
+        },
+        {
+          "requires": "stellaris",
+          "swap": {
+            "stellaris:moon_stone_pillar": "stellaris:moon_pillar"
+          },
+          "weight": 0.847
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "stellaris:moon_stone_pillar": "undergarden:chiseled_shiverstone_bricks"
+          },
+          "weight": 0.751
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "stellaris:moon_stone_pillar": "undergarden:chiseled_tremblecrust_bricks"
+          },
+          "weight": 0.68
+        },
+        {
+          "requires": "stellaris",
+          "swap": {
+            "stellaris:moon_stone_pillar": "stellaris:moon_deepslate"
+          },
+          "weight": 0.642
+        },
+        {
+          "requires": "stellaris",
+          "swap": {
+            "stellaris:moon_stone_pillar": "stellaris:moon_cobblestone"
+          },
+          "weight": 0.619
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "stellaris:moon_stone_pillar": "create:layered_deepslate"
+          },
+          "weight": 0.58
+        },
+        {
+          "requires": "regions_unexplored",
+          "swap": {
+            "stellaris:moon_stone_pillar": "regions_unexplored:ash_vent"
+          },
+          "weight": 0.573
+        },
+        {
+          "requires": "quark",
+          "swap": {
+            "stellaris:moon_stone_pillar": "quark:shale_pillar"
+          },
+          "weight": 0.551
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "stellaris:moon_stone_pillar": "dndecor:layered_basalt"
+          },
+          "weight": 0.547
+        },
+        {
+          "requires": "quark",
+          "swap": {
+            "stellaris:moon_stone_pillar": "quark:tuff_pillar"
+          },
+          "weight": 0.515
+        },
+        {
+          "requires": "hybrid_aquatic",
+          "swap": {
+            "stellaris:moon_stone_pillar": "hybrid_aquatic:chiseled_schist"
+          },
+          "weight": 0.503
+        },
+        {
+          "requires": "quark",
+          "swap": {
+            "stellaris:moon_stone_pillar": "quark:chiseled_shale_bricks"
+          },
+          "weight": 0.5
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "stellaris:moon_stone_pillar": "undergarden:loose_tremblecrust"
+          },
+          "weight": 0.458
+        },
+        {
+          "requires": "arsmoriendi",
+          "swap": {
+            "stellaris:moon_stone_pillar": "arsmoriendi:tomb_flagstones"
+          },
+          "weight": 0.456
+        },
+        {
+          "requires": "stellaris",
+          "swap": {
+            "stellaris:moon_stone_pillar": "stellaris:moon_cracked_stone_bricks"
+          },
+          "weight": 0.417
+        },
+        {
+          "requires": "twilightforest",
+          "swap": {
+            "stellaris:moon_stone_pillar": "twilightforest:bold_stone_pillar"
+          },
+          "weight": 0.377
+        },
+        {
+          "requires": "cave_stuff",
+          "swap": {
+            "stellaris:moon_stone_pillar": "cave_stuff:charnockite"
+          },
+          "weight": 0.356
+        },
+        {
+          "requires": "stellaris",
+          "swap": {
+            "stellaris:moon_stone_pillar": "stellaris:ash_stone"
+          },
+          "weight": 0.354
+        },
+        {
+          "requires": "aether_ii",
+          "swap": {
+            "stellaris:moon_stone_pillar": "aether_ii:undershale_tile"
+          },
+          "weight": 0.348
+        },
+        {
+          "requires": "quark",
+          "swap": {
+            "stellaris:moon_stone_pillar": "quark:chiseled_tuff_bricks"
+          },
+          "weight": 0.346
+        },
+        {
+          "requires": "cave_stuff",
+          "swap": {
+            "stellaris:moon_stone_pillar": "cave_stuff:blueandredtiles"
+          },
+          "weight": 0.344
+        },
+        {
+          "requires": "hybrid_aquatic",
+          "swap": {
+            "stellaris:moon_stone_pillar": "hybrid_aquatic:black_pearl_block"
+          },
+          "weight": 0.342
+        },
+        {
+          "requires": "neovitae",
+          "swap": {
+            "stellaris:moon_stone_pillar": "neovitae:dungeon_pillar_center"
+          },
+          "weight": 0.335
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "stellaris:moon_stone_pillar": "undergarden:cracked_tremblecrust_bricks"
+          },
+          "weight": 0.335
+        },
+        {
+          "requires": "aether_ii",
+          "swap": {
+            "stellaris:moon_stone_pillar": "aether_ii:undershale_flagstones"
+          },
+          "weight": 0.329
+        },
+        {
+          "requires": "aether_ii",
+          "swap": {
+            "stellaris:moon_stone_pillar": "aether_ii:undershale_capstone_bricks"
+          },
+          "weight": 0.329
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "stellaris:moon_stone_pillar": "undergarden:cracked_shiverstone_bricks"
+          },
+          "weight": 0.326
+        },
+        {
+          "requires": "aether_ii",
+          "swap": {
+            "stellaris:moon_stone_pillar": "aether_ii:undershale_base_bricks"
+          },
+          "weight": 0.32
+        },
+        {
+          "requires": "twilightforest",
+          "swap": {
+            "stellaris:moon_stone_pillar": "twilightforest:deadrock"
+          },
+          "weight": 0.319
+        },
+        {
+          "requires": "cave_stuff",
+          "swap": {
+            "stellaris:moon_stone_pillar": "cave_stuff:polishedcharnockite"
+          },
+          "weight": 0.307
+        },
+        {
+          "requires": "arsmoriendi",
+          "swap": {
+            "stellaris:moon_stone_pillar": "arsmoriendi:lethe_granite"
+          },
+          "weight": 0.301
+        },
+        {
+          "requires": "twilightforest",
+          "swap": {
+            "stellaris:moon_stone_pillar": "twilightforest:castle_roof_tile"
+          },
+          "weight": 0.296
+        },
+        {
+          "requires": "quark",
+          "swap": {
+            "stellaris:moon_stone_pillar": "quark:sturdy_stone"
+          },
+          "weight": 0.293
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "stellaris:moon_stone_pillar": "dndecor:andesite_floor"
+          },
+          "weight": 0.291
+        },
+        {
+          "requires": "quark",
+          "swap": {
+            "stellaris:moon_stone_pillar": "quark:tuff_bricks"
+          },
+          "weight": 0.283
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "stellaris:moon_stone_pillar": "create:scorchia"
+          },
+          "weight": 0.279
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "stellaris:moon_stone_pillar": "create:layered_scorchia"
+          },
+          "weight": 0.271
+        },
+        {
+          "requires": "twilightforest",
+          "swap": {
+            "stellaris:moon_stone_pillar": "twilightforest:encased_castle_brick_pillar"
+          },
+          "weight": 0.264
+        },
+        {
+          "requires": "rechiseled",
+          "swap": {
+            "stellaris:moon_stone_pillar": "rechiseled:cobblestone_chiseled_border"
+          },
+          "weight": 0.263
+        },
+        {
+          "requires": "twilightforest",
+          "swap": {
+            "stellaris:moon_stone_pillar": "twilightforest:terrorcotta_arcs"
+          },
+          "weight": 0.252
+        },
+        {
+          "requires": "neovitae",
+          "swap": {
+            "stellaris:moon_stone_pillar": "neovitae:dungeon_brick3"
+          },
+          "weight": 0.241
+        },
+        {
+          "requires": "cave_stuff",
+          "swap": {
+            "stellaris:moon_stone_pillar": "cave_stuff:blueandgreentiles"
+          },
+          "weight": 0.24
+        },
+        {
+          "requires": "neovitae",
+          "swap": {
+            "stellaris:moon_stone_pillar": "neovitae:dungeon_brick2"
+          },
+          "weight": 0.236
+        },
+        {
+          "requires": "twilightforest",
+          "swap": {
+            "stellaris:moon_stone_pillar": "twilightforest:encased_castle_brick_tile"
+          },
+          "weight": 0.235
+        },
+        {
+          "requires": "arsmoriendi",
+          "swap": {
+            "stellaris:moon_stone_pillar": "arsmoriendi:cinder_flagstones"
+          },
+          "weight": 0.223
+        },
+        {
+          "requires": "aether",
+          "swap": {
+            "stellaris:moon_stone_pillar": "aether:carved_stone"
+          },
+          "weight": 0.216
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "stellaris:moon_stone_pillar": "dndecor:layered_blackstone"
+          },
+          "weight": 0.214
+        },
+        {
+          "requires": "twilightforest",
+          "swap": {
+            "stellaris:moon_stone_pillar": "twilightforest:twisted_stone"
+          },
+          "weight": 0.198
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "stellaris:moon_stone_pillar": "dndecor:layered_stone"
+          },
+          "weight": 0.174
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "stellaris:moon_stone_pillar": "create:cut_tuff_bricks"
+          },
+          "weight": 0.158
+        },
+        {
+          "requires": "twilightforest",
+          "swap": {
+            "stellaris:moon_stone_pillar": "twilightforest:cracked_deadrock"
+          },
+          "weight": 0.156
+        },
+        {
+          "requires": "twilightforest",
+          "swap": {
+            "stellaris:moon_stone_pillar": "twilightforest:weathered_deadrock"
+          },
+          "weight": 0.128
+        },
+        {
+          "requires": "minecraft",
+          "swap": {},
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "processor_type": "arcanavaria:block_swap",
+      "whole": true,
+      "mode": "random",
+      "sets": [
+        {
+          "requires": "stellaris",
+          "swap": {
+            "stellaris:moon_stone": "stellaris:moon_stone",
+            "stellaris:moon_stone_slab": "stellaris:moon_stone_slab",
+            "stellaris:moon_stone_stairs": "stellaris:moon_stone_stairs"
+          },
+          "weight": 1.0
+        },
+        {
+          "requires": "minecraft",
+          "swap": {},
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "processor_type": "arcanavaria:block_swap",
+      "whole": true,
+      "mode": "random",
+      "sets": [
+        {
+          "requires": "quark",
+          "swap": {
+            "stellaris:moon_pillar": "quark:shale_bricks"
+          },
+          "weight": 1.0
+        },
+        {
+          "requires": "quark",
+          "swap": {
+            "stellaris:moon_pillar": "quark:polished_tuff"
+          },
+          "weight": 0.988
+        },
+        {
+          "requires": "arsmoriendi",
+          "swap": {
+            "stellaris:moon_pillar": "arsmoriendi:lethe_granite_bricks"
+          },
+          "weight": 0.978
+        },
+        {
+          "requires": "quark",
+          "swap": {
+            "stellaris:moon_pillar": "quark:polished_shale"
+          },
+          "weight": 0.976
+        },
+        {
+          "requires": "quark",
+          "swap": {
+            "stellaris:moon_pillar": "quark:cobblestone_bricks"
+          },
+          "weight": 0.962
+        },
+        {
+          "requires": "aether_ii",
+          "swap": {
+            "stellaris:moon_pillar": "aether_ii:undershale_bricks"
+          },
+          "weight": 0.955
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "stellaris:moon_pillar": "undergarden:tremblecrust"
+          },
+          "weight": 0.834
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "stellaris:moon_pillar": "createdeco:corner_blue_bricks"
+          },
+          "weight": 0.829
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "stellaris:moon_pillar": "createdeco:long_blue_bricks"
+          },
+          "weight": 0.791
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "stellaris:moon_pillar": "createdeco:blue_bricks"
+          },
+          "weight": 0.756
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "stellaris:moon_pillar": "create:cut_deepslate"
+          },
+          "weight": 0.734
+        },
+        {
+          "requires": "arsmoriendi",
+          "swap": {
+            "stellaris:moon_pillar": "arsmoriendi:polished_lethe_granite"
+          },
+          "weight": 0.727
+        },
+        {
+          "requires": "quark",
+          "swap": {
+            "stellaris:moon_pillar": "quark:shale"
+          },
+          "weight": 0.651
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "stellaris:moon_pillar": "createdeco:tiled_blue_bricks"
+          },
+          "weight": 0.636
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "stellaris:moon_pillar": "createdeco:short_blue_bricks"
+          },
+          "weight": 0.635
+        },
+        {
+          "requires": "arsmoriendi",
+          "swap": {
+            "stellaris:moon_pillar": "arsmoriendi:ossuary_bricks"
+          },
+          "weight": 0.609
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "stellaris:moon_pillar": "createdeco:cracked_blue_bricks"
+          },
+          "weight": 0.581
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "stellaris:moon_pillar": "dndecor:small_stone_bricks"
+          },
+          "weight": 0.579
+        },
+        {
+          "requires": "rechiseled",
+          "swap": {
+            "stellaris:moon_pillar": "rechiseled:stone_rotated_bricks"
+          },
+          "weight": 0.552
+        },
+        {
+          "requires": "arsmoriendi",
+          "swap": {
+            "stellaris:moon_pillar": "arsmoriendi:tomb_ashlar"
+          },
+          "weight": 0.515
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "stellaris:moon_pillar": "dndecor:cut_stone_bricks"
+          },
+          "weight": 0.426
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "stellaris:moon_pillar": "dndecor:polished_cut_stone"
+          },
+          "weight": 0.424
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "stellaris:moon_pillar": "dndecor:cut_stone"
+          },
+          "weight": 0.267
+        },
+        {
+          "requires": "cave_stuff",
+          "swap": {
+            "stellaris:moon_pillar": "cave_stuff:oligocenelimestonelapislazuliore"
+          },
+          "weight": 0.101
+        },
+        {
+          "requires": "minecraft",
+          "swap": {},
+          "weight": 1.0
+        }
+      ]
+    }
+  ]
+}

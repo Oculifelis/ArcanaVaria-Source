@@ -1,0 +1,23 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "fundamentum"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "  S",
+    " LS",
+    "I  "
+  ],
+  "key": {
+    "I": "thaumaturge:log_greatwood",
+    "L": "thaumaturge:amber",
+    "S": "thaumaturge:amber"
+  },
+  "result": {
+    "id": "arcanavaria:amberbark_lash"
+  }
+}

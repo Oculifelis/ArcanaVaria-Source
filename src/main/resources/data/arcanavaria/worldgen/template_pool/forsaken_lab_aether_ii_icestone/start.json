@@ -1,0 +1,29 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "aether_ii"
+    }
+  ],
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "arcanavaria:forsaken_lab_aether_ii_icestone/start_0",
+        "processors": "arcanavaria:wf/forsaken_lab_aether_ii_icestone",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "arcanavaria:forsaken_lab_aether_ii_icestone/start_1",
+        "processors": "arcanavaria:wf/forsaken_lab_aether_ii_icestone",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

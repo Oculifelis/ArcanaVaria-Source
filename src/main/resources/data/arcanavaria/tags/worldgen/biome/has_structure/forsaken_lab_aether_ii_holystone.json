@@ -1,0 +1,28 @@
+{
+  "values": [
+    {
+      "id": "aether_ii:expanse",
+      "required": false
+    },
+    {
+      "id": "aether_ii:flourishing_field",
+      "required": false
+    },
+    {
+      "id": "aether_ii:verdant_woods",
+      "required": false
+    },
+    {
+      "id": "aether_ii:shrouded_forest",
+      "required": false
+    },
+    {
+      "id": "aether_ii:enduring_woodland",
+      "required": false
+    },
+    {
+      "id": "aether_ii:glistening_swamp",
+      "required": false
+    }
+  ]
+}

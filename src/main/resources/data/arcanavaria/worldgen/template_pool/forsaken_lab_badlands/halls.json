@@ -1,0 +1,77 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "arcanavaria:forsaken_lab_badlands/hall_straight_5",
+        "processors": "arcanavaria:wf/forsaken_lab_badlands",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "arcanavaria:forsaken_lab_badlands/hall_straight_7",
+        "processors": "arcanavaria:wf/forsaken_lab_badlands",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "arcanavaria:forsaken_lab_badlands/hall_straight_9",
+        "processors": "arcanavaria:wf/forsaken_lab_badlands",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "arcanavaria:forsaken_lab_badlands/hall_turn",
+        "processors": "arcanavaria:wf/forsaken_lab_badlands",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "arcanavaria:forsaken_lab_badlands/hall_tee",
+        "processors": "arcanavaria:wf/forsaken_lab_badlands",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "arcanavaria:forsaken_lab_badlands/hall_cross",
+        "processors": "arcanavaria:wf/forsaken_lab_badlands",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "arcanavaria:forsaken_lab_badlands/hall_dip_13",
+        "processors": "arcanavaria:wf/forsaken_lab_badlands",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "arcanavaria:forsaken_lab_badlands/hall_alcove_11",
+        "processors": "arcanavaria:wf/forsaken_lab_badlands",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

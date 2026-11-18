@@ -1,0 +1,15 @@
+{
+  "item": "arcanavaria:exanimators_edge",
+  "damage": 5.5,
+  "reach": 4,
+  "moves": {
+    "sweet_spot": {},
+    "backswing": {},
+    "whirl": {
+      "input": "use"
+    },
+    "harvest_souls": {
+      "heal_per_soul": 1
+    }
+  }
+}

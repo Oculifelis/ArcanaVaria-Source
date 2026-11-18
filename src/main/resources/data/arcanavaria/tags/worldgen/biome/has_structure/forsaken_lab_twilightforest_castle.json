@@ -1,0 +1,20 @@
+{
+  "values": [
+    {
+      "id": "twilightforest:highlands",
+      "required": false
+    },
+    {
+      "id": "twilightforest:thornlands",
+      "required": false
+    },
+    {
+      "id": "twilightforest:final_plateau",
+      "required": false
+    },
+    {
+      "id": "twilightforest:highlands_underground",
+      "required": false
+    }
+  ]
+}

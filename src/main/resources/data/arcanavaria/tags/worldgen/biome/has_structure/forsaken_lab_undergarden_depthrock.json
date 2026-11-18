@@ -1,0 +1,32 @@
+{
+  "values": [
+    {
+      "id": "undergarden:depths",
+      "required": false
+    },
+    {
+      "id": "undergarden:barren_abyss",
+      "required": false
+    },
+    {
+      "id": "undergarden:infected_depths",
+      "required": false
+    },
+    {
+      "id": "undergarden:dense_forest",
+      "required": false
+    },
+    {
+      "id": "undergarden:forgotten_field",
+      "required": false
+    },
+    {
+      "id": "undergarden:gronglegrowth",
+      "required": false
+    },
+    {
+      "id": "undergarden:rogdorium_grove",
+      "required": false
+    }
+  ]
+}

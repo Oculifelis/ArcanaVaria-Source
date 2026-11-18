@@ -1,0 +1,279 @@
+{
+  "processors": [
+    {
+      "processor_type": "arcanavaria:markers"
+    },
+    {
+      "processor_type": "arcanavaria:block_swap",
+      "whole": true,
+      "mode": "random",
+      "sets": [
+        {
+          "requires": "undergarden",
+          "swap": {
+            "minecraft:cracked_stone_bricks": "undergarden:cracked_tremblecrust_bricks",
+            "minecraft:stone_brick_slab": "undergarden:tremblecrust_brick_slab",
+            "minecraft:stone_brick_stairs": "undergarden:tremblecrust_brick_stairs",
+            "minecraft:stone_bricks": "undergarden:tremblecrust_bricks"
+          },
+          "weight": 1.0
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "minecraft:cracked_stone_bricks": "undergarden:cracked_shiverstone_bricks",
+            "minecraft:stone_brick_slab": "undergarden:shiverstone_brick_slab",
+            "minecraft:stone_brick_stairs": "undergarden:shiverstone_brick_stairs",
+            "minecraft:stone_bricks": "undergarden:shiverstone_bricks"
+          },
+          "weight": 0.825
+        },
+        {
+          "requires": "minecraft",
+          "swap": {},
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "processor_type": "arcanavaria:block_swap",
+      "whole": true,
+      "mode": "random",
+      "sets": [
+        {
+          "requires": "arsmoriendi",
+          "swap": {
+            "minecraft:polished_andesite": "arsmoriendi:polished_lethe_granite",
+            "minecraft:polished_andesite_slab": "arsmoriendi:polished_lethe_granite_slab",
+            "minecraft:polished_andesite_stairs": "arsmoriendi:polished_lethe_granite_stairs"
+          },
+          "weight": 1.0
+        },
+        {
+          "requires": "rechiseled",
+          "swap": {
+            "minecraft:polished_andesite": "rechiseled:stone_tiles",
+            "minecraft:polished_andesite_slab": "rechiseled:stone_tiles_slab",
+            "minecraft:polished_andesite_stairs": "rechiseled:stone_tiles_stairs"
+          },
+          "weight": 0.898
+        },
+        {
+          "requires": "quark",
+          "swap": {
+            "minecraft:polished_andesite": "quark:polished_tuff",
+            "minecraft:polished_andesite_slab": "quark:polished_tuff_slab",
+            "minecraft:polished_andesite_stairs": "quark:polished_tuff_stairs"
+          },
+          "weight": 0.765
+        },
+        {
+          "requires": "arsmoriendi",
+          "swap": {
+            "minecraft:polished_andesite": "arsmoriendi:tomb_ashlar",
+            "minecraft:polished_andesite_slab": "arsmoriendi:tomb_ashlar_slab",
+            "minecraft:polished_andesite_stairs": "arsmoriendi:tomb_ashlar_stairs"
+          },
+          "weight": 0.706
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "minecraft:polished_andesite": "createdeco:short_blue_bricks",
+            "minecraft:polished_andesite_slab": "createdeco:short_blue_brick_slab",
+            "minecraft:polished_andesite_stairs": "createdeco:short_blue_brick_stairs"
+          },
+          "weight": 0.705
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "minecraft:polished_andesite": "createdeco:tiled_blue_bricks",
+            "minecraft:polished_andesite_slab": "createdeco:tiled_blue_brick_slab",
+            "minecraft:polished_andesite_stairs": "createdeco:tiled_blue_brick_stairs"
+          },
+          "weight": 0.695
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "minecraft:polished_andesite": "createdeco:blue_bricks",
+            "minecraft:polished_andesite_slab": "createdeco:blue_brick_slab",
+            "minecraft:polished_andesite_stairs": "createdeco:blue_brick_stairs"
+          },
+          "weight": 0.682
+        },
+        {
+          "requires": "aether_ii",
+          "swap": {
+            "minecraft:polished_andesite": "aether_ii:undershale_bricks",
+            "minecraft:polished_andesite_slab": "aether_ii:undershale_brick_slab",
+            "minecraft:polished_andesite_stairs": "aether_ii:undershale_brick_stairs"
+          },
+          "weight": 0.668
+        },
+        {
+          "requires": "quark",
+          "swap": {
+            "minecraft:polished_andesite": "quark:polished_shale",
+            "minecraft:polished_andesite_slab": "quark:polished_shale_slab",
+            "minecraft:polished_andesite_stairs": "quark:polished_shale_stairs"
+          },
+          "weight": 0.667
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "minecraft:polished_andesite": "createdeco:long_blue_bricks",
+            "minecraft:polished_andesite_slab": "createdeco:long_blue_brick_slab",
+            "minecraft:polished_andesite_stairs": "createdeco:long_blue_brick_stairs"
+          },
+          "weight": 0.665
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "minecraft:polished_andesite": "createdeco:corner_blue_bricks",
+            "minecraft:polished_andesite_slab": "createdeco:corner_blue_brick_slab",
+            "minecraft:polished_andesite_stairs": "createdeco:corner_blue_brick_stairs"
+          },
+          "weight": 0.657
+        },
+        {
+          "requires": "quark",
+          "swap": {
+            "minecraft:polished_andesite": "quark:cobblestone_bricks",
+            "minecraft:polished_andesite_slab": "quark:cobblestone_bricks_slab",
+            "minecraft:polished_andesite_stairs": "quark:cobblestone_bricks_stairs"
+          },
+          "weight": 0.62
+        },
+        {
+          "requires": "arsmoriendi",
+          "swap": {
+            "minecraft:polished_andesite": "arsmoriendi:lethe_granite_bricks",
+            "minecraft:polished_andesite_slab": "arsmoriendi:lethe_granite_brick_slab",
+            "minecraft:polished_andesite_stairs": "arsmoriendi:lethe_granite_brick_stairs"
+          },
+          "weight": 0.583
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "minecraft:polished_andesite": "createdeco:cracked_blue_bricks",
+            "minecraft:polished_andesite_slab": "createdeco:cracked_blue_brick_slab",
+            "minecraft:polished_andesite_stairs": "createdeco:cracked_blue_brick_stairs"
+          },
+          "weight": 0.48
+        },
+        {
+          "requires": "quark",
+          "swap": {
+            "minecraft:polished_andesite": "quark:shale",
+            "minecraft:polished_andesite_slab": "quark:shale_slab",
+            "minecraft:polished_andesite_stairs": "quark:shale_stairs"
+          },
+          "weight": 0.431
+        },
+        {
+          "requires": "quark",
+          "swap": {
+            "minecraft:polished_andesite": "quark:shale_bricks",
+            "minecraft:polished_andesite_slab": "quark:shale_bricks_slab",
+            "minecraft:polished_andesite_stairs": "quark:shale_bricks_stairs"
+          },
+          "weight": 0.411
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "minecraft:polished_andesite": "create:cut_deepslate",
+            "minecraft:polished_andesite_slab": "create:cut_deepslate_slab",
+            "minecraft:polished_andesite_stairs": "create:cut_deepslate_stairs"
+          },
+          "weight": 0.296
+        },
+        {
+          "requires": "minecraft",
+          "swap": {},
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "processor_type": "arcanavaria:block_swap",
+      "whole": true,
+      "mode": "random",
+      "sets": [
+        {
+          "requires": "malum",
+          "swap": {
+            "minecraft:cherry_log": "malum:soulwood_beam"
+          },
+          "weight": 1.0
+        },
+        {
+          "requires": "malum",
+          "swap": {
+            "minecraft:cherry_log": "malum:rustic_soulwood_tiles"
+          },
+          "weight": 0.991
+        },
+        {
+          "requires": "malum",
+          "swap": {
+            "minecraft:cherry_log": "malum:soulwood_panel"
+          },
+          "weight": 0.987
+        },
+        {
+          "requires": "malum",
+          "swap": {
+            "minecraft:cherry_log": "malum:runewood_beam"
+          },
+          "weight": 0.8
+        },
+        {
+          "requires": "malum",
+          "swap": {
+            "minecraft:cherry_log": "malum:runewood_tiles"
+          },
+          "weight": 0.799
+        },
+        {
+          "requires": "malum",
+          "swap": {
+            "minecraft:cherry_log": "malum:runewood_panel"
+          },
+          "weight": 0.778
+        },
+        {
+          "requires": "malum",
+          "swap": {
+            "minecraft:cherry_log": "malum:rustic_runewood_tiles"
+          },
+          "weight": 0.764
+        },
+        {
+          "requires": "malum",
+          "swap": {
+            "minecraft:cherry_log": "malum:vertical_soulwood_boards"
+          },
+          "weight": 0.762
+        },
+        {
+          "requires": "malum",
+          "swap": {
+            "minecraft:cherry_log": "malum:soulwood_boards"
+          },
+          "weight": 0.762
+        },
+        {
+          "requires": "minecraft",
+          "swap": {},
+          "weight": 1.0
+        }
+      ]
+    }
+  ]
+}

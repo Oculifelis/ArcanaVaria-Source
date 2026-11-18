@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "needs_signal=false,powered=false": {
+      "model": "arcanavaria:block/vis_lift_on"
+    },
+    "needs_signal=false,powered=true": {
+      "model": "arcanavaria:block/vis_lift_on"
+    },
+    "needs_signal=true,powered=false": {
+      "model": "arcanavaria:block/vis_lift"
+    },
+    "needs_signal=true,powered=true": {
+      "model": "arcanavaria:block/vis_lift_on"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "category": "arcanavaria:arcanavaria",
+  "name": "research.arcanavaria.intro.title",
+  "parents": [
+    "thaumaturge:metallurgy"
+  ],
+  "column": 0,
+  "row": 0,
+  "icons": [
+    "arcanavaria:textures/misc/category_icon.png"
+  ],
+  "stages": [
+    {
+      "text": "research.arcanavaria.intro.stage_0"
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:instrumentum",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:cognitio",
+      "amount": 2
+    }
+  ],
+  "complexity": 1
+}

@@ -1,0 +1,31 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "crystals": [
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:aqua",
+      "amount": 1
+    }
+  ],
+  "key": {
+    "B": "thaumaturge:plate_brass",
+    "P": "arcanavaria:lattice_pipe",
+    "Q": "thaumaturge:quicksilver"
+  },
+  "pattern": [
+    "BPB",
+    "PQP",
+    "BPB"
+  ],
+  "research": {
+    "entry": "arcanavaria:lattice_junction",
+    "stage": 0
+  },
+  "result": {
+    "id": "arcanavaria:lattice_junction"
+  },
+  "vis": 25
+}

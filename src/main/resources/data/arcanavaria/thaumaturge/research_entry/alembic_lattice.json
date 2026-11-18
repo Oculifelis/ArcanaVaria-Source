@@ -1,0 +1,57 @@
+{
+  "category": "arcanavaria:arcanavaria",
+  "name": "research.arcanavaria.alembic_lattice.title",
+  "parents": [
+    "arcanavaria:intro",
+    "thaumaturge:tubes"
+  ],
+  "column": 5,
+  "row": 2,
+  "icons": [
+    "arcanavaria:lattice_pipe"
+  ],
+  "stages": [
+    {
+      "text": "research.arcanavaria.alembic_lattice.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:alchemy",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:alchemy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.arcanavaria.alembic_lattice.stage_1",
+      "recipes": [
+        "arcanavaria:arcane/lattice_pipe",
+        "arcanavaria:arcane/lattice_intake",
+        "arcanavaria:arcane/lattice_outlet"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:permutatio",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:aqua",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:vitreus",
+      "amount": 2
+    }
+  ],
+  "complexity": 2
+}

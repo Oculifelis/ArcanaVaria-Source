@@ -1,0 +1,91 @@
+{
+  "processors": [
+    {
+      "processor_type": "arcanavaria:markers"
+    },
+    {
+      "processor_type": "arcanavaria:block_swap",
+      "whole": true,
+      "mode": "random",
+      "sets": [
+        {
+          "requires": "createdeco",
+          "swap": {
+            "minecraft:diorite": "createdeco:tiled_blue_bricks",
+            "minecraft:diorite_slab": "createdeco:tiled_blue_brick_slab",
+            "minecraft:diorite_stairs": "createdeco:tiled_blue_brick_stairs"
+          },
+          "weight": 1.0
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "minecraft:diorite": "createdeco:short_blue_bricks",
+            "minecraft:diorite_slab": "createdeco:short_blue_brick_slab",
+            "minecraft:diorite_stairs": "createdeco:short_blue_brick_stairs"
+          },
+          "weight": 0.985
+        },
+        {
+          "requires": "arsmoriendi",
+          "swap": {
+            "minecraft:diorite": "arsmoriendi:ossuary_bricks",
+            "minecraft:diorite_slab": "arsmoriendi:ossuary_brick_slab",
+            "minecraft:diorite_stairs": "arsmoriendi:ossuary_brick_stairs"
+          },
+          "weight": 0.961
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "minecraft:diorite": "dndecor:small_stone_bricks",
+            "minecraft:diorite_slab": "dndecor:small_stone_brick_slab",
+            "minecraft:diorite_stairs": "dndecor:small_stone_brick_stairs"
+          },
+          "weight": 0.904
+        },
+        {
+          "requires": "rechiseled",
+          "swap": {
+            "minecraft:diorite": "rechiseled:cobblestone_polished",
+            "minecraft:diorite_slab": "rechiseled:cobblestone_polished_slab",
+            "minecraft:diorite_stairs": "rechiseled:cobblestone_polished_stairs"
+          },
+          "weight": 0.849
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "minecraft:diorite": "dndecor:polished_cut_stone",
+            "minecraft:diorite_slab": "dndecor:polished_cut_stone_slab",
+            "minecraft:diorite_stairs": "dndecor:polished_cut_stone_stairs"
+          },
+          "weight": 0.64
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "minecraft:diorite": "dndecor:cut_stone_bricks",
+            "minecraft:diorite_slab": "dndecor:cut_stone_brick_slab",
+            "minecraft:diorite_stairs": "dndecor:cut_stone_brick_stairs"
+          },
+          "weight": 0.636
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "minecraft:diorite": "dndecor:cut_stone",
+            "minecraft:diorite_slab": "dndecor:cut_stone_slab",
+            "minecraft:diorite_stairs": "dndecor:cut_stone_stairs"
+          },
+          "weight": 0.435
+        },
+        {
+          "requires": "minecraft",
+          "swap": {},
+          "weight": 1.0
+        }
+      ]
+    }
+  ]
+}

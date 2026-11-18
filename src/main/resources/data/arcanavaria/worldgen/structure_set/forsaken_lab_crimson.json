@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "arcanavaria:forsaken_lab_crimson",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 36,
+    "separation": 12,
+    "salt": 1709545909
+  }
+}

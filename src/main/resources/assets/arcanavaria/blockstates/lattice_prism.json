@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "arcanavaria:block/lattice_prism"
+    },
+    "facing=east": {
+      "model": "arcanavaria:block/lattice_prism",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "arcanavaria:block/lattice_prism",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arcanavaria:block/lattice_prism",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "arcanavaria:block/lattice_prism",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "arcanavaria:block/lattice_prism",
+      "x": 90
+    }
+  }
+}

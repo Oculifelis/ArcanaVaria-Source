@@ -1,0 +1,17 @@
+{
+  "name": "lab_trait.arcanavaria.venomous",
+  "colour": 5947450,
+  "particle": {
+    "type": "minecraft:item_slime"
+  },
+  "champion": "thaumaturge:venomous",
+  "on_hit": {
+    "effects": [
+      {
+        "effect": "minecraft:poison",
+        "duration": 100,
+        "amplifier": 1
+      }
+    ]
+  }
+}

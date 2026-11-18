@@ -1,0 +1,409 @@
+{
+  "processors": [
+    {
+      "processor_type": "arcanavaria:markers"
+    },
+    {
+      "processor_type": "arcanavaria:block_swap",
+      "whole": true,
+      "mode": "random",
+      "sets": [
+        {
+          "requires": "arsmoriendi",
+          "swap": {
+            "aether_ii:icestone_bricks": "arsmoriendi:lethe_granite_bricks",
+            "aether_ii:icestone_bricks_slab": "arsmoriendi:lethe_granite_brick_slab",
+            "aether_ii:icestone_bricks_stairs": "arsmoriendi:lethe_granite_brick_stairs"
+          },
+          "weight": 1.0
+        },
+        {
+          "requires": "minecraft",
+          "swap": {},
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "processor_type": "arcanavaria:block_swap",
+      "whole": true,
+      "mode": "random",
+      "sets": [
+        {
+          "requires": "hybrid_aquatic",
+          "swap": {
+            "aether_ii:greatroot_floorboards": "hybrid_aquatic:chimneystone_bricks"
+          },
+          "weight": 1.0
+        },
+        {
+          "requires": "hybrid_aquatic",
+          "swap": {
+            "aether_ii:greatroot_floorboards": "hybrid_aquatic:polished_chimneystone"
+          },
+          "weight": 0.979
+        },
+        {
+          "requires": "embers",
+          "swap": {
+            "aether_ii:greatroot_floorboards": "embers:archaic_bricks"
+          },
+          "weight": 0.968
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "aether_ii:greatroot_floorboards": "create:small_scoria_bricks"
+          },
+          "weight": 0.948
+        },
+        {
+          "requires": "embers",
+          "swap": {
+            "aether_ii:greatroot_floorboards": "embers:archaic_large_bricks"
+          },
+          "weight": 0.834
+        },
+        {
+          "requires": "hybrid_aquatic",
+          "swap": {
+            "aether_ii:greatroot_floorboards": "hybrid_aquatic:chimneystone"
+          },
+          "weight": 0.705
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "aether_ii:greatroot_floorboards": "create:polished_cut_scoria"
+          },
+          "weight": 0.697
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "aether_ii:greatroot_floorboards": "create:cut_scoria_bricks"
+          },
+          "weight": 0.69
+        },
+        {
+          "requires": "occultism",
+          "swap": {
+            "aether_ii:greatroot_floorboards": "occultism:othercobblerock"
+          },
+          "weight": 0.617
+        },
+        {
+          "requires": "embers",
+          "swap": {
+            "aether_ii:greatroot_floorboards": "embers:archaic_tile"
+          },
+          "weight": 0.569
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "aether_ii:greatroot_floorboards": "undergarden:tremblecrust_bricks"
+          },
+          "weight": 0.563
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "aether_ii:greatroot_floorboards": "undergarden:dreadrock_bricks"
+          },
+          "weight": 0.535
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "aether_ii:greatroot_floorboards": "create:cut_scoria"
+          },
+          "weight": 0.502
+        },
+        {
+          "requires": "embers",
+          "swap": {
+            "aether_ii:greatroot_floorboards": "embers:ashen_brick"
+          },
+          "weight": 0.448
+        },
+        {
+          "requires": "embers",
+          "swap": {
+            "aether_ii:greatroot_floorboards": "embers:ashen_tile"
+          },
+          "weight": 0.377
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "aether_ii:greatroot_floorboards": "undergarden:dreadrock"
+          },
+          "weight": 0.362
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "aether_ii:greatroot_floorboards": "undergarden:tremblecrust"
+          },
+          "weight": 0.349
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "aether_ii:greatroot_floorboards": "undergarden:dirty_sediment_stone_bricks"
+          },
+          "weight": 0.293
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "aether_ii:greatroot_floorboards": "dndecor:brown_small_deepslate_tiles"
+          },
+          "weight": 0.274
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "aether_ii:greatroot_floorboards": "create:scoria"
+          },
+          "weight": 0.21
+        },
+        {
+          "requires": "cave_stuff",
+          "swap": {
+            "aether_ii:greatroot_floorboards": "cave_stuff:redand_green_tiles"
+          },
+          "weight": 0.197
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "aether_ii:greatroot_floorboards": "create:layered_scoria"
+          },
+          "weight": 0.195
+        },
+        {
+          "requires": "embers",
+          "swap": {
+            "aether_ii:greatroot_floorboards": "embers:archaic_edge"
+          },
+          "weight": 0.173
+        },
+        {
+          "requires": "hybrid_aquatic",
+          "swap": {
+            "aether_ii:greatroot_floorboards": "hybrid_aquatic:chiseled_chimneystone"
+          },
+          "weight": 0.172
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "aether_ii:greatroot_floorboards": "undergarden:cracked_tremblecrust_bricks"
+          },
+          "weight": 0.135
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "aether_ii:greatroot_floorboards": "undergarden:chiseled_tremblecrust_bricks"
+          },
+          "weight": 0.126
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "aether_ii:greatroot_floorboards": "undergarden:loose_tremblecrust"
+          },
+          "weight": 0.122
+        },
+        {
+          "requires": "quark",
+          "swap": {
+            "aether_ii:greatroot_floorboards": "quark:tuff_pillar"
+          },
+          "weight": 0.085
+        },
+        {
+          "requires": "minecraft",
+          "swap": {},
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "processor_type": "arcanavaria:block_swap",
+      "whole": true,
+      "mode": "random",
+      "sets": [
+        {
+          "requires": "tropicraft",
+          "swap": {
+            "aether_ii:icestone_keystone": "tropicraft:manganese_block"
+          },
+          "weight": 1.0
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "aether_ii:icestone_keystone": "create:cut_asurine"
+          },
+          "weight": 0.558
+        },
+        {
+          "requires": "minecraft",
+          "swap": {},
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "processor_type": "arcanavaria:block_swap",
+      "whole": true,
+      "mode": "random",
+      "sets": [
+        {
+          "requires": "aether_ii",
+          "swap": {
+            "aether_ii:greatroot_planks": "aether_ii:greatroot_planks",
+            "aether_ii:greatroot_stairs": "aether_ii:greatroot_stairs"
+          },
+          "weight": 1.0
+        },
+        {
+          "requires": "tropicraft",
+          "swap": {
+            "aether_ii:greatroot_planks": "tropicraft:palm_planks",
+            "aether_ii:greatroot_stairs": "tropicraft:palm_stairs"
+          },
+          "weight": 0.791
+        },
+        {
+          "requires": "terrestria",
+          "swap": {
+            "aether_ii:greatroot_planks": "terrestria:sakura_planks",
+            "aether_ii:greatroot_stairs": "terrestria:sakura_stairs"
+          },
+          "weight": 0.617
+        },
+        {
+          "requires": "embers",
+          "swap": {
+            "aether_ii:greatroot_planks": "embers:sealed_planks",
+            "aether_ii:greatroot_stairs": "embers:sealed_planks_stairs"
+          },
+          "weight": 0.615
+        },
+        {
+          "requires": "malum",
+          "swap": {
+            "aether_ii:greatroot_planks": "malum:runewood_boards",
+            "aether_ii:greatroot_stairs": "malum:runewood_boards_stairs"
+          },
+          "weight": 0.609
+        },
+        {
+          "requires": "twilightforest",
+          "swap": {
+            "aether_ii:greatroot_planks": "twilightforest:canopy_planks",
+            "aether_ii:greatroot_stairs": "twilightforest:canopy_stairs"
+          },
+          "weight": 0.594
+        },
+        {
+          "requires": "regions_unexplored",
+          "swap": {
+            "aether_ii:greatroot_planks": "regions_unexplored:blackwood_planks",
+            "aether_ii:greatroot_stairs": "regions_unexplored:blackwood_stairs"
+          },
+          "weight": 0.54
+        },
+        {
+          "requires": "regions_unexplored",
+          "swap": {
+            "aether_ii:greatroot_planks": "regions_unexplored:brimwood_planks",
+            "aether_ii:greatroot_stairs": "regions_unexplored:brimwood_stairs"
+          },
+          "weight": 0.528
+        },
+        {
+          "requires": "regions_unexplored",
+          "swap": {
+            "aether_ii:greatroot_planks": "regions_unexplored:dead_planks",
+            "aether_ii:greatroot_stairs": "regions_unexplored:dead_stairs"
+          },
+          "weight": 0.489
+        },
+        {
+          "requires": "upgrade_aquatic",
+          "swap": {
+            "aether_ii:greatroot_planks": "upgrade_aquatic:driftwood_planks",
+            "aether_ii:greatroot_stairs": "upgrade_aquatic:driftwood_stairs"
+          },
+          "weight": 0.364
+        },
+        {
+          "requires": "regions_unexplored",
+          "swap": {
+            "aether_ii:greatroot_planks": "regions_unexplored:black_painted_planks",
+            "aether_ii:greatroot_stairs": "regions_unexplored:black_painted_stairs"
+          },
+          "weight": 0.32
+        },
+        {
+          "requires": "minecraft",
+          "swap": {},
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "processor_type": "arcanavaria:block_swap",
+      "whole": true,
+      "mode": "random",
+      "sets": [
+        {
+          "requires": "createdeco",
+          "swap": {
+            "aether_ii:icestone_capstone_bricks": "createdeco:tiled_blue_bricks"
+          },
+          "weight": 1.0
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "aether_ii:icestone_capstone_bricks": "createdeco:blue_bricks"
+          },
+          "weight": 0.901
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "aether_ii:icestone_capstone_bricks": "createdeco:long_blue_bricks"
+          },
+          "weight": 0.9
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "aether_ii:icestone_capstone_bricks": "createdeco:corner_blue_bricks"
+          },
+          "weight": 0.872
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "aether_ii:icestone_capstone_bricks": "createdeco:cracked_blue_bricks"
+          },
+          "weight": 0.616
+        },
+        {
+          "requires": "minecraft",
+          "swap": {},
+          "weight": 1.0
+        }
+      ]
+    }
+  ]
+}

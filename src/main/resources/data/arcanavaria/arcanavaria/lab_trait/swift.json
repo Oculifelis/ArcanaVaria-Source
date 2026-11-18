@@ -1,0 +1,13 @@
+{
+  "name": "lab_trait.arcanavaria.swift",
+  "colour": 15266047,
+  "particle": {
+    "type": "minecraft:cloud"
+  },
+  "attributes": [
+    {
+      "attribute": "minecraft:movement_speed",
+      "amount": 0.3
+    }
+  ]
+}

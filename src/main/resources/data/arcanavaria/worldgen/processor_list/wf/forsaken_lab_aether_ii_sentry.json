@@ -1,0 +1,980 @@
+{
+  "processors": [
+    {
+      "processor_type": "arcanavaria:markers"
+    },
+    {
+      "processor_type": "arcanavaria:block_swap",
+      "whole": true,
+      "mode": "random",
+      "sets": [
+        {
+          "requires": "stellaris",
+          "swap": {
+            "aether_ii:sentry_brick_slab": "stellaris:moon_stone_brick_slab",
+            "aether_ii:sentry_brick_stairs": "stellaris:moon_stone_brick_stairs",
+            "aether_ii:sentry_bricks": "stellaris:moon_stone_bricks"
+          },
+          "weight": 1.0
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "aether_ii:sentry_brick_slab": "create:small_deepslate_brick_slab",
+            "aether_ii:sentry_brick_stairs": "create:small_deepslate_brick_stairs",
+            "aether_ii:sentry_bricks": "create:small_deepslate_bricks"
+          },
+          "weight": 0.742
+        },
+        {
+          "requires": "stellaris",
+          "swap": {
+            "aether_ii:sentry_brick_slab": "stellaris:moon_stone_slab",
+            "aether_ii:sentry_brick_stairs": "stellaris:moon_stone_stairs",
+            "aether_ii:sentry_bricks": "stellaris:moon_stone"
+          },
+          "weight": 0.639
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "aether_ii:sentry_brick_slab": "dndecor:small_basalt_brick_slab",
+            "aether_ii:sentry_brick_stairs": "dndecor:small_basalt_brick_stairs",
+            "aether_ii:sentry_bricks": "dndecor:small_basalt_bricks"
+          },
+          "weight": 0.637
+        },
+        {
+          "requires": "hybrid_aquatic",
+          "swap": {
+            "aether_ii:sentry_brick_slab": "hybrid_aquatic:schist_brick_slab",
+            "aether_ii:sentry_brick_stairs": "hybrid_aquatic:schist_brick_stairs",
+            "aether_ii:sentry_bricks": "hybrid_aquatic:schist_bricks"
+          },
+          "weight": 0.632
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "aether_ii:sentry_brick_slab": "undergarden:shiverstone_brick_slab",
+            "aether_ii:sentry_brick_stairs": "undergarden:shiverstone_brick_stairs",
+            "aether_ii:sentry_bricks": "undergarden:shiverstone_bricks"
+          },
+          "weight": 0.584
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "aether_ii:sentry_brick_slab": "createdeco:short_dusk_brick_slab",
+            "aether_ii:sentry_brick_stairs": "createdeco:short_dusk_brick_stairs",
+            "aether_ii:sentry_bricks": "createdeco:short_dusk_bricks"
+          },
+          "weight": 0.567
+        },
+        {
+          "requires": "rechiseled",
+          "swap": {
+            "aether_ii:sentry_brick_slab": "rechiseled:basalt_diagonal_tiles_slab",
+            "aether_ii:sentry_brick_stairs": "rechiseled:basalt_diagonal_tiles_stairs",
+            "aether_ii:sentry_bricks": "rechiseled:basalt_diagonal_tiles"
+          },
+          "weight": 0.56
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "aether_ii:sentry_brick_slab": "createdeco:tiled_dusk_brick_slab",
+            "aether_ii:sentry_brick_stairs": "createdeco:tiled_dusk_brick_stairs",
+            "aether_ii:sentry_bricks": "createdeco:tiled_dusk_bricks"
+          },
+          "weight": 0.559
+        },
+        {
+          "requires": "aether_ii",
+          "swap": {
+            "aether_ii:sentry_brick_slab": "aether_ii:agiosite_slab",
+            "aether_ii:sentry_brick_stairs": "aether_ii:agiosite_stairs",
+            "aether_ii:sentry_bricks": "aether_ii:agiosite"
+          },
+          "weight": 0.541
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "aether_ii:sentry_brick_slab": "createdeco:dusk_brick_slab",
+            "aether_ii:sentry_brick_stairs": "createdeco:dusk_brick_stairs",
+            "aether_ii:sentry_bricks": "createdeco:dusk_bricks"
+          },
+          "weight": 0.511
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "aether_ii:sentry_brick_slab": "create:cut_deepslate_brick_slab",
+            "aether_ii:sentry_brick_stairs": "create:cut_deepslate_brick_stairs",
+            "aether_ii:sentry_bricks": "create:cut_deepslate_bricks"
+          },
+          "weight": 0.51
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "aether_ii:sentry_brick_slab": "createdeco:long_dusk_brick_slab",
+            "aether_ii:sentry_brick_stairs": "createdeco:long_dusk_brick_stairs",
+            "aether_ii:sentry_bricks": "createdeco:long_dusk_bricks"
+          },
+          "weight": 0.5
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "aether_ii:sentry_brick_slab": "createdeco:corner_dusk_brick_slab",
+            "aether_ii:sentry_brick_stairs": "createdeco:corner_dusk_brick_stairs",
+            "aether_ii:sentry_bricks": "createdeco:corner_dusk_bricks"
+          },
+          "weight": 0.479
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "aether_ii:sentry_brick_slab": "dndecor:cut_basalt_brick_slab",
+            "aether_ii:sentry_brick_stairs": "dndecor:cut_basalt_brick_stairs",
+            "aether_ii:sentry_bricks": "dndecor:cut_basalt_bricks"
+          },
+          "weight": 0.462
+        },
+        {
+          "requires": "ars_nouveau",
+          "swap": {
+            "aether_ii:sentry_brick_slab": "ars_nouveau:gilded_sourcestone_alternating_slab",
+            "aether_ii:sentry_brick_stairs": "ars_nouveau:gilded_sourcestone_alternating_stairs",
+            "aether_ii:sentry_bricks": "ars_nouveau:gilded_sourcestone_alternating"
+          },
+          "weight": 0.438
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "aether_ii:sentry_brick_slab": "undergarden:shiverstone_slab",
+            "aether_ii:sentry_brick_stairs": "undergarden:shiverstone_stairs",
+            "aether_ii:sentry_bricks": "undergarden:shiverstone"
+          },
+          "weight": 0.41
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "aether_ii:sentry_brick_slab": "createdeco:cracked_dusk_brick_slab",
+            "aether_ii:sentry_brick_stairs": "createdeco:cracked_dusk_brick_stairs",
+            "aether_ii:sentry_bricks": "createdeco:cracked_dusk_bricks"
+          },
+          "weight": 0.354
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "aether_ii:sentry_brick_slab": "create:cut_deepslate_slab",
+            "aether_ii:sentry_brick_stairs": "create:cut_deepslate_stairs",
+            "aether_ii:sentry_bricks": "create:cut_deepslate"
+          },
+          "weight": 0.34
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "aether_ii:sentry_brick_slab": "dndecor:cut_basalt_slab",
+            "aether_ii:sentry_brick_stairs": "dndecor:cut_basalt_stairs",
+            "aether_ii:sentry_bricks": "dndecor:cut_basalt"
+          },
+          "weight": 0.306
+        },
+        {
+          "requires": "terrestria",
+          "swap": {
+            "aether_ii:sentry_brick_slab": "terrestria:smooth_volcanic_rock_slab",
+            "aether_ii:sentry_brick_stairs": "terrestria:smooth_volcanic_rock_stairs",
+            "aether_ii:sentry_bricks": "terrestria:smooth_volcanic_rock"
+          },
+          "weight": 0.229
+        },
+        {
+          "requires": "minecraft",
+          "swap": {},
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "processor_type": "arcanavaria:block_swap",
+      "whole": true,
+      "mode": "random",
+      "sets": [
+        {
+          "requires": "aether_ii",
+          "swap": {
+            "aether_ii:sentry_base_bricks": "aether_ii:undershale_capstone_bricks"
+          },
+          "weight": 1.0
+        },
+        {
+          "requires": "aether_ii",
+          "swap": {
+            "aether_ii:sentry_base_bricks": "aether_ii:undershale_base_bricks"
+          },
+          "weight": 0.994
+        },
+        {
+          "requires": "stellaris",
+          "swap": {
+            "aether_ii:sentry_base_bricks": "stellaris:polished_moon_stone"
+          },
+          "weight": 0.514
+        },
+        {
+          "requires": "minecraft",
+          "swap": {},
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "processor_type": "arcanavaria:block_swap",
+      "whole": true,
+      "mode": "random",
+      "sets": [
+        {
+          "requires": "create",
+          "swap": {
+            "aether_ii:sentry_tile": "create:small_asurine_bricks"
+          },
+          "weight": 1.0
+        },
+        {
+          "requires": "aether_ii",
+          "swap": {
+            "aether_ii:sentry_tile": "aether_ii:agiosite_bricks"
+          },
+          "weight": 0.876
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "aether_ii:sentry_tile": "create:cut_asurine_bricks"
+          },
+          "weight": 0.72
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "aether_ii:sentry_tile": "create:polished_cut_asurine"
+          },
+          "weight": 0.708
+        },
+        {
+          "requires": "hybrid_aquatic",
+          "swap": {
+            "aether_ii:sentry_tile": "hybrid_aquatic:polished_schist"
+          },
+          "weight": 0.679
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "aether_ii:sentry_tile": "create:cut_asurine"
+          },
+          "weight": 0.49
+        },
+        {
+          "requires": "minecraft",
+          "swap": {},
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "processor_type": "arcanavaria:block_swap",
+      "whole": true,
+      "mode": "random",
+      "sets": [
+        {
+          "requires": "dndecor",
+          "swap": {
+            "aether_ii:sentry_lightstone": "dndecor:blue_small_deepslate_tiles"
+          },
+          "weight": 1.0
+        },
+        {
+          "requires": "neovitae",
+          "swap": {
+            "aether_ii:sentry_lightstone": "neovitae:dungeon_polished_st"
+          },
+          "weight": 0.848
+        },
+        {
+          "requires": "tropicraft",
+          "swap": {
+            "aether_ii:sentry_lightstone": "tropicraft:manganese_block"
+          },
+          "weight": 0.763
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "aether_ii:sentry_lightstone": "create:asurine"
+          },
+          "weight": 0.661
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "aether_ii:sentry_lightstone": "create:layered_asurine"
+          },
+          "weight": 0.657
+        },
+        {
+          "requires": "quark",
+          "swap": {
+            "aether_ii:sentry_lightstone": "quark:duskbound_block"
+          },
+          "weight": 0.651
+        },
+        {
+          "requires": "neovitae",
+          "swap": {
+            "aether_ii:sentry_lightstone": "neovitae:dungeon_tilespecial_st"
+          },
+          "weight": 0.651
+        },
+        {
+          "requires": "neovitae",
+          "swap": {
+            "aether_ii:sentry_lightstone": "neovitae:dungeon_pillar_special_st"
+          },
+          "weight": 0.625
+        },
+        {
+          "requires": "neovitae",
+          "swap": {
+            "aether_ii:sentry_lightstone": "neovitae:dungeon_tile_st"
+          },
+          "weight": 0.559
+        },
+        {
+          "requires": "neovitae",
+          "swap": {
+            "aether_ii:sentry_lightstone": "neovitae:dungeon_stone_st"
+          },
+          "weight": 0.559
+        },
+        {
+          "requires": "neovitae",
+          "swap": {
+            "aether_ii:sentry_lightstone": "neovitae:dungeon_pillar_center_st"
+          },
+          "weight": 0.543
+        },
+        {
+          "requires": "neovitae",
+          "swap": {
+            "aether_ii:sentry_lightstone": "neovitae:dungeon_brick2_st"
+          },
+          "weight": 0.503
+        },
+        {
+          "requires": "neovitae",
+          "swap": {
+            "aether_ii:sentry_lightstone": "neovitae:dungeon_brick1_st"
+          },
+          "weight": 0.503
+        },
+        {
+          "requires": "aether_ii",
+          "swap": {
+            "aether_ii:sentry_lightstone": "aether_ii:agiosite_base_bricks"
+          },
+          "weight": 0.498
+        },
+        {
+          "requires": "neovitae",
+          "swap": {
+            "aether_ii:sentry_lightstone": "neovitae:dungeon_brick3_st"
+          },
+          "weight": 0.489
+        },
+        {
+          "requires": "aether_ii",
+          "swap": {
+            "aether_ii:sentry_lightstone": "aether_ii:agiosite_capstone_bricks"
+          },
+          "weight": 0.472
+        },
+        {
+          "requires": "aether_ii",
+          "swap": {
+            "aether_ii:sentry_lightstone": "aether_ii:agiosite_flagstones"
+          },
+          "weight": 0.465
+        },
+        {
+          "requires": "aether_ii",
+          "swap": {
+            "aether_ii:sentry_lightstone": "aether_ii:agiosite_keystone"
+          },
+          "weight": 0.445
+        },
+        {
+          "requires": "neovitae",
+          "swap": {
+            "aether_ii:sentry_lightstone": "neovitae:dungeon_smallbrick_st"
+          },
+          "weight": 0.44
+        },
+        {
+          "requires": "minecraft",
+          "swap": {},
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "processor_type": "arcanavaria:block_swap",
+      "whole": true,
+      "mode": "random",
+      "sets": [
+        {
+          "requires": "twilightforest",
+          "swap": {
+            "aether_ii:sentry_pillar": "twilightforest:bold_stone_pillar"
+          },
+          "weight": 1.0
+        },
+        {
+          "requires": "twilightforest",
+          "swap": {
+            "aether_ii:sentry_pillar": "twilightforest:encased_castle_brick_pillar"
+          },
+          "weight": 0.878
+        },
+        {
+          "requires": "aether_ii",
+          "swap": {
+            "aether_ii:sentry_pillar": "aether_ii:undershale_flagstones"
+          },
+          "weight": 0.825
+        },
+        {
+          "requires": "aether_ii",
+          "swap": {
+            "aether_ii:sentry_pillar": "aether_ii:undershale_tile"
+          },
+          "weight": 0.799
+        },
+        {
+          "requires": "arsmoriendi",
+          "swap": {
+            "aether_ii:sentry_pillar": "arsmoriendi:lethe_granite"
+          },
+          "weight": 0.782
+        },
+        {
+          "requires": "rechiseled",
+          "swap": {
+            "aether_ii:sentry_pillar": "rechiseled:cobblestone_pillar"
+          },
+          "weight": 0.778
+        },
+        {
+          "requires": "cave_stuff",
+          "swap": {
+            "aether_ii:sentry_pillar": "cave_stuff:blueandredtiles"
+          },
+          "weight": 0.774
+        },
+        {
+          "requires": "quark",
+          "swap": {
+            "aether_ii:sentry_pillar": "quark:polished_tuff"
+          },
+          "weight": 0.751
+        },
+        {
+          "requires": "cave_stuff",
+          "swap": {
+            "aether_ii:sentry_pillar": "cave_stuff:polishedcharnockite"
+          },
+          "weight": 0.725
+        },
+        {
+          "requires": "quark",
+          "swap": {
+            "aether_ii:sentry_pillar": "quark:chiseled_shale_bricks"
+          },
+          "weight": 0.722
+        },
+        {
+          "requires": "quark",
+          "swap": {
+            "aether_ii:sentry_pillar": "quark:shale_pillar"
+          },
+          "weight": 0.706
+        },
+        {
+          "requires": "twilightforest",
+          "swap": {
+            "aether_ii:sentry_pillar": "twilightforest:terrorcotta_arcs"
+          },
+          "weight": 0.687
+        },
+        {
+          "requires": "twilightforest",
+          "swap": {
+            "aether_ii:sentry_pillar": "twilightforest:encased_castle_brick_tile"
+          },
+          "weight": 0.677
+        },
+        {
+          "requires": "cave_stuff",
+          "swap": {
+            "aether_ii:sentry_pillar": "cave_stuff:charnockite"
+          },
+          "weight": 0.65
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "aether_ii:sentry_pillar": "dndecor:light_gray_small_deepslate_tiles"
+          },
+          "weight": 0.649
+        },
+        {
+          "requires": "aether",
+          "swap": {
+            "aether_ii:sentry_pillar": "aether:carved_stone"
+          },
+          "weight": 0.647
+        },
+        {
+          "requires": "quark",
+          "swap": {
+            "aether_ii:sentry_pillar": "quark:sturdy_stone"
+          },
+          "weight": 0.643
+        },
+        {
+          "requires": "twilightforest",
+          "swap": {
+            "aether_ii:sentry_pillar": "twilightforest:twisted_stone"
+          },
+          "weight": 0.627
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "aether_ii:sentry_pillar": "undergarden:chiseled_tremblecrust_bricks"
+          },
+          "weight": 0.619
+        },
+        {
+          "requires": "twilightforest",
+          "swap": {
+            "aether_ii:sentry_pillar": "twilightforest:deadrock"
+          },
+          "weight": 0.613
+        },
+        {
+          "requires": "stellaris",
+          "swap": {
+            "aether_ii:sentry_pillar": "stellaris:chiseled_moon_stone"
+          },
+          "weight": 0.612
+        },
+        {
+          "requires": "stellaris",
+          "swap": {
+            "aether_ii:sentry_pillar": "stellaris:moon_pillar"
+          },
+          "weight": 0.605
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "aether_ii:sentry_pillar": "dndecor:layered_stone"
+          },
+          "weight": 0.568
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "aether_ii:sentry_pillar": "undergarden:chiseled_shiverstone_bricks"
+          },
+          "weight": 0.547
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "aether_ii:sentry_pillar": "dndecor:andesite_floor"
+          },
+          "weight": 0.516
+        },
+        {
+          "requires": "twilightforest",
+          "swap": {
+            "aether_ii:sentry_pillar": "twilightforest:cracked_deadrock"
+          },
+          "weight": 0.46
+        },
+        {
+          "requires": "twilightforest",
+          "swap": {
+            "aether_ii:sentry_pillar": "twilightforest:weathered_deadrock"
+          },
+          "weight": 0.425
+        },
+        {
+          "requires": "minecraft",
+          "swap": {},
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "processor_type": "arcanavaria:block_swap",
+      "whole": true,
+      "mode": "random",
+      "sets": [
+        {
+          "requires": "stellaris",
+          "swap": {
+            "aether_ii:sentry_flagstones": "stellaris:moon_cracked_stone_bricks"
+          },
+          "weight": 1.0
+        },
+        {
+          "requires": "stellaris",
+          "swap": {
+            "aether_ii:sentry_flagstones": "stellaris:moon_stone_pillar"
+          },
+          "weight": 0.965
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "aether_ii:sentry_flagstones": "undergarden:tremblecrust_bricks"
+          },
+          "weight": 0.888
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "aether_ii:sentry_flagstones": "dndecor:gray_small_deepslate_tiles"
+          },
+          "weight": 0.874
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "aether_ii:sentry_flagstones": "dndecor:small_deepslate_tiles"
+          },
+          "weight": 0.86
+        },
+        {
+          "requires": "arsmoriendi",
+          "swap": {
+            "aether_ii:sentry_flagstones": "arsmoriendi:tomb_flagstones"
+          },
+          "weight": 0.771
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "aether_ii:sentry_flagstones": "dndecor:black_small_deepslate_tiles"
+          },
+          "weight": 0.745
+        },
+        {
+          "requires": "stellaris",
+          "swap": {
+            "aether_ii:sentry_flagstones": "stellaris:ash_stone"
+          },
+          "weight": 0.671
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "aether_ii:sentry_flagstones": "create:layered_deepslate"
+          },
+          "weight": 0.663
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "aether_ii:sentry_flagstones": "undergarden:cracked_tremblecrust_bricks"
+          },
+          "weight": 0.631
+        },
+        {
+          "requires": "stellaris",
+          "swap": {
+            "aether_ii:sentry_flagstones": "stellaris:moon_deepslate"
+          },
+          "weight": 0.628
+        },
+        {
+          "requires": "stellaris",
+          "swap": {
+            "aether_ii:sentry_flagstones": "stellaris:moon_cobblestone"
+          },
+          "weight": 0.615
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "aether_ii:sentry_flagstones": "dndecor:layered_basalt"
+          },
+          "weight": 0.614
+        },
+        {
+          "requires": "regions_unexplored",
+          "swap": {
+            "aether_ii:sentry_flagstones": "regions_unexplored:ash_vent"
+          },
+          "weight": 0.589
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "aether_ii:sentry_flagstones": "undergarden:tremblecrust"
+          },
+          "weight": 0.588
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "aether_ii:sentry_flagstones": "undergarden:cracked_shiverstone_bricks"
+          },
+          "weight": 0.579
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "aether_ii:sentry_flagstones": "undergarden:loose_tremblecrust"
+          },
+          "weight": 0.575
+        },
+        {
+          "requires": "hybrid_aquatic",
+          "swap": {
+            "aether_ii:sentry_flagstones": "hybrid_aquatic:schist"
+          },
+          "weight": 0.479
+        },
+        {
+          "requires": "hybrid_aquatic",
+          "swap": {
+            "aether_ii:sentry_flagstones": "hybrid_aquatic:black_pearl_block"
+          },
+          "weight": 0.47
+        },
+        {
+          "requires": "hybrid_aquatic",
+          "swap": {
+            "aether_ii:sentry_flagstones": "hybrid_aquatic:chiseled_schist"
+          },
+          "weight": 0.348
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "aether_ii:sentry_flagstones": "create:cut_scorchia"
+          },
+          "weight": 0.314
+        },
+        {
+          "requires": "occultism",
+          "swap": {
+            "aether_ii:sentry_flagstones": "occultism:polished_otherrock"
+          },
+          "weight": 0.284
+        },
+        {
+          "requires": "minecraft",
+          "swap": {},
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "processor_type": "arcanavaria:block_swap",
+      "whole": true,
+      "mode": "random",
+      "sets": [
+        {
+          "requires": "arsmoriendi",
+          "swap": {
+            "aether_ii:sentry_capstone_bricks": "arsmoriendi:lethe_granite_bricks"
+          },
+          "weight": 1.0
+        },
+        {
+          "requires": "aether_ii",
+          "swap": {
+            "aether_ii:sentry_capstone_bricks": "aether_ii:undershale_bricks"
+          },
+          "weight": 0.959
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "aether_ii:sentry_capstone_bricks": "createdeco:corner_blue_bricks"
+          },
+          "weight": 0.957
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "aether_ii:sentry_capstone_bricks": "createdeco:long_blue_bricks"
+          },
+          "weight": 0.912
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "aether_ii:sentry_capstone_bricks": "createdeco:blue_bricks"
+          },
+          "weight": 0.861
+        },
+        {
+          "requires": "arsmoriendi",
+          "swap": {
+            "aether_ii:sentry_capstone_bricks": "arsmoriendi:polished_lethe_granite"
+          },
+          "weight": 0.818
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "aether_ii:sentry_capstone_bricks": "createdeco:tiled_blue_bricks"
+          },
+          "weight": 0.717
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "aether_ii:sentry_capstone_bricks": "createdeco:short_blue_bricks"
+          },
+          "weight": 0.709
+        },
+        {
+          "requires": "quark",
+          "swap": {
+            "aether_ii:sentry_capstone_bricks": "quark:cobblestone_bricks"
+          },
+          "weight": 0.696
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "aether_ii:sentry_capstone_bricks": "createdeco:cracked_blue_bricks"
+          },
+          "weight": 0.666
+        },
+        {
+          "requires": "quark",
+          "swap": {
+            "aether_ii:sentry_capstone_bricks": "quark:polished_shale"
+          },
+          "weight": 0.594
+        },
+        {
+          "requires": "arsmoriendi",
+          "swap": {
+            "aether_ii:sentry_capstone_bricks": "arsmoriendi:ossuary_bricks"
+          },
+          "weight": 0.57
+        },
+        {
+          "requires": "quark",
+          "swap": {
+            "aether_ii:sentry_capstone_bricks": "quark:shale_bricks"
+          },
+          "weight": 0.549
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "aether_ii:sentry_capstone_bricks": "dndecor:small_stone_bricks"
+          },
+          "weight": 0.52
+        },
+        {
+          "requires": "rechiseled",
+          "swap": {
+            "aether_ii:sentry_capstone_bricks": "rechiseled:stone_rotated_bricks"
+          },
+          "weight": 0.494
+        },
+        {
+          "requires": "arsmoriendi",
+          "swap": {
+            "aether_ii:sentry_capstone_bricks": "arsmoriendi:tomb_ashlar"
+          },
+          "weight": 0.423
+        },
+        {
+          "requires": "quark",
+          "swap": {
+            "aether_ii:sentry_capstone_bricks": "quark:shale"
+          },
+          "weight": 0.386
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "aether_ii:sentry_capstone_bricks": "create:polished_cut_deepslate"
+          },
+          "weight": 0.386
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "aether_ii:sentry_capstone_bricks": "dndecor:cut_stone_bricks"
+          },
+          "weight": 0.38
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "aether_ii:sentry_capstone_bricks": "dndecor:polished_cut_stone"
+          },
+          "weight": 0.378
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "aether_ii:sentry_capstone_bricks": "dndecor:polished_cut_basalt"
+          },
+          "weight": 0.274
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "aether_ii:sentry_capstone_bricks": "dndecor:cut_stone"
+          },
+          "weight": 0.241
+        },
+        {
+          "requires": "cave_stuff",
+          "swap": {
+            "aether_ii:sentry_capstone_bricks": "cave_stuff:oligocenelimestonelapislazuliore"
+          },
+          "weight": 0.098
+        },
+        {
+          "requires": "minecraft",
+          "swap": {},
+          "weight": 1.0
+        }
+      ]
+    }
+  ]
+}

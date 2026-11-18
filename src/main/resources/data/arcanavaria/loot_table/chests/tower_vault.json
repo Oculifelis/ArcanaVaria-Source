@@ -1,0 +1,786 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "arcanavaria:thurible_blueprint_chain",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "arcanavaria:thurible_blueprint_cloud",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "arcanavaria:thurible_blueprint_orbit",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "arcanavaria:blueprint_scroll",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "arcanavaria:blueprint": {
+                  "name": "Spiral Stair",
+                  "blocks": [
+                    {
+                      "at": [
+                        1,
+                        0,
+                        1
+                      ],
+                      "state": {
+                        "Name": "minecraft:chiseled_stone_bricks"
+                      }
+                    },
+                    {
+                      "at": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "state": {
+                        "Name": "minecraft:stone_brick_stairs",
+                        "Properties": {
+                          "facing": "east",
+                          "half": "bottom",
+                          "shape": "straight",
+                          "waterlogged": "false"
+                        }
+                      }
+                    },
+                    {
+                      "at": [
+                        1,
+                        1,
+                        1
+                      ],
+                      "state": {
+                        "Name": "minecraft:stone_bricks"
+                      }
+                    },
+                    {
+                      "at": [
+                        2,
+                        1,
+                        0
+                      ],
+                      "state": {
+                        "Name": "minecraft:stone_brick_stairs",
+                        "Properties": {
+                          "facing": "east",
+                          "half": "bottom",
+                          "shape": "straight",
+                          "waterlogged": "false"
+                        }
+                      }
+                    },
+                    {
+                      "at": [
+                        1,
+                        2,
+                        1
+                      ],
+                      "state": {
+                        "Name": "minecraft:stone_bricks"
+                      }
+                    },
+                    {
+                      "at": [
+                        2,
+                        2,
+                        1
+                      ],
+                      "state": {
+                        "Name": "minecraft:stone_brick_stairs",
+                        "Properties": {
+                          "facing": "south",
+                          "half": "bottom",
+                          "shape": "straight",
+                          "waterlogged": "false"
+                        }
+                      }
+                    },
+                    {
+                      "at": [
+                        1,
+                        3,
+                        1
+                      ],
+                      "state": {
+                        "Name": "minecraft:stone_bricks"
+                      }
+                    },
+                    {
+                      "at": [
+                        2,
+                        3,
+                        2
+                      ],
+                      "state": {
+                        "Name": "minecraft:stone_brick_stairs",
+                        "Properties": {
+                          "facing": "south",
+                          "half": "bottom",
+                          "shape": "straight",
+                          "waterlogged": "false"
+                        }
+                      }
+                    },
+                    {
+                      "at": [
+                        1,
+                        4,
+                        1
+                      ],
+                      "state": {
+                        "Name": "minecraft:chiseled_stone_bricks"
+                      }
+                    },
+                    {
+                      "at": [
+                        1,
+                        4,
+                        2
+                      ],
+                      "state": {
+                        "Name": "minecraft:stone_brick_stairs",
+                        "Properties": {
+                          "facing": "west",
+                          "half": "bottom",
+                          "shape": "straight",
+                          "waterlogged": "false"
+                        }
+                      }
+                    },
+                    {
+                      "at": [
+                        1,
+                        5,
+                        1
+                      ],
+                      "state": {
+                        "Name": "minecraft:stone_bricks"
+                      }
+                    },
+                    {
+                      "at": [
+                        0,
+                        5,
+                        2
+                      ],
+                      "state": {
+                        "Name": "minecraft:stone_brick_stairs",
+                        "Properties": {
+                          "facing": "west",
+                          "half": "bottom",
+                          "shape": "straight",
+                          "waterlogged": "false"
+                        }
+                      }
+                    },
+                    {
+                      "at": [
+                        1,
+                        6,
+                        1
+                      ],
+                      "state": {
+                        "Name": "minecraft:stone_bricks"
+                      }
+                    },
+                    {
+                      "at": [
+                        0,
+                        6,
+                        1
+                      ],
+                      "state": {
+                        "Name": "minecraft:stone_brick_stairs",
+                        "Properties": {
+                          "facing": "north",
+                          "half": "bottom",
+                          "shape": "straight",
+                          "waterlogged": "false"
+                        }
+                      }
+                    },
+                    {
+                      "at": [
+                        1,
+                        7,
+                        1
+                      ],
+                      "state": {
+                        "Name": "minecraft:stone_bricks"
+                      }
+                    },
+                    {
+                      "at": [
+                        0,
+                        7,
+                        0
+                      ],
+                      "state": {
+                        "Name": "minecraft:stone_brick_stairs",
+                        "Properties": {
+                          "facing": "north",
+                          "half": "bottom",
+                          "shape": "straight",
+                          "waterlogged": "false"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "arcanavaria:blueprint_scroll",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "arcanavaria:blueprint": {
+                  "name": "Deepslate Arch",
+                  "blocks": [
+                    {
+                      "at": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "state": {
+                        "Name": "minecraft:polished_deepslate"
+                      }
+                    },
+                    {
+                      "at": [
+                        4,
+                        0,
+                        0
+                      ],
+                      "state": {
+                        "Name": "minecraft:polished_deepslate"
+                      }
+                    },
+                    {
+                      "at": [
+                        0,
+                        1,
+                        0
+                      ],
+                      "state": {
+                        "Name": "minecraft:polished_deepslate"
+                      }
+                    },
+                    {
+                      "at": [
+                        4,
+                        1,
+                        0
+                      ],
+                      "state": {
+                        "Name": "minecraft:polished_deepslate"
+                      }
+                    },
+                    {
+                      "at": [
+                        0,
+                        2,
+                        0
+                      ],
+                      "state": {
+                        "Name": "minecraft:polished_deepslate"
+                      }
+                    },
+                    {
+                      "at": [
+                        4,
+                        2,
+                        0
+                      ],
+                      "state": {
+                        "Name": "minecraft:polished_deepslate"
+                      }
+                    },
+                    {
+                      "at": [
+                        0,
+                        3,
+                        0
+                      ],
+                      "state": {
+                        "Name": "minecraft:polished_deepslate"
+                      }
+                    },
+                    {
+                      "at": [
+                        4,
+                        3,
+                        0
+                      ],
+                      "state": {
+                        "Name": "minecraft:polished_deepslate"
+                      }
+                    },
+                    {
+                      "at": [
+                        0,
+                        4,
+                        0
+                      ],
+                      "state": {
+                        "Name": "minecraft:polished_deepslate"
+                      }
+                    },
+                    {
+                      "at": [
+                        4,
+                        4,
+                        0
+                      ],
+                      "state": {
+                        "Name": "minecraft:polished_deepslate"
+                      }
+                    },
+                    {
+                      "at": [
+                        1,
+                        4,
+                        0
+                      ],
+                      "state": {
+                        "Name": "minecraft:deepslate_tiles"
+                      }
+                    },
+                    {
+                      "at": [
+                        2,
+                        5,
+                        0
+                      ],
+                      "state": {
+                        "Name": "minecraft:deepslate_tiles"
+                      }
+                    },
+                    {
+                      "at": [
+                        3,
+                        4,
+                        0
+                      ],
+                      "state": {
+                        "Name": "minecraft:deepslate_tiles"
+                      }
+                    },
+                    {
+                      "at": [
+                        1,
+                        3,
+                        0
+                      ],
+                      "state": {
+                        "Name": "minecraft:deepslate_tile_stairs",
+                        "Properties": {
+                          "facing": "east",
+                          "half": "top",
+                          "shape": "straight",
+                          "waterlogged": "false"
+                        }
+                      }
+                    },
+                    {
+                      "at": [
+                        3,
+                        3,
+                        0
+                      ],
+                      "state": {
+                        "Name": "minecraft:deepslate_tile_stairs",
+                        "Properties": {
+                          "facing": "west",
+                          "half": "top",
+                          "shape": "straight",
+                          "waterlogged": "false"
+                        }
+                      }
+                    },
+                    {
+                      "at": [
+                        2,
+                        4,
+                        0
+                      ],
+                      "state": {
+                        "Name": "minecraft:amethyst_block"
+                      }
+                    },
+                    {
+                      "at": [
+                        0,
+                        5,
+                        0
+                      ],
+                      "state": {
+                        "Name": "minecraft:deepslate_tile_slab",
+                        "Properties": {
+                          "type": "bottom",
+                          "waterlogged": "false"
+                        }
+                      }
+                    },
+                    {
+                      "at": [
+                        4,
+                        5,
+                        0
+                      ],
+                      "state": {
+                        "Name": "minecraft:deepslate_tile_slab",
+                        "Properties": {
+                          "type": "bottom",
+                          "waterlogged": "false"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "arcanavaria:blueprint_scroll",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "arcanavaria:blueprint": {
+                  "name": "Alchemist's Bench",
+                  "blocks": [
+                    {
+                      "at": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "state": {
+                        "Name": "minecraft:polished_andesite"
+                      }
+                    },
+                    {
+                      "at": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "state": {
+                        "Name": "minecraft:polished_andesite"
+                      }
+                    },
+                    {
+                      "at": [
+                        2,
+                        0,
+                        0
+                      ],
+                      "state": {
+                        "Name": "minecraft:polished_andesite"
+                      }
+                    },
+                    {
+                      "at": [
+                        0,
+                        1,
+                        0
+                      ],
+                      "state": {
+                        "Name": "minecraft:brewing_stand",
+                        "Properties": {
+                          "has_bottle_0": "false",
+                          "has_bottle_1": "false",
+                          "has_bottle_2": "false"
+                        }
+                      }
+                    },
+                    {
+                      "at": [
+                        1,
+                        1,
+                        0
+                      ],
+                      "state": {
+                        "Name": "minecraft:cauldron"
+                      }
+                    },
+                    {
+                      "at": [
+                        2,
+                        1,
+                        0
+                      ],
+                      "state": {
+                        "Name": "minecraft:lantern",
+                        "Properties": {
+                          "hanging": "false",
+                          "waterlogged": "false"
+                        }
+                      }
+                    },
+                    {
+                      "at": [
+                        0,
+                        0,
+                        1
+                      ],
+                      "state": {
+                        "Name": "minecraft:bookshelf"
+                      }
+                    },
+                    {
+                      "at": [
+                        1,
+                        0,
+                        1
+                      ],
+                      "state": {
+                        "Name": "minecraft:bookshelf"
+                      }
+                    },
+                    {
+                      "at": [
+                        2,
+                        0,
+                        1
+                      ],
+                      "state": {
+                        "Name": "minecraft:bookshelf"
+                      }
+                    },
+                    {
+                      "at": [
+                        0,
+                        1,
+                        1
+                      ],
+                      "state": {
+                        "Name": "minecraft:bookshelf"
+                      }
+                    },
+                    {
+                      "at": [
+                        1,
+                        1,
+                        1
+                      ],
+                      "state": {
+                        "Name": "minecraft:chiseled_bookshelf",
+                        "Properties": {
+                          "facing": "north",
+                          "slot_0_occupied": "false",
+                          "slot_1_occupied": "false",
+                          "slot_2_occupied": "false",
+                          "slot_3_occupied": "false",
+                          "slot_4_occupied": "false",
+                          "slot_5_occupied": "false"
+                        }
+                      }
+                    },
+                    {
+                      "at": [
+                        2,
+                        1,
+                        1
+                      ],
+                      "state": {
+                        "Name": "minecraft:bookshelf"
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 4
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "arcanavaria:lattice_intake",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "arcanavaria:lattice_outlet",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "arcanavaria:lattice_junction",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "arcanavaria:lattice_prism",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "arcanavaria:lattice_synchronizer",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "arcanavaria:lattice_pipe",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 4,
+                "max": 12
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "arcanavaria:lab_journal",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "arcanavaria:journal": {
+                  "research": "arcanavaria:forsaken_laboratories",
+                  "title": "journal.arcanavaria.forsaken_laboratories"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "arcanavaria:lab_journal",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "arcanavaria:journal": {
+                  "research": "arcanavaria:lab_guardians",
+                  "title": "journal.arcanavaria.lab_guardians"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "arcanavaria:lab_journal",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "arcanavaria:journal": {
+                  "research": "arcanavaria:lab_puzzles",
+                  "title": "journal.arcanavaria.lab_puzzles"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "arcanavaria:lab_journal",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "arcanavaria:journal": {
+                  "research": "arcanavaria:lab_lens",
+                  "title": "journal.arcanavaria.lab_lens"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

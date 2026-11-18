@@ -1,0 +1,39 @@
+{
+  "values": {
+    "arcanavaria:greatwood_warden": {
+      "slam_radius": 4.5,
+      "slam_damage": 10.0,
+      "slam_damage_phase_two": 12.0,
+      "shockwave_radius": 8.0,
+      "shockwave_damage": 7.0,
+      "roots_damage": 6.0,
+      "roots_damage_phase_two": 7.0,
+      "ray_damage": 4.0,
+      "ray_damage_phase_two": 5.0,
+      "mend_heal": 3.0,
+      "mend_heal_phase_two": 4.0,
+      "mend_cooldown": 400,
+      "burrow_radius": 3.5,
+      "burrow_damage": 8.0,
+      "splinter_damage": 5.0,
+      "reset_ticks": 1200
+    },
+    "arcanavaria:exanimator": {
+      "reap_damage": 14.0,
+      "reap_second_damage": 10.0,
+      "harvest_damage": 12.0,
+      "harvest_damage_phase_two": 14.0,
+      "lash_length": 11.0,
+      "lash_damage": 10.0,
+      "step_damage": 12.0,
+      "maw_damage": 4.0,
+      "maw_burst_damage": 8.0,
+      "maw_cooldown": 360,
+      "lux_damage": 5.0,
+      "stun_cooldown": 300,
+      "light_damage": 3.0,
+      "dark_heal": 2.0,
+      "reset_ticks": 1200
+    }
+  }
+}

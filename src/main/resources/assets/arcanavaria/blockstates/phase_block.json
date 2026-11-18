@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "offset=0,solid=false": {
+      "model": "arcanavaria:block/phase_block_ghost"
+    },
+    "offset=0,solid=true": {
+      "model": "arcanavaria:block/phase_block"
+    },
+    "offset=1,solid=false": {
+      "model": "arcanavaria:block/phase_block_ghost"
+    },
+    "offset=1,solid=true": {
+      "model": "arcanavaria:block/phase_block"
+    },
+    "offset=2,solid=false": {
+      "model": "arcanavaria:block/phase_block_ghost"
+    },
+    "offset=2,solid=true": {
+      "model": "arcanavaria:block/phase_block"
+    },
+    "offset=3,solid=false": {
+      "model": "arcanavaria:block/phase_block_ghost"
+    },
+    "offset=3,solid=true": {
+      "model": "arcanavaria:block/phase_block"
+    }
+  }
+}

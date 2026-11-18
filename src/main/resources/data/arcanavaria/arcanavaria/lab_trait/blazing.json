@@ -1,0 +1,23 @@
+{
+  "name": "lab_trait.arcanavaria.blazing",
+  "colour": 16742954,
+  "particle": {
+    "type": "minecraft:flame"
+  },
+  "champion": "thaumaturge:fiery",
+  "self": [
+    {
+      "effect": "minecraft:fire_resistance",
+      "duration": 100,
+      "amplifier": 0
+    }
+  ],
+  "on_hit": {
+    "burn_seconds": 4
+  },
+  "ability": {
+    "kind": "volley",
+    "every": 100,
+    "count": 3
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "item": "arcanavaria:thaumium_scythe",
+  "damage": 7,
+  "reach": 4,
+  "moves": {
+    "sweet_spot": {},
+    "backswing": {}
+  }
+}

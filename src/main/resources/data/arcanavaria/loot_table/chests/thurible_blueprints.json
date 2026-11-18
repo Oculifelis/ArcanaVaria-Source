@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "arcanavaria:thurible_blueprint_chain"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "arcanavaria:thurible_blueprint_cloud"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "arcanavaria:thurible_blueprint_orbit"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "arcanavaria:chests/thurible_blueprints"
+}

@@ -1,0 +1,23 @@
+{
+  "values": [
+    "arcanavaria:lattice_pipe",
+    "arcanavaria:lattice_intake",
+    "arcanavaria:lattice_outlet",
+    "arcanavaria:lattice_junction",
+    "arcanavaria:lattice_prism",
+    "arcanavaria:lattice_synchronizer",
+    "minecraft:torch",
+    "minecraft:wall_torch",
+    "minecraft:soul_torch",
+    "minecraft:soul_wall_torch",
+    "minecraft:spawner",
+    {
+      "id": "thaumaturge:jar",
+      "required": false
+    },
+    {
+      "id": "thaumaturge:jar_normal",
+      "required": false
+    }
+  ]
+}

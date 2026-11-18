@@ -1,0 +1,12 @@
+{
+  "name": "lab_archetype.arcanavaria.hollow_magus",
+  "entity": "minecraft:wither_skeleton",
+  "health": 200,
+  "damage": 9,
+  "armor": 8,
+  "scale": 1.6,
+  "equipment": {
+    "mainhand": "minecraft:stone_sword"
+  },
+  "bar": "white"
+}

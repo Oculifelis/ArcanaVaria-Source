@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "arcanavaria:block/lattice_synchronizer"
+    },
+    "facing=east": {
+      "model": "arcanavaria:block/lattice_synchronizer",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "arcanavaria:block/lattice_synchronizer",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arcanavaria:block/lattice_synchronizer",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "arcanavaria:block/lattice_synchronizer",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "arcanavaria:block/lattice_synchronizer",
+      "x": 90
+    }
+  }
+}

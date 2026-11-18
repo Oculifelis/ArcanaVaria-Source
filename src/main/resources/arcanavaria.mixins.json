@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.arcanavaria.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "FundamentumScythesMixin"
+  ],
+  "client": [
+    "WindowNoFocusMixin",
+    "FundamentumScytheInputMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

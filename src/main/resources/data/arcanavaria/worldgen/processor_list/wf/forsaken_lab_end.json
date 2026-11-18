@@ -1,0 +1,591 @@
+{
+  "processors": [
+    {
+      "processor_type": "arcanavaria:markers"
+    },
+    {
+      "processor_type": "arcanavaria:block_swap",
+      "whole": true,
+      "mode": "random",
+      "sets": [
+        {
+          "requires": "ars_nouveau",
+          "swap": {
+            "minecraft:purpur_block": "ars_nouveau:smooth_gilded_sourcestone_small_bricks",
+            "minecraft:purpur_slab": "ars_nouveau:smooth_gilded_sourcestone_small_bricks_slab",
+            "minecraft:purpur_stairs": "ars_nouveau:smooth_gilded_sourcestone_small_bricks_stairs"
+          },
+          "weight": 1.0
+        },
+        {
+          "requires": "ars_nouveau",
+          "swap": {
+            "minecraft:purpur_block": "ars_nouveau:smooth_sourcestone_large_bricks",
+            "minecraft:purpur_slab": "ars_nouveau:smooth_sourcestone_large_bricks_slab",
+            "minecraft:purpur_stairs": "ars_nouveau:smooth_sourcestone_large_bricks_stairs"
+          },
+          "weight": 0.923
+        },
+        {
+          "requires": "ars_nouveau",
+          "swap": {
+            "minecraft:purpur_block": "ars_nouveau:smooth_sourcestone_small_bricks",
+            "minecraft:purpur_slab": "ars_nouveau:smooth_sourcestone_small_bricks_slab",
+            "minecraft:purpur_stairs": "ars_nouveau:smooth_sourcestone_small_bricks_stairs"
+          },
+          "weight": 0.901
+        },
+        {
+          "requires": "ars_nouveau",
+          "swap": {
+            "minecraft:purpur_block": "ars_nouveau:smooth_gilded_sourcestone_basketweave",
+            "minecraft:purpur_slab": "ars_nouveau:smooth_gilded_sourcestone_basketweave_slab",
+            "minecraft:purpur_stairs": "ars_nouveau:smooth_gilded_sourcestone_basketweave_stairs"
+          },
+          "weight": 0.66
+        },
+        {
+          "requires": "ars_nouveau",
+          "swap": {
+            "minecraft:purpur_block": "ars_nouveau:smooth_sourcestone",
+            "minecraft:purpur_slab": "ars_nouveau:smooth_sourcestone_slab",
+            "minecraft:purpur_stairs": "ars_nouveau:smooth_sourcestone_stairs"
+          },
+          "weight": 0.64
+        },
+        {
+          "requires": "ars_nouveau",
+          "swap": {
+            "minecraft:purpur_block": "ars_nouveau:smooth_gilded_sourcestone_mosaic",
+            "minecraft:purpur_slab": "ars_nouveau:smooth_gilded_sourcestone_mosaic_slab",
+            "minecraft:purpur_stairs": "ars_nouveau:smooth_gilded_sourcestone_mosaic_stairs"
+          },
+          "weight": 0.589
+        },
+        {
+          "requires": "ars_nouveau",
+          "swap": {
+            "minecraft:purpur_block": "ars_nouveau:smooth_sourcestone_alternating",
+            "minecraft:purpur_slab": "ars_nouveau:smooth_sourcestone_alternating_slab",
+            "minecraft:purpur_stairs": "ars_nouveau:smooth_sourcestone_alternating_stairs"
+          },
+          "weight": 0.582
+        },
+        {
+          "requires": "ars_nouveau",
+          "swap": {
+            "minecraft:purpur_block": "ars_nouveau:smooth_sourcestone_basketweave",
+            "minecraft:purpur_slab": "ars_nouveau:smooth_sourcestone_basketweave_slab",
+            "minecraft:purpur_stairs": "ars_nouveau:smooth_sourcestone_basketweave_stairs"
+          },
+          "weight": 0.571
+        },
+        {
+          "requires": "ars_nouveau",
+          "swap": {
+            "minecraft:purpur_block": "ars_nouveau:smooth_sourcestone_mosaic",
+            "minecraft:purpur_slab": "ars_nouveau:smooth_sourcestone_mosaic_slab",
+            "minecraft:purpur_stairs": "ars_nouveau:smooth_sourcestone_mosaic_stairs"
+          },
+          "weight": 0.526
+        },
+        {
+          "requires": "minecraft",
+          "swap": {},
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "processor_type": "arcanavaria:block_swap",
+      "whole": true,
+      "mode": "random",
+      "sets": [
+        {
+          "requires": "malum",
+          "swap": {
+            "minecraft:obsidian": "malum:runic_small_twisted_rock_bricks"
+          },
+          "weight": 1.0
+        },
+        {
+          "requires": "malum",
+          "swap": {
+            "minecraft:obsidian": "malum:runic_twisted_rock_tiles"
+          },
+          "weight": 0.982
+        },
+        {
+          "requires": "malum",
+          "swap": {
+            "minecraft:obsidian": "malum:runic_twisted_rock_bricks"
+          },
+          "weight": 0.982
+        },
+        {
+          "requires": "arsmoriendi",
+          "swap": {
+            "minecraft:obsidian": "arsmoriendi:cinder_bricks"
+          },
+          "weight": 0.764
+        },
+        {
+          "requires": "quark",
+          "swap": {
+            "minecraft:obsidian": "quark:blackstone_bricks"
+          },
+          "weight": 0.722
+        },
+        {
+          "requires": "malum",
+          "swap": {
+            "minecraft:obsidian": "malum:small_twisted_rock_bricks"
+          },
+          "weight": 0.712
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "minecraft:obsidian": "dndecor:small_blackstone_bricks"
+          },
+          "weight": 0.701
+        },
+        {
+          "requires": "malum",
+          "swap": {
+            "minecraft:obsidian": "malum:twisted_rock_tiles"
+          },
+          "weight": 0.69
+        },
+        {
+          "requires": "malum",
+          "swap": {
+            "minecraft:obsidian": "malum:twisted_rock_bricks"
+          },
+          "weight": 0.69
+        },
+        {
+          "requires": "malum",
+          "swap": {
+            "minecraft:obsidian": "malum:polished_twisted_rock"
+          },
+          "weight": 0.685
+        },
+        {
+          "requires": "terrestria",
+          "swap": {
+            "minecraft:obsidian": "terrestria:volcanic_rock_bricks"
+          },
+          "weight": 0.612
+        },
+        {
+          "requires": "occultism",
+          "swap": {
+            "minecraft:obsidian": "occultism:otherrock_bricks"
+          },
+          "weight": 0.589
+        },
+        {
+          "requires": "malum",
+          "swap": {
+            "minecraft:obsidian": "malum:checkered_twisted_rock"
+          },
+          "weight": 0.529
+        },
+        {
+          "requires": "malum",
+          "swap": {
+            "minecraft:obsidian": "malum:twisted_rock_column"
+          },
+          "weight": 0.523
+        },
+        {
+          "requires": "rechiseled",
+          "swap": {
+            "minecraft:obsidian": "rechiseled:blackstone_diagonal_bricks"
+          },
+          "weight": 0.517
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "minecraft:obsidian": "dndecor:polished_cut_blackstone"
+          },
+          "weight": 0.511
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "minecraft:obsidian": "dndecor:cut_blackstone_bricks"
+          },
+          "weight": 0.511
+        },
+        {
+          "requires": "arsmoriendi",
+          "swap": {
+            "minecraft:obsidian": "arsmoriendi:cinder_flagstones"
+          },
+          "weight": 0.489
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "minecraft:obsidian": "dndecor:layered_blackstone"
+          },
+          "weight": 0.479
+        },
+        {
+          "requires": "terrestria",
+          "swap": {
+            "minecraft:obsidian": "terrestria:cracked_volcanic_rock_bricks"
+          },
+          "weight": 0.454
+        },
+        {
+          "requires": "terrestria",
+          "swap": {
+            "minecraft:obsidian": "terrestria:chiseled_volcanic_rock_bricks"
+          },
+          "weight": 0.446
+        },
+        {
+          "requires": "malum",
+          "swap": {
+            "minecraft:obsidian": "malum:twisted_rock"
+          },
+          "weight": 0.444
+        },
+        {
+          "requires": "cave_stuff",
+          "swap": {
+            "minecraft:obsidian": "cave_stuff:sculkeritetiles"
+          },
+          "weight": 0.399
+        },
+        {
+          "requires": "malum",
+          "swap": {
+            "minecraft:obsidian": "malum:cut_twisted_rock"
+          },
+          "weight": 0.358
+        },
+        {
+          "requires": "malum",
+          "swap": {
+            "minecraft:obsidian": "malum:chiseled_twisted_rock"
+          },
+          "weight": 0.341
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "minecraft:obsidian": "dndecor:cut_blackstone"
+          },
+          "weight": 0.327
+        },
+        {
+          "requires": "minecraft",
+          "swap": {},
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "processor_type": "arcanavaria:block_swap",
+      "whole": true,
+      "mode": "random",
+      "sets": [
+        {
+          "requires": "hybrid_aquatic",
+          "swap": {
+            "thaumaturge:stone_eldritch_tile": "hybrid_aquatic:polished_chimneystone"
+          },
+          "weight": 1.0
+        },
+        {
+          "requires": "hybrid_aquatic",
+          "swap": {
+            "thaumaturge:stone_eldritch_tile": "hybrid_aquatic:chimneystone_bricks"
+          },
+          "weight": 0.99
+        },
+        {
+          "requires": "occultism",
+          "swap": {
+            "thaumaturge:stone_eldritch_tile": "occultism:polished_otherrock"
+          },
+          "weight": 0.926
+        },
+        {
+          "requires": "embers",
+          "swap": {
+            "thaumaturge:stone_eldritch_tile": "embers:archaic_bricks"
+          },
+          "weight": 0.912
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "thaumaturge:stone_eldritch_tile": "undergarden:sediment_stone_bricks"
+          },
+          "weight": 0.852
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "thaumaturge:stone_eldritch_tile": "create:small_scoria_bricks"
+          },
+          "weight": 0.843
+        },
+        {
+          "requires": "embers",
+          "swap": {
+            "thaumaturge:stone_eldritch_tile": "embers:archaic_large_bricks"
+          },
+          "weight": 0.805
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "thaumaturge:stone_eldritch_tile": "undergarden:polished_sediment_stone"
+          },
+          "weight": 0.774
+        },
+        {
+          "requires": "hybrid_aquatic",
+          "swap": {
+            "thaumaturge:stone_eldritch_tile": "hybrid_aquatic:chimneystone"
+          },
+          "weight": 0.711
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "thaumaturge:stone_eldritch_tile": "undergarden:polished_depthrock"
+          },
+          "weight": 0.701
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "thaumaturge:stone_eldritch_tile": "undergarden:depthrock_tiles"
+          },
+          "weight": 0.648
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "thaumaturge:stone_eldritch_tile": "create:polished_cut_scoria"
+          },
+          "weight": 0.623
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "thaumaturge:stone_eldritch_tile": "create:cut_scoria_bricks"
+          },
+          "weight": 0.608
+        },
+        {
+          "requires": "occultism",
+          "swap": {
+            "thaumaturge:stone_eldritch_tile": "occultism:othercobblerock"
+          },
+          "weight": 0.593
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "thaumaturge:stone_eldritch_tile": "undergarden:tremblecrust_bricks"
+          },
+          "weight": 0.592
+        },
+        {
+          "requires": "embers",
+          "swap": {
+            "thaumaturge:stone_eldritch_tile": "embers:archaic_tile"
+          },
+          "weight": 0.551
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "thaumaturge:stone_eldritch_tile": "undergarden:sediment_stone"
+          },
+          "weight": 0.544
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "thaumaturge:stone_eldritch_tile": "undergarden:dreadrock_bricks"
+          },
+          "weight": 0.476
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "thaumaturge:stone_eldritch_tile": "create:cut_scoria"
+          },
+          "weight": 0.415
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "thaumaturge:stone_eldritch_tile": "undergarden:tremblecrust"
+          },
+          "weight": 0.366
+        },
+        {
+          "requires": "quark",
+          "swap": {
+            "thaumaturge:stone_eldritch_tile": "quark:polished_tuff"
+          },
+          "weight": 0.361
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "thaumaturge:stone_eldritch_tile": "undergarden:smooth_sediment_stone"
+          },
+          "weight": 0.338
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "thaumaturge:stone_eldritch_tile": "undergarden:dreadrock"
+          },
+          "weight": 0.326
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "thaumaturge:stone_eldritch_tile": "undergarden:dirty_sediment_stone_bricks"
+          },
+          "weight": 0.319
+        },
+        {
+          "requires": "quark",
+          "swap": {
+            "thaumaturge:stone_eldritch_tile": "quark:cobblestone_bricks"
+          },
+          "weight": 0.308
+        },
+        {
+          "requires": "evilcraft",
+          "swap": {
+            "thaumaturge:stone_eldritch_tile": "evilcraft:dark_brick"
+          },
+          "weight": 0.243
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "thaumaturge:stone_eldritch_tile": "undergarden:cracked_sediment_stone_bricks"
+          },
+          "weight": 0.195
+        },
+        {
+          "requires": "cave_stuff",
+          "swap": {
+            "thaumaturge:stone_eldritch_tile": "cave_stuff:redand_green_tiles"
+          },
+          "weight": 0.19
+        },
+        {
+          "requires": "stellaris",
+          "swap": {
+            "thaumaturge:stone_eldritch_tile": "stellaris:ash_stone"
+          },
+          "weight": 0.187
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "thaumaturge:stone_eldritch_tile": "create:scoria"
+          },
+          "weight": 0.176
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "thaumaturge:stone_eldritch_tile": "create:layered_scoria"
+          },
+          "weight": 0.173
+        },
+        {
+          "requires": "embers",
+          "swap": {
+            "thaumaturge:stone_eldritch_tile": "embers:archaic_edge"
+          },
+          "weight": 0.162
+        },
+        {
+          "requires": "hybrid_aquatic",
+          "swap": {
+            "thaumaturge:stone_eldritch_tile": "hybrid_aquatic:chiseled_chimneystone"
+          },
+          "weight": 0.159
+        },
+        {
+          "requires": "stellaris",
+          "swap": {
+            "thaumaturge:stone_eldritch_tile": "stellaris:moon_pillar"
+          },
+          "weight": 0.133
+        },
+        {
+          "requires": "quark",
+          "swap": {
+            "thaumaturge:stone_eldritch_tile": "quark:tuff_pillar"
+          },
+          "weight": 0.096
+        },
+        {
+          "requires": "minecraft",
+          "swap": {},
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "processor_type": "arcanavaria:block_swap",
+      "whole": true,
+      "mode": "random",
+      "sets": [
+        {
+          "requires": "rechiseled",
+          "swap": {
+            "minecraft:purpur_pillar": "rechiseled:purpur_brick_paving"
+          },
+          "weight": 1.0
+        },
+        {
+          "requires": "malum",
+          "swap": {
+            "minecraft:purpur_pillar": "malum:scarstone"
+          },
+          "weight": 0.98
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "minecraft:purpur_pillar": "dndecor:magenta_small_deepslate_tiles"
+          },
+          "weight": 0.602
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "minecraft:purpur_pillar": "dndecor:purple_small_deepslate_tiles"
+          },
+          "weight": 0.544
+        },
+        {
+          "requires": "minecraft",
+          "swap": {},
+          "weight": 1.0
+        }
+      ]
+    }
+  ]
+}

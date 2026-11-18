@@ -1,0 +1,16 @@
+{
+  "values": [
+    {
+      "id": "stellaris:moon_craters",
+      "required": false
+    },
+    {
+      "id": "stellaris:lunar_desert",
+      "required": false
+    },
+    {
+      "id": "stellaris:lunar_blue_lake",
+      "required": false
+    }
+  ]
+}

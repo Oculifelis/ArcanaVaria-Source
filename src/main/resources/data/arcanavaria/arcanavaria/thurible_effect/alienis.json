@@ -1,0 +1,12 @@
+{
+  "aspect": "thaumaturge:alienis",
+  "target": "enemies",
+  "effects": [
+    {
+      "effect": "minecraft:levitation",
+      "duration": 30,
+      "amplifier": 0
+    }
+  ],
+  "description": "thurible.arcanavaria.cloud.alienis"
+}

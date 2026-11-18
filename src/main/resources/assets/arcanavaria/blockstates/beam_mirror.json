@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "flipped=false": {
+      "model": "arcanavaria:block/beam_mirror"
+    },
+    "flipped=true": {
+      "model": "arcanavaria:block/beam_mirror_flipped"
+    }
+  }
+}

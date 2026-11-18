@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " A ",
+    "ASA",
+    " L "
+  ],
+  "key": {
+    "A": "thaumaturge:amber",
+    "S": "thaumaturge:sapling_greatwood",
+    "L": "thaumaturge:log_greatwood"
+  },
+  "result": {
+    "id": "arcanavaria:heartseed"
+  }
+}

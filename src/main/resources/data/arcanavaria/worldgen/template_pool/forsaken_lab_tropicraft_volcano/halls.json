@@ -1,0 +1,83 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "tropicraft"
+    }
+  ],
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "arcanavaria:forsaken_lab_tropicraft_volcano/hall_straight_5",
+        "processors": "arcanavaria:wf/forsaken_lab_tropicraft_volcano",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "arcanavaria:forsaken_lab_tropicraft_volcano/hall_straight_7",
+        "processors": "arcanavaria:wf/forsaken_lab_tropicraft_volcano",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "arcanavaria:forsaken_lab_tropicraft_volcano/hall_straight_9",
+        "processors": "arcanavaria:wf/forsaken_lab_tropicraft_volcano",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "arcanavaria:forsaken_lab_tropicraft_volcano/hall_turn",
+        "processors": "arcanavaria:wf/forsaken_lab_tropicraft_volcano",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "arcanavaria:forsaken_lab_tropicraft_volcano/hall_tee",
+        "processors": "arcanavaria:wf/forsaken_lab_tropicraft_volcano",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "arcanavaria:forsaken_lab_tropicraft_volcano/hall_cross",
+        "processors": "arcanavaria:wf/forsaken_lab_tropicraft_volcano",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "arcanavaria:forsaken_lab_tropicraft_volcano/hall_dip_13",
+        "processors": "arcanavaria:wf/forsaken_lab_tropicraft_volcano",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "arcanavaria:forsaken_lab_tropicraft_volcano/hall_alcove_11",
+        "processors": "arcanavaria:wf/forsaken_lab_tropicraft_volcano",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "aerialhell"
+    }
+  ],
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "arcanavaria:forsaken_lab_aerialhell_catacombs/start_0",
+        "processors": "arcanavaria:wf/forsaken_lab_aerialhell_catacombs",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "arcanavaria:forsaken_lab_aerialhell_catacombs/start_1",
+        "processors": "arcanavaria:wf/forsaken_lab_aerialhell_catacombs",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

@@ -1,0 +1,783 @@
+{
+  "processors": [
+    {
+      "processor_type": "arcanavaria:markers"
+    },
+    {
+      "processor_type": "arcanavaria:block_swap",
+      "whole": true,
+      "mode": "random",
+      "sets": [
+        {
+          "requires": "stellaris",
+          "swap": {
+            "twilightforest:etched_nagastone": "stellaris:moon_stone_bricks"
+          },
+          "weight": 1.0
+        },
+        {
+          "requires": "quark",
+          "swap": {
+            "twilightforest:etched_nagastone": "quark:tuff_bricks"
+          },
+          "weight": 0.777
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "twilightforest:etched_nagastone": "create:small_deepslate_bricks"
+          },
+          "weight": 0.758
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "twilightforest:etched_nagastone": "undergarden:tremblecrust_bricks"
+          },
+          "weight": 0.718
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "twilightforest:etched_nagastone": "undergarden:sediment_stone_bricks"
+          },
+          "weight": 0.669
+        },
+        {
+          "requires": "stellaris",
+          "swap": {
+            "twilightforest:etched_nagastone": "stellaris:moon_stone"
+          },
+          "weight": 0.666
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "twilightforest:etched_nagastone": "dndecor:small_basalt_bricks"
+          },
+          "weight": 0.598
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "twilightforest:etched_nagastone": "undergarden:shiverstone_bricks"
+          },
+          "weight": 0.593
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "twilightforest:etched_nagastone": "createdeco:tiled_dusk_bricks"
+          },
+          "weight": 0.58
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "twilightforest:etched_nagastone": "createdeco:short_dusk_bricks"
+          },
+          "weight": 0.578
+        },
+        {
+          "requires": "rechiseled",
+          "swap": {
+            "twilightforest:etched_nagastone": "rechiseled:basalt_diagonal_tiles"
+          },
+          "weight": 0.557
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "twilightforest:etched_nagastone": "create:cut_deepslate_bricks"
+          },
+          "weight": 0.531
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "twilightforest:etched_nagastone": "createdeco:dusk_bricks"
+          },
+          "weight": 0.515
+        },
+        {
+          "requires": "embers",
+          "swap": {
+            "twilightforest:etched_nagastone": "embers:archaic_large_bricks"
+          },
+          "weight": 0.508
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "twilightforest:etched_nagastone": "createdeco:long_dusk_bricks"
+          },
+          "weight": 0.504
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "twilightforest:etched_nagastone": "undergarden:tremblecrust"
+          },
+          "weight": 0.484
+        },
+        {
+          "requires": "embers",
+          "swap": {
+            "twilightforest:etched_nagastone": "embers:archaic_bricks"
+          },
+          "weight": 0.454
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "twilightforest:etched_nagastone": "undergarden:sediment_stone"
+          },
+          "weight": 0.446
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "twilightforest:etched_nagastone": "dndecor:cut_basalt_bricks"
+          },
+          "weight": 0.436
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "twilightforest:etched_nagastone": "undergarden:shiverstone"
+          },
+          "weight": 0.42
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "twilightforest:etched_nagastone": "create:cut_deepslate"
+          },
+          "weight": 0.368
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "twilightforest:etched_nagastone": "createdeco:cracked_dusk_bricks"
+          },
+          "weight": 0.356
+        },
+        {
+          "requires": "embers",
+          "swap": {
+            "twilightforest:etched_nagastone": "embers:archaic_tile"
+          },
+          "weight": 0.331
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "twilightforest:etched_nagastone": "dndecor:cut_basalt"
+          },
+          "weight": 0.281
+        },
+        {
+          "requires": "terrestria",
+          "swap": {
+            "twilightforest:etched_nagastone": "terrestria:smooth_volcanic_rock"
+          },
+          "weight": 0.234
+        },
+        {
+          "requires": "stellaris",
+          "swap": {
+            "twilightforest:etched_nagastone": "stellaris:moon_cracked_stone_bricks"
+          },
+          "weight": 0.219
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "twilightforest:etched_nagastone": "undergarden:cracked_sediment_stone_bricks"
+          },
+          "weight": 0.143
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "twilightforest:etched_nagastone": "undergarden:chiseled_sediment_stone"
+          },
+          "weight": 0.099
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "twilightforest:etched_nagastone": "undergarden:sediment"
+          },
+          "weight": 0.088
+        },
+        {
+          "requires": "minecraft",
+          "swap": {},
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "processor_type": "arcanavaria:block_swap",
+      "whole": true,
+      "mode": "random",
+      "sets": [
+        {
+          "requires": "dndecor",
+          "swap": {
+            "twilightforest:nagastone": "dndecor:light_gray_small_deepslate_tiles"
+          },
+          "weight": 1.0
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "twilightforest:nagastone": "dndecor:gray_small_deepslate_tiles"
+          },
+          "weight": 0.473
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "twilightforest:nagastone": "dndecor:small_deepslate_tiles"
+          },
+          "weight": 0.47
+        },
+        {
+          "requires": "minecraft",
+          "swap": {},
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "processor_type": "arcanavaria:block_swap",
+      "whole": true,
+      "mode": "random",
+      "sets": [
+        {
+          "requires": "twilightforest",
+          "swap": {
+            "twilightforest:nagastone_pillar": "twilightforest:bold_stone_pillar"
+          },
+          "weight": 1.0
+        },
+        {
+          "requires": "rechiseled",
+          "swap": {
+            "twilightforest:nagastone_pillar": "rechiseled:cobblestone_chiseled_border"
+          },
+          "weight": 0.83
+        },
+        {
+          "requires": "twilightforest",
+          "swap": {
+            "twilightforest:nagastone_pillar": "twilightforest:encased_castle_brick_pillar"
+          },
+          "weight": 0.826
+        },
+        {
+          "requires": "quark",
+          "swap": {
+            "twilightforest:nagastone_pillar": "quark:chiseled_tuff_bricks"
+          },
+          "weight": 0.75
+        },
+        {
+          "requires": "aether",
+          "swap": {
+            "twilightforest:nagastone_pillar": "aether:carved_stone"
+          },
+          "weight": 0.683
+        },
+        {
+          "requires": "twilightforest",
+          "swap": {
+            "twilightforest:nagastone_pillar": "twilightforest:encased_castle_brick_tile"
+          },
+          "weight": 0.667
+        },
+        {
+          "requires": "twilightforest",
+          "swap": {
+            "twilightforest:nagastone_pillar": "twilightforest:terrorcotta_arcs"
+          },
+          "weight": 0.667
+        },
+        {
+          "requires": "twilightforest",
+          "swap": {
+            "twilightforest:nagastone_pillar": "twilightforest:twisted_stone"
+          },
+          "weight": 0.627
+        },
+        {
+          "requires": "cave_stuff",
+          "swap": {
+            "twilightforest:nagastone_pillar": "cave_stuff:polishedcharnockite"
+          },
+          "weight": 0.611
+        },
+        {
+          "requires": "neovitae",
+          "swap": {
+            "twilightforest:nagastone_pillar": "neovitae:dungeon_pillar_center"
+          },
+          "weight": 0.604
+        },
+        {
+          "requires": "quark",
+          "swap": {
+            "twilightforest:nagastone_pillar": "quark:sturdy_stone"
+          },
+          "weight": 0.596
+        },
+        {
+          "requires": "aether_ii",
+          "swap": {
+            "twilightforest:nagastone_pillar": "aether_ii:undershale_base_bricks"
+          },
+          "weight": 0.579
+        },
+        {
+          "requires": "aether_ii",
+          "swap": {
+            "twilightforest:nagastone_pillar": "aether_ii:undershale_flagstones"
+          },
+          "weight": 0.574
+        },
+        {
+          "requires": "aether_ii",
+          "swap": {
+            "twilightforest:nagastone_pillar": "aether_ii:undershale_capstone_bricks"
+          },
+          "weight": 0.574
+        },
+        {
+          "requires": "aether_ii",
+          "swap": {
+            "twilightforest:nagastone_pillar": "aether_ii:undershale_tile"
+          },
+          "weight": 0.562
+        },
+        {
+          "requires": "quark",
+          "swap": {
+            "twilightforest:nagastone_pillar": "quark:chiseled_shale_bricks"
+          },
+          "weight": 0.561
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "twilightforest:nagastone_pillar": "dndecor:layered_stone"
+          },
+          "weight": 0.551
+        },
+        {
+          "requires": "cave_stuff",
+          "swap": {
+            "twilightforest:nagastone_pillar": "cave_stuff:charnockite"
+          },
+          "weight": 0.549
+        },
+        {
+          "requires": "cave_stuff",
+          "swap": {
+            "twilightforest:nagastone_pillar": "cave_stuff:blueandredtiles"
+          },
+          "weight": 0.548
+        },
+        {
+          "requires": "quark",
+          "swap": {
+            "twilightforest:nagastone_pillar": "quark:tuff_pillar"
+          },
+          "weight": 0.544
+        },
+        {
+          "requires": "twilightforest",
+          "swap": {
+            "twilightforest:nagastone_pillar": "twilightforest:deadrock"
+          },
+          "weight": 0.542
+        },
+        {
+          "requires": "quark",
+          "swap": {
+            "twilightforest:nagastone_pillar": "quark:shale_pillar"
+          },
+          "weight": 0.541
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "twilightforest:nagastone_pillar": "undergarden:chiseled_tremblecrust_bricks"
+          },
+          "weight": 0.536
+        },
+        {
+          "requires": "stellaris",
+          "swap": {
+            "twilightforest:nagastone_pillar": "stellaris:moon_pillar"
+          },
+          "weight": 0.501
+        },
+        {
+          "requires": "arsmoriendi",
+          "swap": {
+            "twilightforest:nagastone_pillar": "arsmoriendi:lethe_granite"
+          },
+          "weight": 0.492
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "twilightforest:nagastone_pillar": "dndecor:andesite_floor"
+          },
+          "weight": 0.488
+        },
+        {
+          "requires": "stellaris",
+          "swap": {
+            "twilightforest:nagastone_pillar": "stellaris:moon_stone_pillar"
+          },
+          "weight": 0.487
+        },
+        {
+          "requires": "stellaris",
+          "swap": {
+            "twilightforest:nagastone_pillar": "stellaris:chiseled_moon_stone"
+          },
+          "weight": 0.487
+        },
+        {
+          "requires": "arsmoriendi",
+          "swap": {
+            "twilightforest:nagastone_pillar": "arsmoriendi:tomb_flagstones"
+          },
+          "weight": 0.48
+        },
+        {
+          "requires": "twilightforest",
+          "swap": {
+            "twilightforest:nagastone_pillar": "twilightforest:cracked_deadrock"
+          },
+          "weight": 0.444
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "twilightforest:nagastone_pillar": "undergarden:chiseled_shiverstone_bricks"
+          },
+          "weight": 0.429
+        },
+        {
+          "requires": "stellaris",
+          "swap": {
+            "twilightforest:nagastone_pillar": "stellaris:polished_moon_stone"
+          },
+          "weight": 0.413
+        },
+        {
+          "requires": "cave_stuff",
+          "swap": {
+            "twilightforest:nagastone_pillar": "cave_stuff:blueandgreentiles"
+          },
+          "weight": 0.396
+        },
+        {
+          "requires": "twilightforest",
+          "swap": {
+            "twilightforest:nagastone_pillar": "twilightforest:weathered_deadrock"
+          },
+          "weight": 0.393
+        },
+        {
+          "requires": "neovitae",
+          "swap": {
+            "twilightforest:nagastone_pillar": "neovitae:dungeon_brick2"
+          },
+          "weight": 0.392
+        },
+        {
+          "requires": "neovitae",
+          "swap": {
+            "twilightforest:nagastone_pillar": "neovitae:dungeon_brick3"
+          },
+          "weight": 0.389
+        },
+        {
+          "requires": "neovitae",
+          "swap": {
+            "twilightforest:nagastone_pillar": "neovitae:dungeon_smallbrick"
+          },
+          "weight": 0.375
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "twilightforest:nagastone_pillar": "create:layered_deepslate"
+          },
+          "weight": 0.359
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "twilightforest:nagastone_pillar": "undergarden:loose_tremblecrust"
+          },
+          "weight": 0.337
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "twilightforest:nagastone_pillar": "create:cut_tuff_bricks"
+          },
+          "weight": 0.33
+        },
+        {
+          "requires": "stellaris",
+          "swap": {
+            "twilightforest:nagastone_pillar": "stellaris:moon_deepslate"
+          },
+          "weight": 0.312
+        },
+        {
+          "requires": "stellaris",
+          "swap": {
+            "twilightforest:nagastone_pillar": "stellaris:moon_cobblestone"
+          },
+          "weight": 0.308
+        },
+        {
+          "requires": "regions_unexplored",
+          "swap": {
+            "twilightforest:nagastone_pillar": "regions_unexplored:ash_vent"
+          },
+          "weight": 0.292
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "twilightforest:nagastone_pillar": "dndecor:layered_basalt"
+          },
+          "weight": 0.275
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "twilightforest:nagastone_pillar": "undergarden:cracked_tremblecrust_bricks"
+          },
+          "weight": 0.241
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "twilightforest:nagastone_pillar": "undergarden:cracked_shiverstone_bricks"
+          },
+          "weight": 0.172
+        },
+        {
+          "requires": "minecraft",
+          "swap": {},
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "processor_type": "arcanavaria:block_swap",
+      "whole": true,
+      "mode": "random",
+      "sets": [
+        {
+          "requires": "quark",
+          "swap": {
+            "twilightforest:cracked_etched_nagastone": "quark:cobblestone_bricks"
+          },
+          "weight": 1.0
+        },
+        {
+          "requires": "aether_ii",
+          "swap": {
+            "twilightforest:cracked_etched_nagastone": "aether_ii:undershale_bricks"
+          },
+          "weight": 0.968
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "twilightforest:cracked_etched_nagastone": "createdeco:corner_blue_bricks"
+          },
+          "weight": 0.832
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "twilightforest:cracked_etched_nagastone": "createdeco:long_blue_bricks"
+          },
+          "weight": 0.818
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "twilightforest:cracked_etched_nagastone": "createdeco:blue_bricks"
+          },
+          "weight": 0.814
+        },
+        {
+          "requires": "arsmoriendi",
+          "swap": {
+            "twilightforest:cracked_etched_nagastone": "arsmoriendi:lethe_granite_bricks"
+          },
+          "weight": 0.802
+        },
+        {
+          "requires": "arsmoriendi",
+          "swap": {
+            "twilightforest:cracked_etched_nagastone": "arsmoriendi:polished_lethe_granite"
+          },
+          "weight": 0.772
+        },
+        {
+          "requires": "arsmoriendi",
+          "swap": {
+            "twilightforest:cracked_etched_nagastone": "arsmoriendi:ossuary_bricks"
+          },
+          "weight": 0.762
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "twilightforest:cracked_etched_nagastone": "dndecor:small_stone_bricks"
+          },
+          "weight": 0.752
+        },
+        {
+          "requires": "quark",
+          "swap": {
+            "twilightforest:cracked_etched_nagastone": "quark:polished_tuff"
+          },
+          "weight": 0.746
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "twilightforest:cracked_etched_nagastone": "createdeco:short_blue_bricks"
+          },
+          "weight": 0.739
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "twilightforest:cracked_etched_nagastone": "createdeco:tiled_blue_bricks"
+          },
+          "weight": 0.734
+        },
+        {
+          "requires": "rechiseled",
+          "swap": {
+            "twilightforest:cracked_etched_nagastone": "rechiseled:stone_rotated_bricks"
+          },
+          "weight": 0.715
+        },
+        {
+          "requires": "arsmoriendi",
+          "swap": {
+            "twilightforest:cracked_etched_nagastone": "arsmoriendi:tomb_ashlar"
+          },
+          "weight": 0.647
+        },
+        {
+          "requires": "quark",
+          "swap": {
+            "twilightforest:cracked_etched_nagastone": "quark:polished_shale"
+          },
+          "weight": 0.605
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "twilightforest:cracked_etched_nagastone": "createdeco:cracked_blue_bricks"
+          },
+          "weight": 0.601
+        },
+        {
+          "requires": "quark",
+          "swap": {
+            "twilightforest:cracked_etched_nagastone": "quark:shale_bricks"
+          },
+          "weight": 0.567
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "twilightforest:cracked_etched_nagastone": "dndecor:cut_stone_bricks"
+          },
+          "weight": 0.553
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "twilightforest:cracked_etched_nagastone": "dndecor:polished_cut_stone"
+          },
+          "weight": 0.551
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "twilightforest:cracked_etched_nagastone": "create:polished_cut_deepslate"
+          },
+          "weight": 0.404
+        },
+        {
+          "requires": "quark",
+          "swap": {
+            "twilightforest:cracked_etched_nagastone": "quark:shale"
+          },
+          "weight": 0.392
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "twilightforest:cracked_etched_nagastone": "dndecor:cut_stone"
+          },
+          "weight": 0.346
+        },
+        {
+          "requires": "hybrid_aquatic",
+          "swap": {
+            "twilightforest:cracked_etched_nagastone": "hybrid_aquatic:polished_schist"
+          },
+          "weight": 0.329
+        },
+        {
+          "requires": "hybrid_aquatic",
+          "swap": {
+            "twilightforest:cracked_etched_nagastone": "hybrid_aquatic:schist_bricks"
+          },
+          "weight": 0.316
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "twilightforest:cracked_etched_nagastone": "dndecor:polished_cut_basalt"
+          },
+          "weight": 0.263
+        },
+        {
+          "requires": "cave_stuff",
+          "swap": {
+            "twilightforest:cracked_etched_nagastone": "cave_stuff:oligocenelimestonelapislazuliore"
+          },
+          "weight": 0.131
+        },
+        {
+          "requires": "minecraft",
+          "swap": {},
+          "weight": 1.0
+        }
+      ]
+    }
+  ]
+}

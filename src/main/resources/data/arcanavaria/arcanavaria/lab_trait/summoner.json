@@ -1,0 +1,13 @@
+{
+  "name": "lab_trait.arcanavaria.summoner",
+  "colour": 14211304,
+  "particle": {
+    "type": "minecraft:soul"
+  },
+  "ability": {
+    "kind": "summon",
+    "every": 240,
+    "entity": "minecraft:vex",
+    "count": 2
+  }
+}

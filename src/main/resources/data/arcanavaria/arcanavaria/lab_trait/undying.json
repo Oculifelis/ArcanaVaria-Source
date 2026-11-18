@@ -1,0 +1,13 @@
+{
+  "name": "lab_trait.arcanavaria.undying",
+  "colour": 15788208,
+  "particle": {
+    "type": "minecraft:totem_of_undying"
+  },
+  "champion": "thaumaturge:undying",
+  "ability": {
+    "kind": "heal",
+    "every": 200,
+    "power": 24
+  }
+}

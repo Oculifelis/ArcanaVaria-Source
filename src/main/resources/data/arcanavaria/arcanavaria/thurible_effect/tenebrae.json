@@ -1,0 +1,12 @@
+{
+  "aspect": "thaumaturge:tenebrae",
+  "target": "enemies",
+  "effects": [
+    {
+      "effect": "minecraft:blindness",
+      "duration": 60,
+      "amplifier": 0
+    }
+  ],
+  "description": "thurible.arcanavaria.cloud.tenebrae"
+}

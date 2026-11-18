@@ -1,0 +1,892 @@
+{
+  "processors": [
+    {
+      "processor_type": "arcanavaria:markers"
+    },
+    {
+      "processor_type": "arcanavaria:block_swap",
+      "whole": true,
+      "mode": "random",
+      "sets": [
+        {
+          "requires": "stellaris",
+          "swap": {
+            "undergarden:cracked_shiverstone_bricks": "stellaris:moon_cracked_stone_bricks",
+            "undergarden:shiverstone_brick_slab": "stellaris:moon_stone_brick_slab",
+            "undergarden:shiverstone_brick_stairs": "stellaris:moon_stone_brick_stairs",
+            "undergarden:shiverstone_bricks": "stellaris:moon_stone_bricks"
+          },
+          "weight": 1.0
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "undergarden:cracked_shiverstone_bricks": "undergarden:cracked_shiverstone_bricks",
+            "undergarden:shiverstone_brick_slab": "undergarden:shiverstone_brick_slab",
+            "undergarden:shiverstone_brick_stairs": "undergarden:shiverstone_brick_stairs",
+            "undergarden:shiverstone_bricks": "undergarden:shiverstone_bricks"
+          },
+          "weight": 0.793
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "undergarden:cracked_shiverstone_bricks": "undergarden:cracked_sediment_stone_bricks",
+            "undergarden:shiverstone_brick_slab": "undergarden:sediment_stone_brick_slab",
+            "undergarden:shiverstone_brick_stairs": "undergarden:sediment_stone_brick_stairs",
+            "undergarden:shiverstone_bricks": "undergarden:sediment_stone_bricks"
+          },
+          "weight": 0.745
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "undergarden:cracked_shiverstone_bricks": "createdeco:cracked_dusk_bricks",
+            "undergarden:shiverstone_brick_slab": "createdeco:dusk_brick_slab",
+            "undergarden:shiverstone_brick_stairs": "createdeco:dusk_brick_stairs",
+            "undergarden:shiverstone_bricks": "createdeco:dusk_bricks"
+          },
+          "weight": 0.641
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "undergarden:cracked_shiverstone_bricks": "undergarden:cracked_tremblecrust_bricks",
+            "undergarden:shiverstone_brick_slab": "undergarden:tremblecrust_brick_slab",
+            "undergarden:shiverstone_brick_stairs": "undergarden:tremblecrust_brick_stairs",
+            "undergarden:shiverstone_bricks": "undergarden:tremblecrust_bricks"
+          },
+          "weight": 0.41
+        },
+        {
+          "requires": "terrestria",
+          "swap": {
+            "undergarden:cracked_shiverstone_bricks": "terrestria:cracked_volcanic_rock_bricks",
+            "undergarden:shiverstone_brick_slab": "terrestria:volcanic_rock_brick_slab",
+            "undergarden:shiverstone_brick_stairs": "terrestria:volcanic_rock_brick_stairs",
+            "undergarden:shiverstone_bricks": "terrestria:volcanic_rock_bricks"
+          },
+          "weight": 0.377
+        },
+        {
+          "requires": "occultism",
+          "swap": {
+            "undergarden:cracked_shiverstone_bricks": "occultism:cracked_otherrock_bricks",
+            "undergarden:shiverstone_brick_slab": "occultism:otherrock_bricks_slab",
+            "undergarden:shiverstone_brick_stairs": "occultism:otherrock_bricks_stairs",
+            "undergarden:shiverstone_bricks": "occultism:otherrock_bricks"
+          },
+          "weight": 0.312
+        },
+        {
+          "requires": "minecraft",
+          "swap": {},
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "processor_type": "arcanavaria:block_swap",
+      "whole": true,
+      "mode": "random",
+      "sets": [
+        {
+          "requires": "undergarden",
+          "swap": {
+            "undergarden:smogstem_planks": "undergarden:smogstem_planks",
+            "undergarden:smogstem_stairs": "undergarden:smogstem_stairs"
+          },
+          "weight": 1.0
+        },
+        {
+          "requires": "regions_unexplored",
+          "swap": {
+            "undergarden:smogstem_planks": "regions_unexplored:gray_painted_planks",
+            "undergarden:smogstem_stairs": "regions_unexplored:gray_painted_stairs"
+          },
+          "weight": 0.64
+        },
+        {
+          "requires": "arsmoriendi",
+          "swap": {
+            "undergarden:smogstem_planks": "arsmoriendi:drowned_oak_planks",
+            "undergarden:smogstem_stairs": "arsmoriendi:drowned_oak_stairs"
+          },
+          "weight": 0.512
+        },
+        {
+          "requires": "upgrade_aquatic",
+          "swap": {
+            "undergarden:smogstem_planks": "upgrade_aquatic:driftwood_planks",
+            "undergarden:smogstem_stairs": "upgrade_aquatic:driftwood_stairs"
+          },
+          "weight": 0.508
+        },
+        {
+          "requires": "regions_unexplored",
+          "swap": {
+            "undergarden:smogstem_planks": "regions_unexplored:blackwood_planks",
+            "undergarden:smogstem_stairs": "regions_unexplored:blackwood_stairs"
+          },
+          "weight": 0.269
+        },
+        {
+          "requires": "minecraft",
+          "swap": {},
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "processor_type": "arcanavaria:block_swap",
+      "whole": true,
+      "mode": "random",
+      "sets": [
+        {
+          "requires": "dndecor",
+          "swap": {
+            "undergarden:chiseled_shiverstone_bricks": "dndecor:gray_small_deepslate_tiles"
+          },
+          "weight": 1.0
+        },
+        {
+          "requires": "stellaris",
+          "swap": {
+            "undergarden:chiseled_shiverstone_bricks": "stellaris:polished_moon_stone"
+          },
+          "weight": 1.0
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "undergarden:chiseled_shiverstone_bricks": "dndecor:small_deepslate_tiles"
+          },
+          "weight": 0.968
+        },
+        {
+          "requires": "hybrid_aquatic",
+          "swap": {
+            "undergarden:chiseled_shiverstone_bricks": "hybrid_aquatic:polished_schist"
+          },
+          "weight": 0.819
+        },
+        {
+          "requires": "rechiseled",
+          "swap": {
+            "undergarden:chiseled_shiverstone_bricks": "rechiseled:basalt_tiles"
+          },
+          "weight": 0.807
+        },
+        {
+          "requires": "terrestria",
+          "swap": {
+            "undergarden:chiseled_shiverstone_bricks": "terrestria:smooth_volcanic_rock"
+          },
+          "weight": 0.784
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "undergarden:chiseled_shiverstone_bricks": "dndecor:black_small_deepslate_tiles"
+          },
+          "weight": 0.735
+        },
+        {
+          "requires": "stellaris",
+          "swap": {
+            "undergarden:chiseled_shiverstone_bricks": "stellaris:moon_deepslate"
+          },
+          "weight": 0.679
+        },
+        {
+          "requires": "stellaris",
+          "swap": {
+            "undergarden:chiseled_shiverstone_bricks": "stellaris:moon_stone_pillar"
+          },
+          "weight": 0.678
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "undergarden:chiseled_shiverstone_bricks": "dndecor:layered_basalt"
+          },
+          "weight": 0.675
+        },
+        {
+          "requires": "stellaris",
+          "swap": {
+            "undergarden:chiseled_shiverstone_bricks": "stellaris:moon_cobblestone"
+          },
+          "weight": 0.667
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "undergarden:chiseled_shiverstone_bricks": "create:layered_deepslate"
+          },
+          "weight": 0.638
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "undergarden:chiseled_shiverstone_bricks": "createdeco:short_dusk_bricks"
+          },
+          "weight": 0.63
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "undergarden:chiseled_shiverstone_bricks": "createdeco:tiled_dusk_bricks"
+          },
+          "weight": 0.628
+        },
+        {
+          "requires": "regions_unexplored",
+          "swap": {
+            "undergarden:chiseled_shiverstone_bricks": "regions_unexplored:ash_vent"
+          },
+          "weight": 0.624
+        },
+        {
+          "requires": "stellaris",
+          "swap": {
+            "undergarden:chiseled_shiverstone_bricks": "stellaris:moon_pillar"
+          },
+          "weight": 0.622
+        },
+        {
+          "requires": "occultism",
+          "swap": {
+            "undergarden:chiseled_shiverstone_bricks": "occultism:polished_otherrock"
+          },
+          "weight": 0.616
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "undergarden:chiseled_shiverstone_bricks": "undergarden:chiseled_shiverstone_bricks"
+          },
+          "weight": 0.584
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "undergarden:chiseled_shiverstone_bricks": "dndecor:light_gray_small_deepslate_tiles"
+          },
+          "weight": 0.583
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "undergarden:chiseled_shiverstone_bricks": "createdeco:long_dusk_bricks"
+          },
+          "weight": 0.547
+        },
+        {
+          "requires": "quark",
+          "swap": {
+            "undergarden:chiseled_shiverstone_bricks": "quark:shale_pillar"
+          },
+          "weight": 0.524
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "undergarden:chiseled_shiverstone_bricks": "createdeco:corner_dusk_bricks"
+          },
+          "weight": 0.517
+        },
+        {
+          "requires": "arsmoriendi",
+          "swap": {
+            "undergarden:chiseled_shiverstone_bricks": "arsmoriendi:tomb_flagstones"
+          },
+          "weight": 0.512
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "undergarden:chiseled_shiverstone_bricks": "undergarden:cracked_shiverstone_bricks"
+          },
+          "weight": 0.492
+        },
+        {
+          "requires": "stellaris",
+          "swap": {
+            "undergarden:chiseled_shiverstone_bricks": "stellaris:chiseled_moon_stone"
+          },
+          "weight": 0.486
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "undergarden:chiseled_shiverstone_bricks": "undergarden:loose_tremblecrust"
+          },
+          "weight": 0.484
+        },
+        {
+          "requires": "stellaris",
+          "swap": {
+            "undergarden:chiseled_shiverstone_bricks": "stellaris:moon_cracked_stone_bricks"
+          },
+          "weight": 0.484
+        },
+        {
+          "requires": "stellaris",
+          "swap": {
+            "undergarden:chiseled_shiverstone_bricks": "stellaris:ash_stone"
+          },
+          "weight": 0.466
+        },
+        {
+          "requires": "hybrid_aquatic",
+          "swap": {
+            "undergarden:chiseled_shiverstone_bricks": "hybrid_aquatic:black_pearl_block"
+          },
+          "weight": 0.458
+        },
+        {
+          "requires": "hybrid_aquatic",
+          "swap": {
+            "undergarden:chiseled_shiverstone_bricks": "hybrid_aquatic:schist"
+          },
+          "weight": 0.423
+        },
+        {
+          "requires": "cave_stuff",
+          "swap": {
+            "undergarden:chiseled_shiverstone_bricks": "cave_stuff:charnockite"
+          },
+          "weight": 0.417
+        },
+        {
+          "requires": "aether_ii",
+          "swap": {
+            "undergarden:chiseled_shiverstone_bricks": "aether_ii:undershale_tile"
+          },
+          "weight": 0.417
+        },
+        {
+          "requires": "twilightforest",
+          "swap": {
+            "undergarden:chiseled_shiverstone_bricks": "twilightforest:castle_roof_tile"
+          },
+          "weight": 0.401
+        },
+        {
+          "requires": "aether_ii",
+          "swap": {
+            "undergarden:chiseled_shiverstone_bricks": "aether_ii:undershale_flagstones"
+          },
+          "weight": 0.395
+        },
+        {
+          "requires": "aether_ii",
+          "swap": {
+            "undergarden:chiseled_shiverstone_bricks": "aether_ii:undershale_capstone_bricks"
+          },
+          "weight": 0.395
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "undergarden:chiseled_shiverstone_bricks": "create:scorchia"
+          },
+          "weight": 0.388
+        },
+        {
+          "requires": "twilightforest",
+          "swap": {
+            "undergarden:chiseled_shiverstone_bricks": "twilightforest:deadrock"
+          },
+          "weight": 0.386
+        },
+        {
+          "requires": "cave_stuff",
+          "swap": {
+            "undergarden:chiseled_shiverstone_bricks": "cave_stuff:blueandredtiles"
+          },
+          "weight": 0.386
+        },
+        {
+          "requires": "aether_ii",
+          "swap": {
+            "undergarden:chiseled_shiverstone_bricks": "aether_ii:undershale_base_bricks"
+          },
+          "weight": 0.385
+        },
+        {
+          "requires": "arsmoriendi",
+          "swap": {
+            "undergarden:chiseled_shiverstone_bricks": "arsmoriendi:lethe_granite"
+          },
+          "weight": 0.384
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "undergarden:chiseled_shiverstone_bricks": "createdeco:cracked_dusk_bricks"
+          },
+          "weight": 0.381
+        },
+        {
+          "requires": "cave_stuff",
+          "swap": {
+            "undergarden:chiseled_shiverstone_bricks": "cave_stuff:polishedcharnockite"
+          },
+          "weight": 0.362
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "undergarden:chiseled_shiverstone_bricks": "dndecor:andesite_floor"
+          },
+          "weight": 0.357
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "undergarden:chiseled_shiverstone_bricks": "undergarden:cracked_tremblecrust_bricks"
+          },
+          "weight": 0.351
+        },
+        {
+          "requires": "quark",
+          "swap": {
+            "undergarden:chiseled_shiverstone_bricks": "quark:sturdy_stone"
+          },
+          "weight": 0.347
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "undergarden:chiseled_shiverstone_bricks": "undergarden:chiseled_tremblecrust_bricks"
+          },
+          "weight": 0.341
+        },
+        {
+          "requires": "quark",
+          "swap": {
+            "undergarden:chiseled_shiverstone_bricks": "quark:chiseled_shale_bricks"
+          },
+          "weight": 0.335
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "undergarden:chiseled_shiverstone_bricks": "dndecor:polished_cut_blackstone"
+          },
+          "weight": 0.323
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "undergarden:chiseled_shiverstone_bricks": "create:cut_scorchia"
+          },
+          "weight": 0.32
+        },
+        {
+          "requires": "hybrid_aquatic",
+          "swap": {
+            "undergarden:chiseled_shiverstone_bricks": "hybrid_aquatic:chiseled_schist"
+          },
+          "weight": 0.313
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "undergarden:chiseled_shiverstone_bricks": "dndecor:small_blackstone_bricks"
+          },
+          "weight": 0.307
+        },
+        {
+          "requires": "arsmoriendi",
+          "swap": {
+            "undergarden:chiseled_shiverstone_bricks": "arsmoriendi:cinder_flagstones"
+          },
+          "weight": 0.299
+        },
+        {
+          "requires": "twilightforest",
+          "swap": {
+            "undergarden:chiseled_shiverstone_bricks": "twilightforest:terrorcotta_arcs"
+          },
+          "weight": 0.297
+        },
+        {
+          "requires": "twilightforest",
+          "swap": {
+            "undergarden:chiseled_shiverstone_bricks": "twilightforest:bold_stone_pillar"
+          },
+          "weight": 0.295
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "undergarden:chiseled_shiverstone_bricks": "dndecor:layered_blackstone"
+          },
+          "weight": 0.287
+        },
+        {
+          "requires": "twilightforest",
+          "swap": {
+            "undergarden:chiseled_shiverstone_bricks": "twilightforest:encased_castle_brick_tile"
+          },
+          "weight": 0.276
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "undergarden:chiseled_shiverstone_bricks": "dndecor:cut_blackstone"
+          },
+          "weight": 0.236
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "undergarden:chiseled_shiverstone_bricks": "dndecor:cut_blackstone_bricks"
+          },
+          "weight": 0.213
+        },
+        {
+          "requires": "minecraft",
+          "swap": {},
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "processor_type": "arcanavaria:block_swap",
+      "whole": true,
+      "mode": "random",
+      "sets": [
+        {
+          "requires": "aerialhell",
+          "swap": {
+            "undergarden:smogstem_log": "aerialhell:giant_verdigris_agaric_bark_stem"
+          },
+          "weight": 1.0
+        },
+        {
+          "requires": "cave_stuff",
+          "swap": {
+            "undergarden:smogstem_log": "cave_stuff:tolypocladiumstem"
+          },
+          "weight": 0.915
+        },
+        {
+          "requires": "arsmoriendi",
+          "swap": {
+            "undergarden:smogstem_log": "arsmoriendi:drowned_oak_log"
+          },
+          "weight": 0.688
+        },
+        {
+          "requires": "minecraft",
+          "swap": {},
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "processor_type": "arcanavaria:block_swap",
+      "whole": true,
+      "mode": "random",
+      "sets": [
+        {
+          "requires": "create",
+          "swap": {
+            "undergarden:shiverstone": "create:small_deepslate_bricks",
+            "undergarden:shiverstone_slab": "create:small_deepslate_brick_slab",
+            "undergarden:shiverstone_stairs": "create:small_deepslate_brick_stairs"
+          },
+          "weight": 1.0
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "undergarden:shiverstone": "dndecor:small_basalt_bricks",
+            "undergarden:shiverstone_slab": "dndecor:small_basalt_brick_slab",
+            "undergarden:shiverstone_stairs": "dndecor:small_basalt_brick_stairs"
+          },
+          "weight": 0.882
+        },
+        {
+          "requires": "quark",
+          "swap": {
+            "undergarden:shiverstone": "quark:shale_bricks",
+            "undergarden:shiverstone_slab": "quark:shale_bricks_slab",
+            "undergarden:shiverstone_stairs": "quark:shale_bricks_stairs"
+          },
+          "weight": 0.834
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "undergarden:shiverstone": "undergarden:shiverstone",
+            "undergarden:shiverstone_slab": "undergarden:shiverstone_slab",
+            "undergarden:shiverstone_stairs": "undergarden:shiverstone_stairs"
+          },
+          "weight": 0.802
+        },
+        {
+          "requires": "quark",
+          "swap": {
+            "undergarden:shiverstone": "quark:polished_shale",
+            "undergarden:shiverstone_slab": "quark:polished_shale_slab",
+            "undergarden:shiverstone_stairs": "quark:polished_shale_stairs"
+          },
+          "weight": 0.797
+        },
+        {
+          "requires": "rechiseled",
+          "swap": {
+            "undergarden:shiverstone": "rechiseled:cobbled_deepslate_rotated_bricks",
+            "undergarden:shiverstone_slab": "rechiseled:cobbled_deepslate_rotated_bricks_slab",
+            "undergarden:shiverstone_stairs": "rechiseled:cobbled_deepslate_rotated_bricks_stairs"
+          },
+          "weight": 0.764
+        },
+        {
+          "requires": "arsmoriendi",
+          "swap": {
+            "undergarden:shiverstone": "arsmoriendi:lethe_granite_bricks",
+            "undergarden:shiverstone_slab": "arsmoriendi:lethe_granite_brick_slab",
+            "undergarden:shiverstone_stairs": "arsmoriendi:lethe_granite_brick_stairs"
+          },
+          "weight": 0.723
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "undergarden:shiverstone": "create:cut_deepslate_bricks",
+            "undergarden:shiverstone_slab": "create:cut_deepslate_brick_slab",
+            "undergarden:shiverstone_stairs": "create:cut_deepslate_brick_stairs"
+          },
+          "weight": 0.714
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "undergarden:shiverstone": "create:polished_cut_deepslate",
+            "undergarden:shiverstone_slab": "create:polished_cut_deepslate_slab",
+            "undergarden:shiverstone_stairs": "create:polished_cut_deepslate_stairs"
+          },
+          "weight": 0.711
+        },
+        {
+          "requires": "hybrid_aquatic",
+          "swap": {
+            "undergarden:shiverstone": "hybrid_aquatic:schist_bricks",
+            "undergarden:shiverstone_slab": "hybrid_aquatic:schist_brick_slab",
+            "undergarden:shiverstone_stairs": "hybrid_aquatic:schist_brick_stairs"
+          },
+          "weight": 0.698
+        },
+        {
+          "requires": "quark",
+          "swap": {
+            "undergarden:shiverstone": "quark:polished_tuff",
+            "undergarden:shiverstone_slab": "quark:polished_tuff_slab",
+            "undergarden:shiverstone_stairs": "quark:polished_tuff_stairs"
+          },
+          "weight": 0.671
+        },
+        {
+          "requires": "aether_ii",
+          "swap": {
+            "undergarden:shiverstone": "aether_ii:undershale_bricks",
+            "undergarden:shiverstone_slab": "aether_ii:undershale_brick_slab",
+            "undergarden:shiverstone_stairs": "aether_ii:undershale_brick_stairs"
+          },
+          "weight": 0.654
+        },
+        {
+          "requires": "stellaris",
+          "swap": {
+            "undergarden:shiverstone": "stellaris:moon_stone",
+            "undergarden:shiverstone_slab": "stellaris:moon_stone_slab",
+            "undergarden:shiverstone_stairs": "stellaris:moon_stone_stairs"
+          },
+          "weight": 0.639
+        },
+        {
+          "requires": "quark",
+          "swap": {
+            "undergarden:shiverstone": "quark:cobblestone_bricks",
+            "undergarden:shiverstone_slab": "quark:cobblestone_bricks_slab",
+            "undergarden:shiverstone_stairs": "quark:cobblestone_bricks_stairs"
+          },
+          "weight": 0.629
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "undergarden:shiverstone": "dndecor:cut_basalt_bricks",
+            "undergarden:shiverstone_slab": "dndecor:cut_basalt_brick_slab",
+            "undergarden:shiverstone_stairs": "dndecor:cut_basalt_brick_stairs"
+          },
+          "weight": 0.625
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "undergarden:shiverstone": "dndecor:polished_cut_basalt",
+            "undergarden:shiverstone_slab": "dndecor:polished_cut_basalt_slab",
+            "undergarden:shiverstone_stairs": "dndecor:polished_cut_basalt_stairs"
+          },
+          "weight": 0.604
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "undergarden:shiverstone": "createdeco:corner_blue_bricks",
+            "undergarden:shiverstone_slab": "createdeco:corner_blue_brick_slab",
+            "undergarden:shiverstone_stairs": "createdeco:corner_blue_brick_stairs"
+          },
+          "weight": 0.59
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "undergarden:shiverstone": "createdeco:long_blue_bricks",
+            "undergarden:shiverstone_slab": "createdeco:long_blue_brick_slab",
+            "undergarden:shiverstone_stairs": "createdeco:long_blue_brick_stairs"
+          },
+          "weight": 0.562
+        },
+        {
+          "requires": "quark",
+          "swap": {
+            "undergarden:shiverstone": "quark:shale",
+            "undergarden:shiverstone_slab": "quark:shale_slab",
+            "undergarden:shiverstone_stairs": "quark:shale_stairs"
+          },
+          "weight": 0.535
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "undergarden:shiverstone": "createdeco:blue_bricks",
+            "undergarden:shiverstone_slab": "createdeco:blue_brick_slab",
+            "undergarden:shiverstone_stairs": "createdeco:blue_brick_stairs"
+          },
+          "weight": 0.535
+        },
+        {
+          "requires": "arsmoriendi",
+          "swap": {
+            "undergarden:shiverstone": "arsmoriendi:polished_lethe_granite",
+            "undergarden:shiverstone_slab": "arsmoriendi:polished_lethe_granite_slab",
+            "undergarden:shiverstone_stairs": "arsmoriendi:polished_lethe_granite_stairs"
+          },
+          "weight": 0.525
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "undergarden:shiverstone": "create:cut_deepslate",
+            "undergarden:shiverstone_slab": "create:cut_deepslate_slab",
+            "undergarden:shiverstone_stairs": "create:cut_deepslate_stairs"
+          },
+          "weight": 0.452
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "undergarden:shiverstone": "createdeco:short_blue_bricks",
+            "undergarden:shiverstone_slab": "createdeco:short_blue_brick_slab",
+            "undergarden:shiverstone_stairs": "createdeco:short_blue_brick_stairs"
+          },
+          "weight": 0.446
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "undergarden:shiverstone": "createdeco:tiled_blue_bricks",
+            "undergarden:shiverstone_slab": "createdeco:tiled_blue_brick_slab",
+            "undergarden:shiverstone_stairs": "createdeco:tiled_blue_brick_stairs"
+          },
+          "weight": 0.446
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "undergarden:shiverstone": "createdeco:cracked_blue_bricks",
+            "undergarden:shiverstone_slab": "createdeco:cracked_blue_brick_slab",
+            "undergarden:shiverstone_stairs": "createdeco:cracked_blue_brick_stairs"
+          },
+          "weight": 0.412
+        },
+        {
+          "requires": "arsmoriendi",
+          "swap": {
+            "undergarden:shiverstone": "arsmoriendi:ossuary_bricks",
+            "undergarden:shiverstone_slab": "arsmoriendi:ossuary_brick_slab",
+            "undergarden:shiverstone_stairs": "arsmoriendi:ossuary_brick_stairs"
+          },
+          "weight": 0.393
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "undergarden:shiverstone": "dndecor:small_stone_bricks",
+            "undergarden:shiverstone_slab": "dndecor:small_stone_brick_slab",
+            "undergarden:shiverstone_stairs": "dndecor:small_stone_brick_stairs"
+          },
+          "weight": 0.385
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "undergarden:shiverstone": "dndecor:cut_basalt",
+            "undergarden:shiverstone_slab": "dndecor:cut_basalt_slab",
+            "undergarden:shiverstone_stairs": "dndecor:cut_basalt_stairs"
+          },
+          "weight": 0.376
+        },
+        {
+          "requires": "arsmoriendi",
+          "swap": {
+            "undergarden:shiverstone": "arsmoriendi:tomb_ashlar",
+            "undergarden:shiverstone_slab": "arsmoriendi:tomb_ashlar_slab",
+            "undergarden:shiverstone_stairs": "arsmoriendi:tomb_ashlar_stairs"
+          },
+          "weight": 0.332
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "undergarden:shiverstone": "dndecor:cut_stone_bricks",
+            "undergarden:shiverstone_slab": "dndecor:cut_stone_brick_slab",
+            "undergarden:shiverstone_stairs": "dndecor:cut_stone_brick_stairs"
+          },
+          "weight": 0.283
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "undergarden:shiverstone": "dndecor:polished_cut_stone",
+            "undergarden:shiverstone_slab": "dndecor:polished_cut_stone_slab",
+            "undergarden:shiverstone_stairs": "dndecor:polished_cut_stone_stairs"
+          },
+          "weight": 0.28
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "undergarden:shiverstone": "dndecor:cut_stone",
+            "undergarden:shiverstone_slab": "dndecor:cut_stone_slab",
+            "undergarden:shiverstone_stairs": "dndecor:cut_stone_stairs"
+          },
+          "weight": 0.177
+        },
+        {
+          "requires": "minecraft",
+          "swap": {},
+          "weight": 1.0
+        }
+      ]
+    }
+  ]
+}

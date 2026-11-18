@@ -1,0 +1,10 @@
+{
+  "values": {
+    "arcanavaria:thurible": {
+      "reach": 3.0,
+      "chain_reach": 4.5,
+      "radius": 2.0,
+      "cloud_radius": 3.0
+    }
+  }
+}

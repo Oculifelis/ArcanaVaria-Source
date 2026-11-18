@@ -1,0 +1,12 @@
+{
+  "aspect": "thaumaturge:terra",
+  "target": "allies",
+  "effects": [
+    {
+      "effect": "minecraft:resistance",
+      "duration": 100,
+      "amplifier": 0
+    }
+  ],
+  "description": "thurible.arcanavaria.cloud.terra"
+}

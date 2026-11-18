@@ -1,0 +1,285 @@
+{
+  "processors": [
+    {
+      "processor_type": "arcanavaria:markers"
+    },
+    {
+      "processor_type": "arcanavaria:block_swap",
+      "whole": true,
+      "mode": "random",
+      "sets": [
+        {
+          "requires": "undergarden",
+          "swap": {
+            "undergarden:cracked_depthrock_bricks": "undergarden:cracked_sediment_stone_bricks",
+            "undergarden:depthrock_brick_slab": "undergarden:sediment_stone_brick_slab",
+            "undergarden:depthrock_brick_stairs": "undergarden:sediment_stone_brick_stairs",
+            "undergarden:depthrock_bricks": "undergarden:sediment_stone_bricks"
+          },
+          "weight": 1.0
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "undergarden:cracked_depthrock_bricks": "undergarden:cracked_depthrock_bricks",
+            "undergarden:depthrock_brick_slab": "undergarden:depthrock_brick_slab",
+            "undergarden:depthrock_brick_stairs": "undergarden:depthrock_brick_stairs",
+            "undergarden:depthrock_bricks": "undergarden:depthrock_bricks"
+          },
+          "weight": 0.946
+        },
+        {
+          "requires": "minecraft",
+          "swap": {},
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "processor_type": "arcanavaria:block_swap",
+      "whole": true,
+      "mode": "random",
+      "sets": [
+        {
+          "requires": "undergarden",
+          "swap": {
+            "undergarden:depthrock_tile_slab": "undergarden:depthrock_tile_slab",
+            "undergarden:depthrock_tile_stairs": "undergarden:depthrock_tile_stairs",
+            "undergarden:depthrock_tiles": "undergarden:depthrock_tiles"
+          },
+          "weight": 1.0
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "undergarden:depthrock_tile_slab": "undergarden:polished_depthrock_slab",
+            "undergarden:depthrock_tile_stairs": "undergarden:polished_depthrock_stairs",
+            "undergarden:depthrock_tiles": "undergarden:polished_depthrock"
+          },
+          "weight": 0.89
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "undergarden:depthrock_tile_slab": "undergarden:polished_sediment_stone_slab",
+            "undergarden:depthrock_tile_stairs": "undergarden:polished_sediment_stone_stairs",
+            "undergarden:depthrock_tiles": "undergarden:polished_sediment_stone"
+          },
+          "weight": 0.596
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "undergarden:depthrock_tile_slab": "undergarden:dreadrock_brick_slab",
+            "undergarden:depthrock_tile_stairs": "undergarden:dreadrock_brick_stairs",
+            "undergarden:depthrock_tiles": "undergarden:dreadrock_bricks"
+          },
+          "weight": 0.575
+        },
+        {
+          "requires": "aerialhell",
+          "swap": {
+            "undergarden:depthrock_tile_slab": "aerialhell:stellar_cobblestone_slab",
+            "undergarden:depthrock_tile_stairs": "aerialhell:stellar_cobblestone_stairs",
+            "undergarden:depthrock_tiles": "aerialhell:stellar_cobblestone"
+          },
+          "weight": 0.525
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "undergarden:depthrock_tile_slab": "undergarden:dreadrock_slab",
+            "undergarden:depthrock_tile_stairs": "undergarden:dreadrock_stairs",
+            "undergarden:depthrock_tiles": "undergarden:dreadrock"
+          },
+          "weight": 0.402
+        },
+        {
+          "requires": "minecraft",
+          "swap": {},
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "processor_type": "arcanavaria:block_swap",
+      "whole": true,
+      "mode": "random",
+      "sets": [
+        {
+          "requires": "embers",
+          "swap": {
+            "undergarden:cloggrum_pillar": "embers:archaic_large_bricks"
+          },
+          "weight": 1.0
+        },
+        {
+          "requires": "embers",
+          "swap": {
+            "undergarden:cloggrum_pillar": "embers:archaic_tile"
+          },
+          "weight": 0.966
+        },
+        {
+          "requires": "embers",
+          "swap": {
+            "undergarden:cloggrum_pillar": "embers:archaic_edge"
+          },
+          "weight": 0.954
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "undergarden:cloggrum_pillar": "dndecor:brown_small_deepslate_tiles"
+          },
+          "weight": 0.859
+        },
+        {
+          "requires": "minecraft",
+          "swap": {},
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "processor_type": "arcanavaria:block_swap",
+      "whole": true,
+      "mode": "random",
+      "sets": [
+        {
+          "requires": "aerialhell",
+          "swap": {
+            "undergarden:polished_depthrock": "aerialhell:stellar_stone_bricks"
+          },
+          "weight": 1.0
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "undergarden:polished_depthrock": "undergarden:dirty_sediment_stone_bricks"
+          },
+          "weight": 0.905
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "undergarden:polished_depthrock": "undergarden:cracked_sediment_stone_bricks"
+          },
+          "weight": 0.681
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "undergarden:polished_depthrock": "undergarden:sediment_stone"
+          },
+          "weight": 0.588
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "undergarden:polished_depthrock": "undergarden:chiseled_depthrock_bricks"
+          },
+          "weight": 0.567
+        },
+        {
+          "requires": "aerialhell",
+          "swap": {
+            "undergarden:polished_depthrock": "aerialhell:stellar_stone"
+          },
+          "weight": 0.563
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "undergarden:polished_depthrock": "undergarden:cracked_depthrock_bricks"
+          },
+          "weight": 0.53
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "undergarden:polished_depthrock": "undergarden:depthrock"
+          },
+          "weight": 0.497
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "undergarden:polished_depthrock": "undergarden:chiseled_sediment_stone"
+          },
+          "weight": 0.414
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "undergarden:polished_depthrock": "undergarden:sediment"
+          },
+          "weight": 0.407
+        },
+        {
+          "requires": "cave_stuff",
+          "swap": {
+            "undergarden:polished_depthrock": "cave_stuff:serpentinitepillar"
+          },
+          "weight": 0.355
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "undergarden:polished_depthrock": "undergarden:smooth_sediment_stone"
+          },
+          "weight": 0.354
+        },
+        {
+          "requires": "cave_stuff",
+          "swap": {
+            "undergarden:polished_depthrock": "cave_stuff:serpentinitebricks"
+          },
+          "weight": 0.338
+        },
+        {
+          "requires": "cave_stuff",
+          "swap": {
+            "undergarden:polished_depthrock": "cave_stuff:polishedserpentinite"
+          },
+          "weight": 0.248
+        },
+        {
+          "requires": "minecraft",
+          "swap": {},
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "processor_type": "arcanavaria:block_swap",
+      "whole": true,
+      "mode": "random",
+      "sets": [
+        {
+          "requires": "undergarden",
+          "swap": {
+            "undergarden:cloggrum_tile_slab": "undergarden:tremblecrust_brick_slab",
+            "undergarden:cloggrum_tile_stairs": "undergarden:tremblecrust_brick_stairs",
+            "undergarden:cloggrum_tiles": "undergarden:tremblecrust_bricks"
+          },
+          "weight": 1.0
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "undergarden:cloggrum_tile_slab": "undergarden:tremblecrust_slab",
+            "undergarden:cloggrum_tile_stairs": "undergarden:tremblecrust_stairs",
+            "undergarden:cloggrum_tiles": "undergarden:tremblecrust"
+          },
+          "weight": 0.69
+        },
+        {
+          "requires": "minecraft",
+          "swap": {},
+          "weight": 1.0
+        }
+      ]
+    }
+  ]
+}

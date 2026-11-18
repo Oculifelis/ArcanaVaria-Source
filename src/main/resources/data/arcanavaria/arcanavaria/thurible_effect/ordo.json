@@ -1,0 +1,12 @@
+{
+  "aspect": "thaumaturge:ordo",
+  "target": "allies",
+  "effects": [
+    {
+      "effect": "minecraft:absorption",
+      "duration": 200,
+      "amplifier": 0
+    }
+  ],
+  "description": "thurible.arcanavaria.cloud.ordo"
+}

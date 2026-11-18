@@ -1,0 +1,51 @@
+{
+  "category": "arcanavaria:arcanavaria",
+  "name": "research.arcanavaria.elemental_scythe.title",
+  "parents": [
+    "arcanavaria:scythes",
+    "thaumaturge:elemental_tools"
+  ],
+  "column": -1,
+  "row": 4,
+  "icons": [
+    "arcanavaria:elemental_scythe"
+  ],
+  "stages": [
+    {
+      "text": "research.arcanavaria.elemental_scythe.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:infusion",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:infusion",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.arcanavaria.elemental_scythe.stage_1",
+      "recipes": [
+        "arcanavaria:infusion/elemental_scythe"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:instrumentum",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:aversio",
+      "amount": 3
+    }
+  ],
+  "complexity": 2
+}

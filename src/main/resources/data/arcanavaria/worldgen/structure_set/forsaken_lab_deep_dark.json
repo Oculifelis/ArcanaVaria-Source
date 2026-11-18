@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "arcanavaria:forsaken_lab_deep_dark",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 40,
+    "separation": 12,
+    "salt": 1478194225
+  }
+}

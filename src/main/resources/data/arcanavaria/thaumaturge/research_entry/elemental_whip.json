@@ -1,0 +1,73 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "fundamentum"
+    }
+  ],
+  "category": "arcanavaria:arcanavaria",
+  "name": "research.arcanavaria.elemental_whip.title",
+  "parents": [
+    "arcanavaria:whips",
+    "thaumaturge:elemental_tools"
+  ],
+  "column": -4,
+  "row": 4,
+  "icons": [
+    "arcanavaria:elemental_whip"
+  ],
+  "stages": [
+    {
+      "text": "research.arcanavaria.elemental_whip.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:infusion",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:infusion",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.arcanavaria.elemental_whip.stage_1",
+      "recipes": [
+        "arcanavaria:infusion/elemental_whip"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:instrumentum",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:aqua",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:terra",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 2
+    }
+  ],
+  "complexity": 2
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "ward=dormant": {
+      "model": "arcanavaria:block/ward_core_dormant"
+    },
+    "ward=sealed": {
+      "model": "arcanavaria:block/ward_core_sealed"
+    },
+    "ward=cleared": {
+      "model": "arcanavaria:block/ward_core_cleared"
+    }
+  }
+}

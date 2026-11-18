@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "lit=false,rune=0": {
+      "model": "arcanavaria:block/rune_stone_0"
+    },
+    "lit=true,rune=0": {
+      "model": "arcanavaria:block/rune_stone_0_lit"
+    },
+    "lit=false,rune=1": {
+      "model": "arcanavaria:block/rune_stone_1"
+    },
+    "lit=true,rune=1": {
+      "model": "arcanavaria:block/rune_stone_1_lit"
+    },
+    "lit=false,rune=2": {
+      "model": "arcanavaria:block/rune_stone_2"
+    },
+    "lit=true,rune=2": {
+      "model": "arcanavaria:block/rune_stone_2_lit"
+    },
+    "lit=false,rune=3": {
+      "model": "arcanavaria:block/rune_stone_3"
+    },
+    "lit=true,rune=3": {
+      "model": "arcanavaria:block/rune_stone_3_lit"
+    },
+    "lit=false,rune=4": {
+      "model": "arcanavaria:block/rune_stone_4"
+    },
+    "lit=true,rune=4": {
+      "model": "arcanavaria:block/rune_stone_4_lit"
+    },
+    "lit=false,rune=5": {
+      "model": "arcanavaria:block/rune_stone_5"
+    },
+    "lit=true,rune=5": {
+      "model": "arcanavaria:block/rune_stone_5_lit"
+    },
+    "lit=false,rune=6": {
+      "model": "arcanavaria:block/rune_stone_6"
+    },
+    "lit=true,rune=6": {
+      "model": "arcanavaria:block/rune_stone_6_lit"
+    },
+    "lit=false,rune=7": {
+      "model": "arcanavaria:block/rune_stone_7"
+    },
+    "lit=true,rune=7": {
+      "model": "arcanavaria:block/rune_stone_7_lit"
+    }
+  }
+}

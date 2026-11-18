@@ -1,0 +1,17 @@
+{
+  "aspect": "thaumaturge:gelum",
+  "target": "enemies",
+  "effects": [
+    {
+      "effect": "minecraft:slowness",
+      "duration": 80,
+      "amplifier": 1
+    },
+    {
+      "effect": "minecraft:mining_fatigue",
+      "duration": 80,
+      "amplifier": 0
+    }
+  ],
+  "description": "thurible.arcanavaria.cloud.gelum"
+}

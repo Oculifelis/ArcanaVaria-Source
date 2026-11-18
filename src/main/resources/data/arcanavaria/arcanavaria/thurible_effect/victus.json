@@ -1,0 +1,13 @@
+{
+  "aspect": "thaumaturge:victus",
+  "target": "allies",
+  "effects": [
+    {
+      "effect": "minecraft:regeneration",
+      "duration": 60,
+      "amplifier": 0
+    }
+  ],
+  "heal": 2.0,
+  "description": "thurible.arcanavaria.cloud.victus"
+}

@@ -1,0 +1,31 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "crystals": [
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 1
+    }
+  ],
+  "key": {
+    "B": "thaumaturge:plate_brass",
+    "P": "arcanavaria:lattice_pipe",
+    "A": "minecraft:amethyst_shard"
+  },
+  "pattern": [
+    "BPB",
+    "PAP",
+    "BPB"
+  ],
+  "research": {
+    "entry": "arcanavaria:lattice_prism",
+    "stage": 0
+  },
+  "result": {
+    "id": "arcanavaria:lattice_prism"
+  },
+  "vis": 25
+}

@@ -1,0 +1,23 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "arcanavaria:forsaken_lab_soul/start_0",
+        "processors": "arcanavaria:wf/forsaken_lab_soul",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "arcanavaria:forsaken_lab_soul/start_1",
+        "processors": "arcanavaria:wf/forsaken_lab_soul",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

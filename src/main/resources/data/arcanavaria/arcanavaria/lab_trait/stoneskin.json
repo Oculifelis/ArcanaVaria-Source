@@ -1,0 +1,19 @@
+{
+  "name": "lab_trait.arcanavaria.stoneskin",
+  "colour": 8423568,
+  "particle": {
+    "type": "minecraft:ash"
+  },
+  "attributes": [
+    {
+      "attribute": "minecraft:armor_toughness",
+      "amount": 8,
+      "operation": "add_value"
+    },
+    {
+      "attribute": "minecraft:knockback_resistance",
+      "amount": 1,
+      "operation": "add_value"
+    }
+  ]
+}

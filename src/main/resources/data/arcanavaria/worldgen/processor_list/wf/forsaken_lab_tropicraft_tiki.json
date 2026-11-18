@@ -1,0 +1,163 @@
+{
+  "processors": [
+    {
+      "processor_type": "arcanavaria:markers"
+    },
+    {
+      "processor_type": "arcanavaria:block_swap",
+      "whole": true,
+      "mode": "random",
+      "sets": [
+        {
+          "requires": "tropicraft",
+          "swap": {
+            "tropicraft:palm_planks": "tropicraft:palm_planks",
+            "tropicraft:palm_slab": "tropicraft:palm_slab",
+            "tropicraft:palm_stairs": "tropicraft:palm_stairs"
+          },
+          "weight": 1.0
+        },
+        {
+          "requires": "malum",
+          "swap": {
+            "tropicraft:palm_planks": "malum:rustic_runewood_tiles",
+            "tropicraft:palm_slab": "malum:rustic_runewood_tiles_slab",
+            "tropicraft:palm_stairs": "malum:rustic_runewood_tiles_stairs"
+          },
+          "weight": 0.969
+        },
+        {
+          "requires": "aether_ii",
+          "swap": {
+            "tropicraft:palm_planks": "aether_ii:greatroot_planks",
+            "tropicraft:palm_slab": "aether_ii:greatroot_slab",
+            "tropicraft:palm_stairs": "aether_ii:greatroot_stairs"
+          },
+          "weight": 0.783
+        },
+        {
+          "requires": "malum",
+          "swap": {
+            "tropicraft:palm_planks": "malum:vertical_rustic_runewood_planks",
+            "tropicraft:palm_slab": "malum:vertical_rustic_runewood_planks_slab",
+            "tropicraft:palm_stairs": "malum:vertical_rustic_runewood_planks_stairs"
+          },
+          "weight": 0.666
+        },
+        {
+          "requires": "malum",
+          "swap": {
+            "tropicraft:palm_planks": "malum:rustic_runewood_planks",
+            "tropicraft:palm_slab": "malum:rustic_runewood_planks_slab",
+            "tropicraft:palm_stairs": "malum:rustic_runewood_planks_stairs"
+          },
+          "weight": 0.666
+        },
+        {
+          "requires": "malum",
+          "swap": {
+            "tropicraft:palm_planks": "malum:runewood_planks",
+            "tropicraft:palm_slab": "malum:runewood_planks_slab",
+            "tropicraft:palm_stairs": "malum:runewood_planks_stairs"
+          },
+          "weight": 0.666
+        },
+        {
+          "requires": "terrestria",
+          "swap": {
+            "tropicraft:palm_planks": "terrestria:sakura_planks",
+            "tropicraft:palm_slab": "terrestria:sakura_slab",
+            "tropicraft:palm_stairs": "terrestria:sakura_stairs"
+          },
+          "weight": 0.659
+        },
+        {
+          "requires": "malum",
+          "swap": {
+            "tropicraft:palm_planks": "malum:vertical_runewood_planks",
+            "tropicraft:palm_slab": "malum:vertical_runewood_planks_slab",
+            "tropicraft:palm_stairs": "malum:vertical_runewood_planks_stairs"
+          },
+          "weight": 0.654
+        },
+        {
+          "requires": "biomesoplenty",
+          "swap": {
+            "tropicraft:palm_planks": "biomesoplenty:hellbark_planks",
+            "tropicraft:palm_slab": "biomesoplenty:hellbark_slab",
+            "tropicraft:palm_stairs": "biomesoplenty:hellbark_stairs"
+          },
+          "weight": 0.604
+        },
+        {
+          "requires": "regions_unexplored",
+          "swap": {
+            "tropicraft:palm_planks": "regions_unexplored:dead_planks",
+            "tropicraft:palm_slab": "regions_unexplored:dead_slab",
+            "tropicraft:palm_stairs": "regions_unexplored:dead_stairs"
+          },
+          "weight": 0.589
+        },
+        {
+          "requires": "malum",
+          "swap": {
+            "tropicraft:palm_planks": "malum:runewood_boards",
+            "tropicraft:palm_slab": "malum:runewood_boards_slab",
+            "tropicraft:palm_stairs": "malum:runewood_boards_stairs"
+          },
+          "weight": 0.561
+        },
+        {
+          "requires": "malum",
+          "swap": {
+            "tropicraft:palm_planks": "malum:vertical_runewood_boards",
+            "tropicraft:palm_slab": "malum:vertical_runewood_boards_slab",
+            "tropicraft:palm_stairs": "malum:vertical_runewood_boards_stairs"
+          },
+          "weight": 0.559
+        },
+        {
+          "requires": "embers",
+          "swap": {
+            "tropicraft:palm_planks": "embers:sealed_planks",
+            "tropicraft:palm_slab": "embers:sealed_planks_slab",
+            "tropicraft:palm_stairs": "embers:sealed_planks_stairs"
+          },
+          "weight": 0.52
+        },
+        {
+          "requires": "regions_unexplored",
+          "swap": {
+            "tropicraft:palm_planks": "regions_unexplored:brimwood_planks",
+            "tropicraft:palm_slab": "regions_unexplored:brimwood_slab",
+            "tropicraft:palm_stairs": "regions_unexplored:brimwood_stairs"
+          },
+          "weight": 0.447
+        },
+        {
+          "requires": "regions_unexplored",
+          "swap": {
+            "tropicraft:palm_planks": "regions_unexplored:blackwood_planks",
+            "tropicraft:palm_slab": "regions_unexplored:blackwood_slab",
+            "tropicraft:palm_stairs": "regions_unexplored:blackwood_stairs"
+          },
+          "weight": 0.433
+        },
+        {
+          "requires": "upgrade_aquatic",
+          "swap": {
+            "tropicraft:palm_planks": "upgrade_aquatic:driftwood_planks",
+            "tropicraft:palm_slab": "upgrade_aquatic:driftwood_slab",
+            "tropicraft:palm_stairs": "upgrade_aquatic:driftwood_stairs"
+          },
+          "weight": 0.426
+        },
+        {
+          "requires": "minecraft",
+          "swap": {},
+          "weight": 1.0
+        }
+      ]
+    }
+  ]
+}

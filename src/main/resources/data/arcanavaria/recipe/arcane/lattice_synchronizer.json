@@ -1,0 +1,31 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "crystals": [
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 1
+    }
+  ],
+  "key": {
+    "R": "minecraft:repeater",
+    "P": "arcanavaria:lattice_pipe",
+    "C": "minecraft:clock"
+  },
+  "pattern": [
+    " R ",
+    "PCP",
+    " R "
+  ],
+  "research": {
+    "entry": "arcanavaria:lattice_junction",
+    "stage": 0
+  },
+  "result": {
+    "id": "arcanavaria:lattice_synchronizer"
+  },
+  "vis": 20
+}

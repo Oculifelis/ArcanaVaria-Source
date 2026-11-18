@@ -1,0 +1,50 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="${mod_license}"
+
+[[mods]]
+modId="${mod_id}"
+version="${mod_version}"
+displayName="${mod_name}"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/arcana-varia"
+authors="Oculifelis"
+credits="Scythes after Scythes Vanilla by Drift007_: sprites, in-hand model, sounds, stats and the Soul Devourer, Grim Harvest, Eclipse and Reaper's Step enchantments (MIT / CC0, see licenses/scythes_vanilla-LICENSE.txt). Warden's Amber Heart sprite from unused-textures by Malcolm Riley (CC BY 4.0, see licenses/malcolm_riley-CC-BY-4.0.txt). Thaumaturge by Leclowndu93150 and contributors; textures drawn on Thaumaturge art are not covered by the LGPL. See META-INF/CREDITS.md."
+description='''
+Assorted Thaumaturge odds and ends: sealed Wizard Towers and Forsaken Laboratories with puzzles and guardians, the
+Thurible, the Architect's Lens, the Alembic Lattice, Thaumium, Void and Elemental Scythes with four scythe
+enchantments, the Greatwood Warden boss and four cord whips. Requires Fundamentum.
+'''
+
+[[mixins]]
+config="${mod_id}.mixins.json"
+
+[[dependencies.${mod_id}]]
+    modId="neoforge"
+    type="required"
+    versionRange="[26.1.2.71,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.${mod_id}]]
+    modId="minecraft"
+    type="required"
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.${mod_id}]]
+    modId="thaumaturge"
+    type="required"
+    versionRange="${thaumaturge_version_range}"
+    ordering="AFTER"
+    side="BOTH"
+[[dependencies.${mod_id}]]
+    modId="fundamentum"
+    type="required"
+    versionRange="[1.27.2,)"
+    ordering="AFTER"
+    side="BOTH"
+[[dependencies.${mod_id}]]
+    modId="jei"
+    type="optional"
+    versionRange="[29,)"
+    ordering="NONE"
+    side="CLIENT"

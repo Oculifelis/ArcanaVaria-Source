@@ -1,0 +1,10 @@
+{
+  "name": "lab_archetype.arcanavaria.blighted_beast",
+  "entity": "minecraft:ravager",
+  "health": 260,
+  "damage": 10,
+  "armor": 8,
+  "scale": 1.2,
+  "speed": 0.9,
+  "bar": "red"
+}

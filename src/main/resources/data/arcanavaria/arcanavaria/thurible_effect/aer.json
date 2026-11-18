@@ -1,0 +1,12 @@
+{
+  "aspect": "thaumaturge:aer",
+  "target": "allies",
+  "effects": [
+    {
+      "effect": "minecraft:speed",
+      "duration": 100,
+      "amplifier": 0
+    }
+  ],
+  "description": "thurible.arcanavaria.cloud.aer"
+}

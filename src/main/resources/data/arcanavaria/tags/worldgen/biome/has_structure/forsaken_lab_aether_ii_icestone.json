@@ -1,0 +1,16 @@
+{
+  "values": [
+    {
+      "id": "aether_ii:frigid_sierra",
+      "required": false
+    },
+    {
+      "id": "aether_ii:frozen_lakes",
+      "required": false
+    },
+    {
+      "id": "aether_ii:sheer_tundra",
+      "required": false
+    }
+  ]
+}

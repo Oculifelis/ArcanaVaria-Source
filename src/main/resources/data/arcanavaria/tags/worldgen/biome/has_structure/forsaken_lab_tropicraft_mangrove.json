@@ -1,0 +1,16 @@
+{
+  "values": [
+    {
+      "id": "tropicraft:mangroves",
+      "required": false
+    },
+    {
+      "id": "tropicraft:overgrown_mangroves",
+      "required": false
+    },
+    {
+      "id": "tropicraft:kelp_forest",
+      "required": false
+    }
+  ]
+}

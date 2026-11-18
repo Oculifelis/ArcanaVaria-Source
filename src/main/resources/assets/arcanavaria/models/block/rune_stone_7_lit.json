@@ -1,0 +1,63 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "side": "thaumaturge:block/arcane_brick_stone",
+    "top": "arcanavaria:block/rune_stone_7",
+    "glow": "arcanavaria:block/rune_glow_7",
+    "particle": "thaumaturge:block/arcane_brick_stone"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "north": {
+          "texture": "#side"
+        },
+        "south": {
+          "texture": "#side"
+        },
+        "east": {
+          "texture": "#side"
+        },
+        "west": {
+          "texture": "#side"
+        },
+        "up": {
+          "texture": "#top"
+        },
+        "down": {
+          "texture": "#side"
+        }
+      }
+    },
+    {
+      "from": [
+        0,
+        16.02,
+        0
+      ],
+      "to": [
+        16,
+        16.02,
+        16
+      ],
+      "faces": {
+        "up": {
+          "texture": "#glow"
+        }
+      },
+      "light_emission": 15,
+      "shade": false
+    }
+  ],
+  "render_type": "minecraft:translucent"
+}

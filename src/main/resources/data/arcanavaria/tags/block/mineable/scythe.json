@@ -1,0 +1,27 @@
+{
+  "values": [
+    "#minecraft:leaves",
+    "#minecraft:flowers",
+    "#minecraft:crops",
+    "#minecraft:saplings",
+    "#minecraft:replaceable_by_trees",
+    "minecraft:cobweb",
+    "minecraft:vine",
+    "minecraft:sweet_berry_bush",
+    "minecraft:nether_wart",
+    "minecraft:sugar_cane",
+    "minecraft:kelp",
+    "minecraft:kelp_plant",
+    "minecraft:hay_block",
+    "minecraft:moss_carpet",
+    "minecraft:moss_block",
+    {
+      "id": "thaumaturge:leaves_greatwood",
+      "required": false
+    },
+    {
+      "id": "thaumaturge:leaves_silverwood",
+      "required": false
+    }
+  ]
+}

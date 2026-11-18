@@ -1,0 +1,12 @@
+{
+  "item": "arcanavaria:elemental_scythe",
+  "damage": 8.5,
+  "reach": 4,
+  "moves": {
+    "sweet_spot": {},
+    "backswing": {},
+    "crescent_wave": {
+      "input": "sneak_use"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "aspect": "thaumaturge:praemunio",
+  "target": "allies",
+  "effects": [
+    {
+      "effect": "minecraft:resistance",
+      "duration": 100,
+      "amplifier": 1
+    }
+  ],
+  "description": "thurible.arcanavaria.cloud.praemunio"
+}

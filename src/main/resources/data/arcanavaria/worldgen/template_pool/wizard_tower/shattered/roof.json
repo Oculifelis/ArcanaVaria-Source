@@ -1,0 +1,14 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "arcanavaria:wizard_tower/shattered/roof",
+        "processors": "arcanavaria:wf/wizard_tower",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

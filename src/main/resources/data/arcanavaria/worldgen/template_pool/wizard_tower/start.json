@@ -1,0 +1,41 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "arcanavaria:wizard_tower/classic/base",
+        "processors": "arcanavaria:wf/wizard_tower",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "arcanavaria:wizard_tower/thaumic/base",
+        "processors": "arcanavaria:wf/wizard_tower",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "arcanavaria:wizard_tower/crooked/base",
+        "processors": "arcanavaria:wf/wizard_tower",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "arcanavaria:wizard_tower/shattered/base",
+        "processors": "arcanavaria:wf/wizard_tower",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

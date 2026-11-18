@@ -1,0 +1,26 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "crystals": [
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 1
+    }
+  ],
+  "key": {
+    "B": "thaumaturge:plate_brass",
+    "P": "arcanavaria:lattice_pipe",
+    "T": "thaumaturge:tube"
+  },
+  "pattern": [
+    "BPB",
+    "BTB"
+  ],
+  "research": {
+    "entry": "arcanavaria:alembic_lattice",
+    "stage": 0
+  },
+  "result": {
+    "id": "arcanavaria:lattice_intake"
+  },
+  "vis": 15
+}

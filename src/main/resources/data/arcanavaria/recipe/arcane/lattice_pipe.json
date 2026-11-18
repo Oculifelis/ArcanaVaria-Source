@@ -1,0 +1,25 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "crystals": [
+    {
+      "aspect": "thaumaturge:aqua",
+      "amount": 1
+    }
+  ],
+  "key": {
+    "G": "minecraft:glass_pane",
+    "N": "thaumaturge:nugget_brass"
+  },
+  "pattern": [
+    "GNG"
+  ],
+  "research": {
+    "entry": "arcanavaria:alembic_lattice",
+    "stage": 0
+  },
+  "result": {
+    "id": "arcanavaria:lattice_pipe",
+    "count": 4
+  },
+  "vis": 5
+}

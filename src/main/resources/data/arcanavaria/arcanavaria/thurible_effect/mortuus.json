@@ -1,0 +1,12 @@
+{
+  "aspect": "thaumaturge:mortuus",
+  "target": "enemies",
+  "effects": [
+    {
+      "effect": "minecraft:wither",
+      "duration": 80,
+      "amplifier": 0
+    }
+  ],
+  "description": "thurible.arcanavaria.cloud.mortuus"
+}

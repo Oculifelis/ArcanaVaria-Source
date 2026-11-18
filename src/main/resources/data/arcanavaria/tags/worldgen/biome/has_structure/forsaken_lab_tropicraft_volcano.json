@@ -1,0 +1,20 @@
+{
+  "values": [
+    {
+      "id": "tropicraft:rainforest",
+      "required": false
+    },
+    {
+      "id": "tropicraft:osa_rainforest",
+      "required": false
+    },
+    {
+      "id": "tropicraft:bamboo_rainforest",
+      "required": false
+    },
+    {
+      "id": "tropicraft:tropical_peaks",
+      "required": false
+    }
+  ]
+}

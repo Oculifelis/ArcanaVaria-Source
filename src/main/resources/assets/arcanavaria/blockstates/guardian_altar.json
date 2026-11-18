@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "awake=false": {
+      "model": "arcanavaria:block/guardian_altar"
+    },
+    "awake=true": {
+      "model": "arcanavaria:block/guardian_altar_awake"
+    }
+  }
+}

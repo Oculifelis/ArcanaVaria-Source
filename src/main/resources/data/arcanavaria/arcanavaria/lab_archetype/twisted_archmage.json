@@ -1,0 +1,9 @@
+{
+  "name": "lab_archetype.arcanavaria.twisted_archmage",
+  "entity": "minecraft:evoker",
+  "health": 220,
+  "damage": 6,
+  "armor": 6,
+  "scale": 1.5,
+  "bar": "purple"
+}

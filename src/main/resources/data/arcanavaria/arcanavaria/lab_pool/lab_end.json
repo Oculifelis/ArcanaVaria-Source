@@ -1,0 +1,48 @@
+{
+  "archetypes": [
+    {
+      "id": "arcanavaria:void_stalker",
+      "weight": 14
+    },
+    {
+      "id": "arcanavaria:twisted_archmage",
+      "weight": 6
+    },
+    {
+      "id": "arcanavaria:brass_colossus",
+      "weight": 4
+    }
+  ],
+  "traits": [
+    {
+      "id": "arcanavaria:blinking",
+      "weight": 16
+    },
+    {
+      "id": "arcanavaria:eldritch",
+      "weight": 14
+    },
+    {
+      "id": "arcanavaria:warded",
+      "weight": 10
+    },
+    {
+      "id": "arcanavaria:summoner",
+      "weight": 8
+    },
+    {
+      "id": "arcanavaria:undying",
+      "weight": 8
+    },
+    {
+      "id": "arcanavaria:swift",
+      "weight": 8
+    },
+    {
+      "id": "arcanavaria:sickening",
+      "weight": 6
+    }
+  ],
+  "min_traits": 2,
+  "max_traits": 3
+}

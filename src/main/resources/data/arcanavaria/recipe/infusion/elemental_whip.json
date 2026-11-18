@@ -1,0 +1,55 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "fundamentum"
+    }
+  ],
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 15
+    },
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 15
+    },
+    {
+      "aspect": "thaumaturge:aqua",
+      "amount": 15
+    },
+    {
+      "aspect": "thaumaturge:terra",
+      "amount": 15
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 15
+    },
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 15
+    },
+    {
+      "aspect": "thaumaturge:instrumentum",
+      "amount": 20
+    }
+  ],
+  "catalyst": "arcanavaria:thaumium_whip",
+  "components": [
+    "thaumaturge:crystal_aer",
+    "thaumaturge:crystal_ignis",
+    "thaumaturge:crystal_aqua",
+    "thaumaturge:crystal_terra",
+    "thaumaturge:crystal_ordo",
+    "thaumaturge:crystal_perditio"
+  ],
+  "instability": 2,
+  "research": {
+    "entry": "arcanavaria:elemental_whip"
+  },
+  "result": {
+    "id": "arcanavaria:elemental_whip"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=false": {
+      "model": "arcanavaria:block/beam_receptor"
+    },
+    "lit=true": {
+      "model": "arcanavaria:block/beam_receptor_on"
+    }
+  }
+}

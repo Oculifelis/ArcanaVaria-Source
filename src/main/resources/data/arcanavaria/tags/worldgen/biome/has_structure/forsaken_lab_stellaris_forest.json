@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "stellaris:lunar_forest",
+      "required": false
+    },
+    {
+      "id": "stellaris:burnt_forest",
+      "required": false
+    }
+  ]
+}

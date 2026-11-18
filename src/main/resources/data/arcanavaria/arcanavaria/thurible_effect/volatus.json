@@ -1,0 +1,17 @@
+{
+  "aspect": "thaumaturge:volatus",
+  "target": "allies",
+  "effects": [
+    {
+      "effect": "minecraft:slow_falling",
+      "duration": 160,
+      "amplifier": 0
+    },
+    {
+      "effect": "minecraft:jump_boost",
+      "duration": 160,
+      "amplifier": 0
+    }
+  ],
+  "description": "thurible.arcanavaria.cloud.volatus"
+}

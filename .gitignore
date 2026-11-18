@@ -1,0 +1,12 @@
+.gradle/
+build/
+run/
+libs/*.jar
+*.log
+.idea/
+out/
+reference/
+run_client_test.out
+run_client.log*
+tools/_preview/
+libs/art/

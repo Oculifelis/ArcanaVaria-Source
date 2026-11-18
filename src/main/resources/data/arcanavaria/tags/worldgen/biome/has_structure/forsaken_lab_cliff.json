@@ -1,0 +1,40 @@
+{
+  "values": [
+    {
+      "id": "minecraft:stony_peaks",
+      "required": false
+    },
+    {
+      "id": "minecraft:jagged_peaks",
+      "required": false
+    },
+    {
+      "id": "minecraft:windswept_hills",
+      "required": false
+    },
+    {
+      "id": "minecraft:windswept_gravelly_hills",
+      "required": false
+    },
+    {
+      "id": "minecraft:grove",
+      "required": false
+    },
+    {
+      "id": "minecraft:snowy_slopes",
+      "required": false
+    },
+    {
+      "id": "minecraft:meadow",
+      "required": false
+    },
+    {
+      "id": "minecraft:stony_shore",
+      "required": false
+    },
+    {
+      "id": "#c:is_mountain",
+      "required": false
+    }
+  ]
+}

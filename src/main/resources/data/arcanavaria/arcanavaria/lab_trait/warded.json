@@ -1,0 +1,20 @@
+{
+  "name": "lab_trait.arcanavaria.warded",
+  "colour": 9427199,
+  "particle": {
+    "type": "minecraft:enchant"
+  },
+  "champion": "thaumaturge:warded",
+  "attributes": [
+    {
+      "attribute": "minecraft:armor",
+      "amount": 0.5
+    }
+  ],
+  "ability": {
+    "kind": "pulse",
+    "every": 140,
+    "radius": 5,
+    "power": 5
+  }
+}

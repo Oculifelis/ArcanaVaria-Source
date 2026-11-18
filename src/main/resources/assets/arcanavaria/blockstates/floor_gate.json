@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "open=false": {
+      "model": "arcanavaria:block/floor_gate"
+    },
+    "open=true": {
+      "model": "arcanavaria:block/floor_gate_open"
+    }
+  }
+}

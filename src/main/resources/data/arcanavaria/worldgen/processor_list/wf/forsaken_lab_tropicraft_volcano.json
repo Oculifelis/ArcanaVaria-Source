@@ -1,0 +1,451 @@
+{
+  "processors": [
+    {
+      "processor_type": "arcanavaria:markers"
+    },
+    {
+      "processor_type": "arcanavaria:block_swap",
+      "whole": true,
+      "mode": "random",
+      "sets": [
+        {
+          "requires": "aerialhell",
+          "swap": {
+            "tropicraft:chunk": "aerialhell:stellar_stone_bricks",
+            "tropicraft:chunk_slab": "aerialhell:stellar_stone_bricks_slab",
+            "tropicraft:chunk_stairs": "aerialhell:stellar_stone_bricks_stairs"
+          },
+          "weight": 1.0
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "tropicraft:chunk": "create:small_scorchia_bricks",
+            "tropicraft:chunk_slab": "create:small_scorchia_brick_slab",
+            "tropicraft:chunk_stairs": "create:small_scorchia_brick_stairs"
+          },
+          "weight": 0.741
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "tropicraft:chunk": "undergarden:sediment_stone_bricks",
+            "tropicraft:chunk_slab": "undergarden:sediment_stone_brick_slab",
+            "tropicraft:chunk_stairs": "undergarden:sediment_stone_brick_stairs"
+          },
+          "weight": 0.733
+        },
+        {
+          "requires": "stellaris",
+          "swap": {
+            "tropicraft:chunk": "stellaris:moon_stone_bricks",
+            "tropicraft:chunk_slab": "stellaris:moon_stone_brick_slab",
+            "tropicraft:chunk_stairs": "stellaris:moon_stone_brick_stairs"
+          },
+          "weight": 0.684
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "tropicraft:chunk": "createdeco:corner_dusk_bricks",
+            "tropicraft:chunk_slab": "createdeco:corner_dusk_brick_slab",
+            "tropicraft:chunk_stairs": "createdeco:corner_dusk_brick_stairs"
+          },
+          "weight": 0.641
+        },
+        {
+          "requires": "terrestria",
+          "swap": {
+            "tropicraft:chunk": "terrestria:volcanic_rock_bricks",
+            "tropicraft:chunk_slab": "terrestria:volcanic_rock_brick_slab",
+            "tropicraft:chunk_stairs": "terrestria:volcanic_rock_brick_stairs"
+          },
+          "weight": 0.635
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "tropicraft:chunk": "createdeco:long_dusk_bricks",
+            "tropicraft:chunk_slab": "createdeco:long_dusk_brick_slab",
+            "tropicraft:chunk_stairs": "createdeco:long_dusk_brick_stairs"
+          },
+          "weight": 0.614
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "tropicraft:chunk": "createdeco:dusk_bricks",
+            "tropicraft:chunk_slab": "createdeco:dusk_brick_slab",
+            "tropicraft:chunk_stairs": "createdeco:dusk_brick_stairs"
+          },
+          "weight": 0.6
+        },
+        {
+          "requires": "occultism",
+          "swap": {
+            "tropicraft:chunk": "occultism:otherrock_bricks",
+            "tropicraft:chunk_slab": "occultism:otherrock_bricks_slab",
+            "tropicraft:chunk_stairs": "occultism:otherrock_bricks_stairs"
+          },
+          "weight": 0.575
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "tropicraft:chunk": "dndecor:small_basalt_bricks",
+            "tropicraft:chunk_slab": "dndecor:small_basalt_brick_slab",
+            "tropicraft:chunk_stairs": "dndecor:small_basalt_brick_stairs"
+          },
+          "weight": 0.544
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "tropicraft:chunk": "create:cut_scorchia_bricks",
+            "tropicraft:chunk_slab": "create:cut_scorchia_brick_slab",
+            "tropicraft:chunk_stairs": "create:cut_scorchia_brick_stairs"
+          },
+          "weight": 0.539
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "tropicraft:chunk": "createdeco:short_dusk_bricks",
+            "tropicraft:chunk_slab": "createdeco:short_dusk_brick_slab",
+            "tropicraft:chunk_stairs": "createdeco:short_dusk_brick_stairs"
+          },
+          "weight": 0.524
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "tropicraft:chunk": "createdeco:tiled_dusk_bricks",
+            "tropicraft:chunk_slab": "createdeco:tiled_dusk_brick_slab",
+            "tropicraft:chunk_stairs": "createdeco:tiled_dusk_brick_stairs"
+          },
+          "weight": 0.507
+        },
+        {
+          "requires": "quark",
+          "swap": {
+            "tropicraft:chunk": "quark:blackstone_bricks",
+            "tropicraft:chunk_slab": "quark:blackstone_bricks_slab",
+            "tropicraft:chunk_stairs": "quark:blackstone_bricks_stairs"
+          },
+          "weight": 0.498
+        },
+        {
+          "requires": "rechiseled",
+          "swap": {
+            "tropicraft:chunk": "rechiseled:blackstone_rotated_bricks",
+            "tropicraft:chunk_slab": "rechiseled:blackstone_rotated_bricks_slab",
+            "tropicraft:chunk_stairs": "rechiseled:blackstone_rotated_bricks_stairs"
+          },
+          "weight": 0.476
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "tropicraft:chunk": "undergarden:sediment_stone",
+            "tropicraft:chunk_slab": "undergarden:sediment_stone_slab",
+            "tropicraft:chunk_stairs": "undergarden:sediment_stone_stairs"
+          },
+          "weight": 0.475
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "tropicraft:chunk": "undergarden:shiverstone_bricks",
+            "tropicraft:chunk_slab": "undergarden:shiverstone_brick_slab",
+            "tropicraft:chunk_stairs": "undergarden:shiverstone_brick_stairs"
+          },
+          "weight": 0.464
+        },
+        {
+          "requires": "occultism",
+          "swap": {
+            "tropicraft:chunk": "occultism:otherrock",
+            "tropicraft:chunk_slab": "occultism:otherrock_slab",
+            "tropicraft:chunk_stairs": "occultism:otherrock_stairs"
+          },
+          "weight": 0.453
+        },
+        {
+          "requires": "aerialhell",
+          "swap": {
+            "tropicraft:chunk": "aerialhell:stellar_stone",
+            "tropicraft:chunk_slab": "aerialhell:stellar_stone_slab",
+            "tropicraft:chunk_stairs": "aerialhell:stellar_stone_stairs"
+          },
+          "weight": 0.449
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "tropicraft:chunk": "createdeco:cracked_dusk_bricks",
+            "tropicraft:chunk_slab": "createdeco:cracked_dusk_brick_slab",
+            "tropicraft:chunk_stairs": "createdeco:cracked_dusk_brick_stairs"
+          },
+          "weight": 0.444
+        },
+        {
+          "requires": "occultism",
+          "swap": {
+            "tropicraft:chunk": "occultism:othercobblerock",
+            "tropicraft:chunk_slab": "occultism:othercobblerock_slab",
+            "tropicraft:chunk_stairs": "occultism:othercobblerock_stairs"
+          },
+          "weight": 0.434
+        },
+        {
+          "requires": "terrestria",
+          "swap": {
+            "tropicraft:chunk": "terrestria:volcanic_rock_cobblestone",
+            "tropicraft:chunk_slab": "terrestria:volcanic_rock_cobblestone_slab",
+            "tropicraft:chunk_stairs": "terrestria:volcanic_rock_cobblestone_stairs"
+          },
+          "weight": 0.433
+        },
+        {
+          "requires": "stellaris",
+          "swap": {
+            "tropicraft:chunk": "stellaris:moon_stone",
+            "tropicraft:chunk_slab": "stellaris:moon_stone_slab",
+            "tropicraft:chunk_stairs": "stellaris:moon_stone_stairs"
+          },
+          "weight": 0.422
+        },
+        {
+          "requires": "terrestria",
+          "swap": {
+            "tropicraft:chunk": "terrestria:volcanic_rock",
+            "tropicraft:chunk_slab": "terrestria:volcanic_rock_slab",
+            "tropicraft:chunk_stairs": "terrestria:volcanic_rock_stairs"
+          },
+          "weight": 0.419
+        },
+        {
+          "requires": "embers",
+          "swap": {
+            "tropicraft:chunk": "embers:ashen_stone",
+            "tropicraft:chunk_slab": "embers:ashen_stone_slab",
+            "tropicraft:chunk_stairs": "embers:ashen_stone_stairs"
+          },
+          "weight": 0.408
+        },
+        {
+          "requires": "aerialhell",
+          "swap": {
+            "tropicraft:chunk": "aerialhell:stellar_cobblestone",
+            "tropicraft:chunk_slab": "aerialhell:stellar_cobblestone_slab",
+            "tropicraft:chunk_stairs": "aerialhell:stellar_cobblestone_stairs"
+          },
+          "weight": 0.396
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "tropicraft:chunk": "undergarden:depthrock_tiles",
+            "tropicraft:chunk_slab": "undergarden:depthrock_tile_slab",
+            "tropicraft:chunk_stairs": "undergarden:depthrock_tile_stairs"
+          },
+          "weight": 0.393
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "tropicraft:chunk": "dndecor:cut_basalt_bricks",
+            "tropicraft:chunk_slab": "dndecor:cut_basalt_brick_slab",
+            "tropicraft:chunk_stairs": "dndecor:cut_basalt_brick_stairs"
+          },
+          "weight": 0.382
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "tropicraft:chunk": "create:polished_cut_scorchia",
+            "tropicraft:chunk_slab": "create:polished_cut_scorchia_slab",
+            "tropicraft:chunk_stairs": "create:polished_cut_scorchia_stairs"
+          },
+          "weight": 0.356
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "tropicraft:chunk": "create:small_deepslate_bricks",
+            "tropicraft:chunk_slab": "create:small_deepslate_brick_slab",
+            "tropicraft:chunk_stairs": "create:small_deepslate_brick_stairs"
+          },
+          "weight": 0.345
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "tropicraft:chunk": "undergarden:dreadrock_bricks",
+            "tropicraft:chunk_slab": "undergarden:dreadrock_brick_slab",
+            "tropicraft:chunk_stairs": "undergarden:dreadrock_brick_stairs"
+          },
+          "weight": 0.34
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "tropicraft:chunk": "create:cut_scorchia",
+            "tropicraft:chunk_slab": "create:cut_scorchia_slab",
+            "tropicraft:chunk_stairs": "create:cut_scorchia_stairs"
+          },
+          "weight": 0.331
+        },
+        {
+          "requires": "occultism",
+          "swap": {
+            "tropicraft:chunk": "occultism:polished_otherrock",
+            "tropicraft:chunk_slab": "occultism:polished_otherrock_slab",
+            "tropicraft:chunk_stairs": "occultism:polished_otherrock_stairs"
+          },
+          "weight": 0.309
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "tropicraft:chunk": "undergarden:polished_sediment_stone",
+            "tropicraft:chunk_slab": "undergarden:polished_sediment_stone_slab",
+            "tropicraft:chunk_stairs": "undergarden:polished_sediment_stone_stairs"
+          },
+          "weight": 0.308
+        },
+        {
+          "requires": "terrestria",
+          "swap": {
+            "tropicraft:chunk": "terrestria:smooth_volcanic_rock",
+            "tropicraft:chunk_slab": "terrestria:smooth_volcanic_rock_slab",
+            "tropicraft:chunk_stairs": "terrestria:smooth_volcanic_rock_stairs"
+          },
+          "weight": 0.282
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "tropicraft:chunk": "undergarden:tremblecrust_bricks",
+            "tropicraft:chunk_slab": "undergarden:tremblecrust_brick_slab",
+            "tropicraft:chunk_stairs": "undergarden:tremblecrust_brick_stairs"
+          },
+          "weight": 0.28
+        },
+        {
+          "requires": "embers",
+          "swap": {
+            "tropicraft:chunk": "embers:ashen_brick",
+            "tropicraft:chunk_slab": "embers:ashen_brick_slab",
+            "tropicraft:chunk_stairs": "embers:ashen_brick_stairs"
+          },
+          "weight": 0.276
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "tropicraft:chunk": "undergarden:smooth_sediment_stone",
+            "tropicraft:chunk_slab": "undergarden:smooth_sediment_stone_slab",
+            "tropicraft:chunk_stairs": "undergarden:smooth_sediment_stone_stairs"
+          },
+          "weight": 0.272
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "tropicraft:chunk": "undergarden:shiverstone",
+            "tropicraft:chunk_slab": "undergarden:shiverstone_slab",
+            "tropicraft:chunk_stairs": "undergarden:shiverstone_stairs"
+          },
+          "weight": 0.264
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "tropicraft:chunk": "dndecor:cut_basalt",
+            "tropicraft:chunk_slab": "dndecor:cut_basalt_slab",
+            "tropicraft:chunk_stairs": "dndecor:cut_basalt_stairs"
+          },
+          "weight": 0.261
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "tropicraft:chunk": "create:cut_deepslate_bricks",
+            "tropicraft:chunk_slab": "create:cut_deepslate_brick_slab",
+            "tropicraft:chunk_stairs": "create:cut_deepslate_brick_stairs"
+          },
+          "weight": 0.254
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "tropicraft:chunk": "dndecor:polished_cut_basalt",
+            "tropicraft:chunk_slab": "dndecor:polished_cut_basalt_slab",
+            "tropicraft:chunk_stairs": "dndecor:polished_cut_basalt_stairs"
+          },
+          "weight": 0.254
+        },
+        {
+          "requires": "aerialhell",
+          "swap": {
+            "tropicraft:chunk": "aerialhell:polished_glaucophanite",
+            "tropicraft:chunk_slab": "aerialhell:polished_glaucophanite_slab",
+            "tropicraft:chunk_stairs": "aerialhell:polished_glaucophanite_stairs"
+          },
+          "weight": 0.236
+        },
+        {
+          "requires": "embers",
+          "swap": {
+            "tropicraft:chunk": "embers:ashen_tile",
+            "tropicraft:chunk_slab": "embers:ashen_tile_slab",
+            "tropicraft:chunk_stairs": "embers:ashen_tile_stairs"
+          },
+          "weight": 0.234
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "tropicraft:chunk": "undergarden:dreadrock",
+            "tropicraft:chunk_slab": "undergarden:dreadrock_slab",
+            "tropicraft:chunk_stairs": "undergarden:dreadrock_stairs"
+          },
+          "weight": 0.231
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "tropicraft:chunk": "undergarden:polished_depthrock",
+            "tropicraft:chunk_slab": "undergarden:polished_depthrock_slab",
+            "tropicraft:chunk_stairs": "undergarden:polished_depthrock_stairs"
+          },
+          "weight": 0.191
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "tropicraft:chunk": "create:polished_cut_deepslate",
+            "tropicraft:chunk_slab": "create:polished_cut_deepslate_slab",
+            "tropicraft:chunk_stairs": "create:polished_cut_deepslate_stairs"
+          },
+          "weight": 0.163
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "tropicraft:chunk": "create:cut_deepslate",
+            "tropicraft:chunk_slab": "create:cut_deepslate_slab",
+            "tropicraft:chunk_stairs": "create:cut_deepslate_stairs"
+          },
+          "weight": 0.148
+        },
+        {
+          "requires": "minecraft",
+          "swap": {},
+          "weight": 1.0
+        }
+      ]
+    }
+  ]
+}

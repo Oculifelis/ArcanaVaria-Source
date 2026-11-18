@@ -1,0 +1,715 @@
+{
+  "processors": [
+    {
+      "processor_type": "arcanavaria:markers"
+    },
+    {
+      "processor_type": "arcanavaria:block_swap",
+      "whole": true,
+      "mode": "random",
+      "sets": [
+        {
+          "requires": "dndecor",
+          "swap": {
+            "aerialhell:mud_bricks": "dndecor:small_blackstone_bricks",
+            "aerialhell:mud_bricks_slab": "dndecor:small_blackstone_brick_slab",
+            "aerialhell:mud_bricks_stairs": "dndecor:small_blackstone_brick_stairs"
+          },
+          "weight": 1.0
+        },
+        {
+          "requires": "terrestria",
+          "swap": {
+            "aerialhell:mud_bricks": "terrestria:volcanic_rock_bricks",
+            "aerialhell:mud_bricks_slab": "terrestria:volcanic_rock_brick_slab",
+            "aerialhell:mud_bricks_stairs": "terrestria:volcanic_rock_brick_stairs"
+          },
+          "weight": 0.955
+        },
+        {
+          "requires": "quark",
+          "swap": {
+            "aerialhell:mud_bricks": "quark:blackstone_bricks",
+            "aerialhell:mud_bricks_slab": "quark:blackstone_bricks_slab",
+            "aerialhell:mud_bricks_stairs": "quark:blackstone_bricks_stairs"
+          },
+          "weight": 0.947
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "aerialhell:mud_bricks": "create:small_scorchia_bricks",
+            "aerialhell:mud_bricks_slab": "create:small_scorchia_brick_slab",
+            "aerialhell:mud_bricks_stairs": "create:small_scorchia_brick_stairs"
+          },
+          "weight": 0.892
+        },
+        {
+          "requires": "embers",
+          "swap": {
+            "aerialhell:mud_bricks": "embers:archaic_bricks",
+            "aerialhell:mud_bricks_slab": "embers:archaic_bricks_slab",
+            "aerialhell:mud_bricks_stairs": "embers:archaic_bricks_stairs"
+          },
+          "weight": 0.888
+        },
+        {
+          "requires": "occultism",
+          "swap": {
+            "aerialhell:mud_bricks": "occultism:otherrock_bricks",
+            "aerialhell:mud_bricks_slab": "occultism:otherrock_bricks_slab",
+            "aerialhell:mud_bricks_stairs": "occultism:otherrock_bricks_stairs"
+          },
+          "weight": 0.869
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "aerialhell:mud_bricks": "create:small_scoria_bricks",
+            "aerialhell:mud_bricks_slab": "create:small_scoria_brick_slab",
+            "aerialhell:mud_bricks_stairs": "create:small_scoria_brick_stairs"
+          },
+          "weight": 0.854
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "aerialhell:mud_bricks": "createdeco:corner_dusk_bricks",
+            "aerialhell:mud_bricks_slab": "createdeco:corner_dusk_brick_slab",
+            "aerialhell:mud_bricks_stairs": "createdeco:corner_dusk_brick_stairs"
+          },
+          "weight": 0.839
+        },
+        {
+          "requires": "rechiseled",
+          "swap": {
+            "aerialhell:mud_bricks": "rechiseled:blackstone_rotated_bricks",
+            "aerialhell:mud_bricks_slab": "rechiseled:blackstone_rotated_bricks_slab",
+            "aerialhell:mud_bricks_stairs": "rechiseled:blackstone_rotated_bricks_stairs"
+          },
+          "weight": 0.828
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "aerialhell:mud_bricks": "createdeco:long_dusk_bricks",
+            "aerialhell:mud_bricks_slab": "createdeco:long_dusk_brick_slab",
+            "aerialhell:mud_bricks_stairs": "createdeco:long_dusk_brick_stairs"
+          },
+          "weight": 0.811
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "aerialhell:mud_bricks": "createdeco:dusk_bricks",
+            "aerialhell:mud_bricks_slab": "createdeco:dusk_brick_slab",
+            "aerialhell:mud_bricks_stairs": "createdeco:dusk_brick_stairs"
+          },
+          "weight": 0.797
+        },
+        {
+          "requires": "embers",
+          "swap": {
+            "aerialhell:mud_bricks": "embers:ashen_stone",
+            "aerialhell:mud_bricks_slab": "embers:ashen_stone_slab",
+            "aerialhell:mud_bricks_stairs": "embers:ashen_stone_stairs"
+          },
+          "weight": 0.741
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "aerialhell:mud_bricks": "dndecor:cut_blackstone_bricks",
+            "aerialhell:mud_bricks_slab": "dndecor:cut_blackstone_brick_slab",
+            "aerialhell:mud_bricks_stairs": "dndecor:cut_blackstone_brick_stairs"
+          },
+          "weight": 0.707
+        },
+        {
+          "requires": "hybrid_aquatic",
+          "swap": {
+            "aerialhell:mud_bricks": "hybrid_aquatic:chimneystone_bricks",
+            "aerialhell:mud_bricks_slab": "hybrid_aquatic:chimneystone_brick_slab",
+            "aerialhell:mud_bricks_stairs": "hybrid_aquatic:chimneystone_brick_stairs"
+          },
+          "weight": 0.706
+        },
+        {
+          "requires": "tconstruct",
+          "swap": {
+            "aerialhell:mud_bricks": "tconstruct:nahuatl",
+            "aerialhell:mud_bricks_slab": "tconstruct:nahuatl_slab",
+            "aerialhell:mud_bricks_stairs": "tconstruct:nahuatl_stairs"
+          },
+          "weight": 0.68
+        },
+        {
+          "requires": "terrestria",
+          "swap": {
+            "aerialhell:mud_bricks": "terrestria:volcanic_rock_cobblestone",
+            "aerialhell:mud_bricks_slab": "terrestria:volcanic_rock_cobblestone_slab",
+            "aerialhell:mud_bricks_stairs": "terrestria:volcanic_rock_cobblestone_stairs"
+          },
+          "weight": 0.642
+        },
+        {
+          "requires": "occultism",
+          "swap": {
+            "aerialhell:mud_bricks": "occultism:othercobblerock",
+            "aerialhell:mud_bricks_slab": "occultism:othercobblerock_slab",
+            "aerialhell:mud_bricks_stairs": "occultism:othercobblerock_stairs"
+          },
+          "weight": 0.637
+        },
+        {
+          "requires": "occultism",
+          "swap": {
+            "aerialhell:mud_bricks": "occultism:otherrock",
+            "aerialhell:mud_bricks_slab": "occultism:otherrock_slab",
+            "aerialhell:mud_bricks_stairs": "occultism:otherrock_stairs"
+          },
+          "weight": 0.635
+        },
+        {
+          "requires": "terrestria",
+          "swap": {
+            "aerialhell:mud_bricks": "terrestria:volcanic_rock",
+            "aerialhell:mud_bricks_slab": "terrestria:volcanic_rock_slab",
+            "aerialhell:mud_bricks_stairs": "terrestria:volcanic_rock_stairs"
+          },
+          "weight": 0.631
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "aerialhell:mud_bricks": "create:cut_scoria_bricks",
+            "aerialhell:mud_bricks_slab": "create:cut_scoria_brick_slab",
+            "aerialhell:mud_bricks_stairs": "create:cut_scoria_brick_stairs"
+          },
+          "weight": 0.626
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "aerialhell:mud_bricks": "createdeco:cracked_dusk_bricks",
+            "aerialhell:mud_bricks_slab": "createdeco:cracked_dusk_brick_slab",
+            "aerialhell:mud_bricks_stairs": "createdeco:cracked_dusk_brick_stairs"
+          },
+          "weight": 0.602
+        },
+        {
+          "requires": "embers",
+          "swap": {
+            "aerialhell:mud_bricks": "embers:ashen_brick",
+            "aerialhell:mud_bricks_slab": "embers:ashen_brick_slab",
+            "aerialhell:mud_bricks_stairs": "embers:ashen_brick_stairs"
+          },
+          "weight": 0.516
+        },
+        {
+          "requires": "hybrid_aquatic",
+          "swap": {
+            "aerialhell:mud_bricks": "hybrid_aquatic:chimneystone",
+            "aerialhell:mud_bricks_slab": "hybrid_aquatic:chimneystone_slab",
+            "aerialhell:mud_bricks_stairs": "hybrid_aquatic:chimneystone_stairs"
+          },
+          "weight": 0.504
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "aerialhell:mud_bricks": "create:cut_scoria",
+            "aerialhell:mud_bricks_slab": "create:cut_scoria_slab",
+            "aerialhell:mud_bricks_stairs": "create:cut_scoria_stairs"
+          },
+          "weight": 0.469
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "aerialhell:mud_bricks": "dndecor:polished_cut_blackstone",
+            "aerialhell:mud_bricks_slab": "dndecor:polished_cut_blackstone_slab",
+            "aerialhell:mud_bricks_stairs": "dndecor:polished_cut_blackstone_stairs"
+          },
+          "weight": 0.466
+        },
+        {
+          "requires": "occultism",
+          "swap": {
+            "aerialhell:mud_bricks": "occultism:polished_otherrock",
+            "aerialhell:mud_bricks_slab": "occultism:polished_otherrock_slab",
+            "aerialhell:mud_bricks_stairs": "occultism:polished_otherrock_stairs"
+          },
+          "weight": 0.445
+        },
+        {
+          "requires": "terrestria",
+          "swap": {
+            "aerialhell:mud_bricks": "terrestria:smooth_volcanic_rock",
+            "aerialhell:mud_bricks_slab": "terrestria:smooth_volcanic_rock_slab",
+            "aerialhell:mud_bricks_stairs": "terrestria:smooth_volcanic_rock_stairs"
+          },
+          "weight": 0.406
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "aerialhell:mud_bricks": "create:polished_cut_scoria",
+            "aerialhell:mud_bricks_slab": "create:polished_cut_scoria_slab",
+            "aerialhell:mud_bricks_stairs": "create:polished_cut_scoria_stairs"
+          },
+          "weight": 0.403
+        },
+        {
+          "requires": "hybrid_aquatic",
+          "swap": {
+            "aerialhell:mud_bricks": "hybrid_aquatic:polished_chimneystone",
+            "aerialhell:mud_bricks_slab": "hybrid_aquatic:polished_chimneystone_slab",
+            "aerialhell:mud_bricks_stairs": "hybrid_aquatic:polished_chimneystone_stairs"
+          },
+          "weight": 0.328
+        },
+        {
+          "requires": "minecraft",
+          "swap": {},
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "processor_type": "arcanavaria:block_swap",
+      "whole": true,
+      "mode": "random",
+      "sets": [
+        {
+          "requires": "undergarden",
+          "swap": {
+            "aerialhell:mossy_mud_bricks": "undergarden:tremblecrust_bricks"
+          },
+          "weight": 1.0
+        },
+        {
+          "requires": "stellaris",
+          "swap": {
+            "aerialhell:mossy_mud_bricks": "stellaris:moon_stone_bricks"
+          },
+          "weight": 0.949
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "aerialhell:mossy_mud_bricks": "create:small_deepslate_bricks"
+          },
+          "weight": 0.944
+        },
+        {
+          "requires": "stellaris",
+          "swap": {
+            "aerialhell:mossy_mud_bricks": "stellaris:polished_moon_stone"
+          },
+          "weight": 0.928
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "aerialhell:mossy_mud_bricks": "dndecor:small_deepslate_tiles"
+          },
+          "weight": 0.911
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "aerialhell:mossy_mud_bricks": "dndecor:gray_small_deepslate_tiles"
+          },
+          "weight": 0.896
+        },
+        {
+          "requires": "embers",
+          "swap": {
+            "aerialhell:mossy_mud_bricks": "embers:archaic_large_bricks"
+          },
+          "weight": 0.873
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "aerialhell:mossy_mud_bricks": "createdeco:tiled_dusk_bricks"
+          },
+          "weight": 0.848
+        },
+        {
+          "requires": "createdeco",
+          "swap": {
+            "aerialhell:mossy_mud_bricks": "createdeco:short_dusk_bricks"
+          },
+          "weight": 0.843
+        },
+        {
+          "requires": "hybrid_aquatic",
+          "swap": {
+            "aerialhell:mossy_mud_bricks": "hybrid_aquatic:polished_schist"
+          },
+          "weight": 0.832
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "aerialhell:mossy_mud_bricks": "dndecor:small_basalt_bricks"
+          },
+          "weight": 0.826
+        },
+        {
+          "requires": "hybrid_aquatic",
+          "swap": {
+            "aerialhell:mossy_mud_bricks": "hybrid_aquatic:schist_bricks"
+          },
+          "weight": 0.808
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "aerialhell:mossy_mud_bricks": "undergarden:cracked_tremblecrust_bricks"
+          },
+          "weight": 0.784
+        },
+        {
+          "requires": "rechiseled",
+          "swap": {
+            "aerialhell:mossy_mud_bricks": "rechiseled:basalt_diagonal_tiles"
+          },
+          "weight": 0.778
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "aerialhell:mossy_mud_bricks": "undergarden:shiverstone_bricks"
+          },
+          "weight": 0.736
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "aerialhell:mossy_mud_bricks": "dndecor:brown_small_deepslate_tiles"
+          },
+          "weight": 0.728
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "aerialhell:mossy_mud_bricks": "undergarden:chiseled_tremblecrust_bricks"
+          },
+          "weight": 0.717
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "aerialhell:mossy_mud_bricks": "dndecor:black_small_deepslate_tiles"
+          },
+          "weight": 0.713
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "aerialhell:mossy_mud_bricks": "undergarden:loose_tremblecrust"
+          },
+          "weight": 0.694
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "aerialhell:mossy_mud_bricks": "create:cut_deepslate_bricks"
+          },
+          "weight": 0.685
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "aerialhell:mossy_mud_bricks": "create:polished_cut_deepslate"
+          },
+          "weight": 0.679
+        },
+        {
+          "requires": "stellaris",
+          "swap": {
+            "aerialhell:mossy_mud_bricks": "stellaris:moon_cracked_stone_bricks"
+          },
+          "weight": 0.674
+        },
+        {
+          "requires": "regions_unexplored",
+          "swap": {
+            "aerialhell:mossy_mud_bricks": "regions_unexplored:ash_vent"
+          },
+          "weight": 0.658
+        },
+        {
+          "requires": "stellaris",
+          "swap": {
+            "aerialhell:mossy_mud_bricks": "stellaris:moon_stone_pillar"
+          },
+          "weight": 0.64
+        },
+        {
+          "requires": "stellaris",
+          "swap": {
+            "aerialhell:mossy_mud_bricks": "stellaris:moon_deepslate"
+          },
+          "weight": 0.638
+        },
+        {
+          "requires": "stellaris",
+          "swap": {
+            "aerialhell:mossy_mud_bricks": "stellaris:moon_cobblestone"
+          },
+          "weight": 0.638
+        },
+        {
+          "requires": "stellaris",
+          "swap": {
+            "aerialhell:mossy_mud_bricks": "stellaris:moon_stone"
+          },
+          "weight": 0.634
+        },
+        {
+          "requires": "stellaris",
+          "swap": {
+            "aerialhell:mossy_mud_bricks": "stellaris:moon_pillar"
+          },
+          "weight": 0.628
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "aerialhell:mossy_mud_bricks": "create:layered_deepslate"
+          },
+          "weight": 0.625
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "aerialhell:mossy_mud_bricks": "undergarden:tremblecrust"
+          },
+          "weight": 0.621
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "aerialhell:mossy_mud_bricks": "dndecor:cut_basalt_bricks"
+          },
+          "weight": 0.616
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "aerialhell:mossy_mud_bricks": "dndecor:polished_cut_basalt"
+          },
+          "weight": 0.616
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "aerialhell:mossy_mud_bricks": "dndecor:layered_basalt"
+          },
+          "weight": 0.589
+        },
+        {
+          "requires": "embers",
+          "swap": {
+            "aerialhell:mossy_mud_bricks": "embers:archaic_tile"
+          },
+          "weight": 0.57
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "aerialhell:mossy_mud_bricks": "undergarden:chiseled_shiverstone_bricks"
+          },
+          "weight": 0.54
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "aerialhell:mossy_mud_bricks": "undergarden:cracked_shiverstone_bricks"
+          },
+          "weight": 0.527
+        },
+        {
+          "requires": "aether_ii",
+          "swap": {
+            "aerialhell:mossy_mud_bricks": "aether_ii:undershale_capstone_bricks"
+          },
+          "weight": 0.526
+        },
+        {
+          "requires": "arsmoriendi",
+          "swap": {
+            "aerialhell:mossy_mud_bricks": "arsmoriendi:tomb_flagstones"
+          },
+          "weight": 0.521
+        },
+        {
+          "requires": "aether_ii",
+          "swap": {
+            "aerialhell:mossy_mud_bricks": "aether_ii:undershale_base_bricks"
+          },
+          "weight": 0.512
+        },
+        {
+          "requires": "aether_ii",
+          "swap": {
+            "aerialhell:mossy_mud_bricks": "aether_ii:undershale_bricks"
+          },
+          "weight": 0.486
+        },
+        {
+          "requires": "undergarden",
+          "swap": {
+            "aerialhell:mossy_mud_bricks": "undergarden:shiverstone"
+          },
+          "weight": 0.481
+        },
+        {
+          "requires": "stellaris",
+          "swap": {
+            "aerialhell:mossy_mud_bricks": "stellaris:chiseled_moon_stone"
+          },
+          "weight": 0.458
+        },
+        {
+          "requires": "stellaris",
+          "swap": {
+            "aerialhell:mossy_mud_bricks": "stellaris:ash_stone"
+          },
+          "weight": 0.456
+        },
+        {
+          "requires": "hybrid_aquatic",
+          "swap": {
+            "aerialhell:mossy_mud_bricks": "hybrid_aquatic:black_pearl_block"
+          },
+          "weight": 0.44
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "aerialhell:mossy_mud_bricks": "create:cut_deepslate"
+          },
+          "weight": 0.43
+        },
+        {
+          "requires": "cave_stuff",
+          "swap": {
+            "aerialhell:mossy_mud_bricks": "cave_stuff:charnockite"
+          },
+          "weight": 0.402
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "aerialhell:mossy_mud_bricks": "dndecor:cut_basalt"
+          },
+          "weight": 0.398
+        },
+        {
+          "requires": "cave_stuff",
+          "swap": {
+            "aerialhell:mossy_mud_bricks": "cave_stuff:blueandredtiles"
+          },
+          "weight": 0.384
+        },
+        {
+          "requires": "aether_ii",
+          "swap": {
+            "aerialhell:mossy_mud_bricks": "aether_ii:undershale_tile"
+          },
+          "weight": 0.365
+        },
+        {
+          "requires": "aether_ii",
+          "swap": {
+            "aerialhell:mossy_mud_bricks": "aether_ii:undershale_flagstones"
+          },
+          "weight": 0.347
+        },
+        {
+          "requires": "hybrid_aquatic",
+          "swap": {
+            "aerialhell:mossy_mud_bricks": "hybrid_aquatic:chiseled_schist"
+          },
+          "weight": 0.316
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "aerialhell:mossy_mud_bricks": "create:cut_scorchia"
+          },
+          "weight": 0.294
+        },
+        {
+          "requires": "minecraft",
+          "swap": {},
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "processor_type": "arcanavaria:block_swap",
+      "whole": true,
+      "mode": "random",
+      "sets": [
+        {
+          "requires": "arsmoriendi",
+          "swap": {
+            "aerialhell:stellar_jungle_tree_log": "arsmoriendi:drowned_oak_log"
+          },
+          "weight": 1.0
+        },
+        {
+          "requires": "minecraft",
+          "swap": {},
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "processor_type": "arcanavaria:block_swap",
+      "whole": true,
+      "mode": "random",
+      "sets": [
+        {
+          "requires": "cave_stuff",
+          "swap": {
+            "aerialhell:light_mud_bricks": "cave_stuff:redand_green_tiles"
+          },
+          "weight": 1.0
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "aerialhell:light_mud_bricks": "create:layered_scoria"
+          },
+          "weight": 0.872
+        },
+        {
+          "requires": "embers",
+          "swap": {
+            "aerialhell:light_mud_bricks": "embers:archaic_edge"
+          },
+          "weight": 0.811
+        },
+        {
+          "requires": "hybrid_aquatic",
+          "swap": {
+            "aerialhell:light_mud_bricks": "hybrid_aquatic:chiseled_chimneystone"
+          },
+          "weight": 0.667
+        },
+        {
+          "requires": "minecraft",
+          "swap": {},
+          "weight": 1.0
+        }
+      ]
+    }
+  ]
+}

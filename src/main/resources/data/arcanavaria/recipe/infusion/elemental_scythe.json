@@ -1,0 +1,40 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 30
+    },
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 30
+    },
+    {
+      "aspect": "thaumaturge:aversio",
+      "amount": 30
+    },
+    {
+      "aspect": "thaumaturge:mortuus",
+      "amount": 15
+    }
+  ],
+  "catalyst": "arcanavaria:thaumium_scythe",
+  "components": [
+    "thaumaturge:crystal_aer",
+    "thaumaturge:crystal_ignis",
+    "#c:nuggets/quartz",
+    "#c:planks/greatwood"
+  ],
+  "instability": 1,
+  "research": {
+    "entry": "arcanavaria:elemental_scythe"
+  },
+  "result": {
+    "id": "arcanavaria:elemental_scythe",
+    "components": {
+      "thaumaturge:infusion_enchantments": {
+        "arcing": 2
+      }
+    }
+  }
+}

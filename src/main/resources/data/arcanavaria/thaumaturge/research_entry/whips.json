@@ -1,0 +1,56 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "fundamentum"
+    }
+  ],
+  "category": "arcanavaria:arcanavaria",
+  "name": "research.arcanavaria.whips.title",
+  "parents": [
+    "arcanavaria:intro"
+  ],
+  "column": -5,
+  "row": 2,
+  "icons": [
+    "arcanavaria:thaumium_whip"
+  ],
+  "stages": [
+    {
+      "text": "research.arcanavaria.whips.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:alchemy",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:alchemy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.arcanavaria.whips.stage_1",
+      "recipes": [
+        "arcanavaria:thaumium_whip"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:instrumentum",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:aversio",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:motus",
+      "amount": 3
+    }
+  ],
+  "complexity": 1
+}

@@ -1,0 +1,31 @@
+{
+  "category": "arcanavaria:arcanavaria",
+  "name": "research.arcanavaria.forsaken_laboratories.title",
+  "parents": [
+    "arcanavaria:intro"
+  ],
+  "meta": [
+    "hidden"
+  ],
+  "column": -2,
+  "row": 6,
+  "icons": [
+    "arcanavaria:lab_journal"
+  ],
+  "stages": [
+    {
+      "text": "research.arcanavaria.forsaken_laboratories.stage_0"
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:cognitio",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:vacuos",
+      "amount": 1
+    }
+  ],
+  "complexity": 1
+}

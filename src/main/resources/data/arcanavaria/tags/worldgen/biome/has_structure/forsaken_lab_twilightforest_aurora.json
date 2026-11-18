@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "twilightforest:glacier",
+      "required": false
+    },
+    {
+      "id": "twilightforest:snowy_forest",
+      "required": false
+    }
+  ]
+}

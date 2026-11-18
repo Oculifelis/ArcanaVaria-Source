@@ -1,0 +1,8 @@
+{
+  "name": "lab_trait.arcanavaria.spined",
+  "colour": 10123866,
+  "particle": {
+    "type": "minecraft:crit"
+  },
+  "champion": "thaumaturge:spine"
+}

@@ -1,0 +1,76 @@
+{
+  "archetypes": [
+    {
+      "id": "arcanavaria:twisted_archmage",
+      "weight": 14
+    },
+    {
+      "id": "arcanavaria:hollow_magus",
+      "weight": 8
+    },
+    {
+      "id": "arcanavaria:brass_colossus",
+      "weight": 8
+    },
+    {
+      "id": "arcanavaria:void_stalker",
+      "weight": 4
+    }
+  ],
+  "traits": [
+    {
+      "id": "arcanavaria:blazing",
+      "weight": 10
+    },
+    {
+      "id": "arcanavaria:warded",
+      "weight": 10
+    },
+    {
+      "id": "arcanavaria:vampiric",
+      "weight": 10
+    },
+    {
+      "id": "arcanavaria:blinking",
+      "weight": 10
+    },
+    {
+      "id": "arcanavaria:summoner",
+      "weight": 10
+    },
+    {
+      "id": "arcanavaria:venomous",
+      "weight": 10
+    },
+    {
+      "id": "arcanavaria:mighty",
+      "weight": 10
+    },
+    {
+      "id": "arcanavaria:undying",
+      "weight": 10
+    },
+    {
+      "id": "arcanavaria:sickening",
+      "weight": 10
+    },
+    {
+      "id": "arcanavaria:spined",
+      "weight": 10
+    },
+    {
+      "id": "arcanavaria:swift",
+      "weight": 10
+    },
+    {
+      "id": "arcanavaria:stoneskin",
+      "weight": 10
+    },
+    {
+      "id": "arcanavaria:eldritch",
+      "weight": 10
+    }
+  ],
+  "min_traits": 2,
+  "max_traits": 3
+}

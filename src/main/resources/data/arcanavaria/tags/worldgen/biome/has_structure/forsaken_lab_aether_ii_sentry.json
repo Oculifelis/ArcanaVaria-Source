@@ -1,0 +1,20 @@
+{
+  "values": [
+    {
+      "id": "aether_ii:battleground_wastes",
+      "required": false
+    },
+    {
+      "id": "aether_ii:magnetic_scar",
+      "required": false
+    },
+    {
+      "id": "aether_ii:contaminated_jungle",
+      "required": false
+    },
+    {
+      "id": "aether_ii:turquoise_forest",
+      "required": false
+    }
+  ]
+}

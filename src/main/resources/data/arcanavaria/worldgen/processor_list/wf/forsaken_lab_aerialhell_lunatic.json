@@ -1,0 +1,35 @@
+{
+  "processors": [
+    {
+      "processor_type": "arcanavaria:markers"
+    },
+    {
+      "processor_type": "arcanavaria:block_swap",
+      "whole": true,
+      "mode": "random",
+      "sets": [
+        {
+          "requires": "regions_unexplored",
+          "swap": {
+            "aerialhell:lapis_robinia_planks": "regions_unexplored:blue_painted_planks",
+            "aerialhell:lapis_robinia_stairs": "regions_unexplored:blue_painted_stairs"
+          },
+          "weight": 1.0
+        },
+        {
+          "requires": "terrestria",
+          "swap": {
+            "aerialhell:lapis_robinia_planks": "terrestria:rainbow_eucalyptus_planks",
+            "aerialhell:lapis_robinia_stairs": "terrestria:rainbow_eucalyptus_stairs"
+          },
+          "weight": 0.642
+        },
+        {
+          "requires": "minecraft",
+          "swap": {},
+          "weight": 1.0
+        }
+      ]
+    }
+  ]
+}

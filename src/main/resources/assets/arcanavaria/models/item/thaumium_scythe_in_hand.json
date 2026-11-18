@@ -1,0 +1,7 @@
+{
+  "parent": "arcanavaria:item/scythe_in_hand",
+  "textures": {
+    "0": "arcanavaria:item/thaumium_scythe_in_hand",
+    "particle": "arcanavaria:item/thaumium_scythe_in_hand"
+  }
+}

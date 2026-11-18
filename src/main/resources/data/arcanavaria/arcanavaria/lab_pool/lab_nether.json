@@ -1,0 +1,52 @@
+{
+  "archetypes": [
+    {
+      "id": "arcanavaria:hellforged_fiend",
+      "weight": 14
+    },
+    {
+      "id": "arcanavaria:hollow_magus",
+      "weight": 10
+    },
+    {
+      "id": "arcanavaria:blighted_beast",
+      "weight": 4
+    }
+  ],
+  "traits": [
+    {
+      "id": "arcanavaria:blazing",
+      "weight": 16
+    },
+    {
+      "id": "arcanavaria:warded",
+      "weight": 10
+    },
+    {
+      "id": "arcanavaria:vampiric",
+      "weight": 12
+    },
+    {
+      "id": "arcanavaria:mighty",
+      "weight": 10
+    },
+    {
+      "id": "arcanavaria:undying",
+      "weight": 8
+    },
+    {
+      "id": "arcanavaria:stoneskin",
+      "weight": 8
+    },
+    {
+      "id": "arcanavaria:summoner",
+      "weight": 6
+    },
+    {
+      "id": "arcanavaria:spined",
+      "weight": 8
+    }
+  ],
+  "min_traits": 2,
+  "max_traits": 3
+}

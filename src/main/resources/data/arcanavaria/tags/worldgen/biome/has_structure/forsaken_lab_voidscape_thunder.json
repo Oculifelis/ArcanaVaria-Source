@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "voidscape:thunder_forest",
+      "required": false
+    },
+    {
+      "id": "voidscape:thunderspires",
+      "required": false
+    }
+  ]
+}

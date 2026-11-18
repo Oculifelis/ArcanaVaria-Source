@@ -1,0 +1,29 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "stellaris"
+    }
+  ],
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "arcanavaria:forsaken_lab_stellaris_crater/start_0",
+        "processors": "arcanavaria:wf/forsaken_lab_stellaris_crater",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "arcanavaria:forsaken_lab_stellaris_crater/start_1",
+        "processors": "arcanavaria:wf/forsaken_lab_stellaris_crater",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

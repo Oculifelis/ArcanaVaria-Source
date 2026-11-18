@@ -1,0 +1,12 @@
+{
+  "aspect": "thaumaturge:sensus",
+  "target": "allies",
+  "effects": [
+    {
+      "effect": "minecraft:night_vision",
+      "duration": 400,
+      "amplifier": 0
+    }
+  ],
+  "description": "thurible.arcanavaria.cloud.sensus"
+}

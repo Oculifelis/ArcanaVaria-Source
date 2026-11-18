@@ -1,0 +1,12 @@
+{
+  "aspect": "thaumaturge:lux",
+  "target": "enemies",
+  "effects": [
+    {
+      "effect": "minecraft:glowing",
+      "duration": 200,
+      "amplifier": 0
+    }
+  ],
+  "description": "thurible.arcanavaria.cloud.lux"
+}

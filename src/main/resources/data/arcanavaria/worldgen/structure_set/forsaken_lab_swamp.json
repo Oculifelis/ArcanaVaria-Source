@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "arcanavaria:forsaken_lab_swamp",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 44,
+    "separation": 14,
+    "salt": 814783409
+  }
+}

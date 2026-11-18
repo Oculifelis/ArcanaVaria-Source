@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "arcanavaria:wizard_tower",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 72,
+    "separation": 28,
+    "salt": 1249934396
+  }
+}

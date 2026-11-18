@@ -1,0 +1,23 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "fundamentum"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "  S",
+    " LS",
+    "I  "
+  ],
+  "key": {
+    "I": "#c:ingots/thaumium",
+    "L": "#c:leathers",
+    "S": "#c:strings"
+  },
+  "result": {
+    "id": "arcanavaria:thaumium_whip"
+  }
+}

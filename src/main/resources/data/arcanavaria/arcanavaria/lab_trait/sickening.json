@@ -1,0 +1,16 @@
+{
+  "name": "lab_trait.arcanavaria.sickening",
+  "colour": 8030778,
+  "particle": {
+    "type": "minecraft:mycelium"
+  },
+  "champion": "thaumaturge:sickly",
+  "aura": {
+    "radius": 6,
+    "effect": {
+      "effect": "minecraft:weakness",
+      "duration": 60,
+      "amplifier": 0
+    }
+  }
+}

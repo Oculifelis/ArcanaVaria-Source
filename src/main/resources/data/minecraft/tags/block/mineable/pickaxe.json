@@ -1,0 +1,10 @@
+{
+  "values": [
+    "arcanavaria:lattice_pipe",
+    "arcanavaria:lattice_intake",
+    "arcanavaria:lattice_outlet",
+    "arcanavaria:lattice_junction",
+    "arcanavaria:lattice_prism",
+    "arcanavaria:lattice_synchronizer"
+  ]
+}

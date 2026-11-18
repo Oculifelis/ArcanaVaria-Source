@@ -1,0 +1,8 @@
+{
+  "aspect": "thaumaturge:ignis",
+  "target": "enemies",
+  "effects": [],
+  "burn_seconds": 4,
+  "damage": 1.0,
+  "description": "thurible.arcanavaria.cloud.ignis"
+}

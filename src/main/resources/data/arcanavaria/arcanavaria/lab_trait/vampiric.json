@@ -1,0 +1,11 @@
+{
+  "name": "lab_trait.arcanavaria.vampiric",
+  "colour": 11538474,
+  "particle": {
+    "type": "minecraft:crimson_spore"
+  },
+  "champion": "thaumaturge:vampiric",
+  "on_hit": {
+    "lifesteal": 0.35
+  }
+}

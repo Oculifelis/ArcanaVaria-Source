@@ -1,0 +1,32 @@
+{
+  "values": [
+    {
+      "id": "twilightforest:swamp",
+      "required": false
+    },
+    {
+      "id": "twilightforest:fire_swamp",
+      "required": false
+    },
+    {
+      "id": "twilightforest:underground",
+      "required": false
+    },
+    {
+      "id": "twilightforest:lake",
+      "required": false
+    },
+    {
+      "id": "twilightforest:stream",
+      "required": false
+    },
+    {
+      "id": "twilightforest:mushroom_forest",
+      "required": false
+    },
+    {
+      "id": "twilightforest:dense_mushroom_forest",
+      "required": false
+    }
+  ]
+}

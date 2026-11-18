@@ -1,0 +1,12 @@
+{
+  "name": "lab_archetype.arcanavaria.drowned_thaumaturge",
+  "entity": "minecraft:drowned",
+  "health": 210,
+  "damage": 8,
+  "armor": 6,
+  "scale": 1.6,
+  "equipment": {
+    "mainhand": "minecraft:trident"
+  },
+  "bar": "blue"
+}

@@ -1,0 +1,20 @@
+{
+  "values": [
+    {
+      "id": "aerialhell:stellar_jungle",
+      "required": false
+    },
+    {
+      "id": "aerialhell:cortinarius_violaceus_forest",
+      "required": false
+    },
+    {
+      "id": "aerialhell:verdigris_agaric_forest",
+      "required": false
+    },
+    {
+      "id": "aerialhell:slippery_sand_ocean",
+      "required": false
+    }
+  ]
+}

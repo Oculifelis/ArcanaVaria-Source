@@ -1,0 +1,377 @@
+{
+  "processors": [
+    {
+      "processor_type": "arcanavaria:markers"
+    },
+    {
+      "processor_type": "arcanavaria:block_swap",
+      "whole": true,
+      "mode": "random",
+      "sets": [
+        {
+          "requires": "aether_ii",
+          "swap": {
+            "aether_ii:agiosite_brick_slab": "aether_ii:agiosite_brick_slab",
+            "aether_ii:agiosite_brick_stairs": "aether_ii:agiosite_brick_stairs",
+            "aether_ii:agiosite_bricks": "aether_ii:agiosite_bricks"
+          },
+          "weight": 1.0
+        },
+        {
+          "requires": "malum",
+          "swap": {
+            "aether_ii:agiosite_brick_slab": "malum:runic_twisted_rock_tiles_slab",
+            "aether_ii:agiosite_brick_stairs": "malum:runic_twisted_rock_tiles_stairs",
+            "aether_ii:agiosite_bricks": "malum:runic_twisted_rock_tiles"
+          },
+          "weight": 0.755
+        },
+        {
+          "requires": "malum",
+          "swap": {
+            "aether_ii:agiosite_brick_slab": "malum:runic_twisted_rock_bricks_slab",
+            "aether_ii:agiosite_brick_stairs": "malum:runic_twisted_rock_bricks_stairs",
+            "aether_ii:agiosite_bricks": "malum:runic_twisted_rock_bricks"
+          },
+          "weight": 0.755
+        },
+        {
+          "requires": "malum",
+          "swap": {
+            "aether_ii:agiosite_brick_slab": "malum:runic_small_twisted_rock_bricks_slab",
+            "aether_ii:agiosite_brick_stairs": "malum:runic_small_twisted_rock_bricks_stairs",
+            "aether_ii:agiosite_bricks": "malum:runic_small_twisted_rock_bricks"
+          },
+          "weight": 0.727
+        },
+        {
+          "requires": "ars_nouveau",
+          "swap": {
+            "aether_ii:agiosite_brick_slab": "ars_nouveau:gilded_sourcestone_small_bricks_slab",
+            "aether_ii:agiosite_brick_stairs": "ars_nouveau:gilded_sourcestone_small_bricks_stairs",
+            "aether_ii:agiosite_bricks": "ars_nouveau:gilded_sourcestone_small_bricks"
+          },
+          "weight": 0.618
+        },
+        {
+          "requires": "aether_ii",
+          "swap": {
+            "aether_ii:agiosite_brick_slab": "aether_ii:agiosite_slab",
+            "aether_ii:agiosite_brick_stairs": "aether_ii:agiosite_stairs",
+            "aether_ii:agiosite_bricks": "aether_ii:agiosite"
+          },
+          "weight": 0.562
+        },
+        {
+          "requires": "malum",
+          "swap": {
+            "aether_ii:agiosite_brick_slab": "malum:twisted_rock_tiles_slab",
+            "aether_ii:agiosite_brick_stairs": "malum:twisted_rock_tiles_stairs",
+            "aether_ii:agiosite_bricks": "malum:twisted_rock_tiles"
+          },
+          "weight": 0.558
+        },
+        {
+          "requires": "malum",
+          "swap": {
+            "aether_ii:agiosite_brick_slab": "malum:twisted_rock_bricks_slab",
+            "aether_ii:agiosite_brick_stairs": "malum:twisted_rock_bricks_stairs",
+            "aether_ii:agiosite_bricks": "malum:twisted_rock_bricks"
+          },
+          "weight": 0.558
+        },
+        {
+          "requires": "malum",
+          "swap": {
+            "aether_ii:agiosite_brick_slab": "malum:small_twisted_rock_bricks_slab",
+            "aether_ii:agiosite_brick_stairs": "malum:small_twisted_rock_bricks_stairs",
+            "aether_ii:agiosite_bricks": "malum:small_twisted_rock_bricks"
+          },
+          "weight": 0.523
+        },
+        {
+          "requires": "ars_nouveau",
+          "swap": {
+            "aether_ii:agiosite_brick_slab": "ars_nouveau:sourcestone_small_bricks_slab",
+            "aether_ii:agiosite_brick_stairs": "ars_nouveau:sourcestone_small_bricks_stairs",
+            "aether_ii:agiosite_bricks": "ars_nouveau:sourcestone_small_bricks"
+          },
+          "weight": 0.456
+        },
+        {
+          "requires": "ars_nouveau",
+          "swap": {
+            "aether_ii:agiosite_brick_slab": "ars_nouveau:sourcestone_large_bricks_slab",
+            "aether_ii:agiosite_brick_stairs": "ars_nouveau:sourcestone_large_bricks_stairs",
+            "aether_ii:agiosite_bricks": "ars_nouveau:sourcestone_large_bricks"
+          },
+          "weight": 0.451
+        },
+        {
+          "requires": "ars_nouveau",
+          "swap": {
+            "aether_ii:agiosite_brick_slab": "ars_nouveau:gilded_sourcestone_basketweave_slab",
+            "aether_ii:agiosite_brick_stairs": "ars_nouveau:gilded_sourcestone_basketweave_stairs",
+            "aether_ii:agiosite_bricks": "ars_nouveau:gilded_sourcestone_basketweave"
+          },
+          "weight": 0.43
+        },
+        {
+          "requires": "malum",
+          "swap": {
+            "aether_ii:agiosite_brick_slab": "malum:twisted_rock_slab",
+            "aether_ii:agiosite_brick_stairs": "malum:twisted_rock_stairs",
+            "aether_ii:agiosite_bricks": "malum:twisted_rock"
+          },
+          "weight": 0.392
+        },
+        {
+          "requires": "stellaris",
+          "swap": {
+            "aether_ii:agiosite_brick_slab": "stellaris:casus_astrum_stone_slab",
+            "aether_ii:agiosite_brick_stairs": "stellaris:casus_astrum_stone_stairs",
+            "aether_ii:agiosite_bricks": "stellaris:casus_astrum_stone"
+          },
+          "weight": 0.35
+        },
+        {
+          "requires": "ars_nouveau",
+          "swap": {
+            "aether_ii:agiosite_brick_slab": "ars_nouveau:gilded_sourcestone_mosaic_slab",
+            "aether_ii:agiosite_brick_stairs": "ars_nouveau:gilded_sourcestone_mosaic_stairs",
+            "aether_ii:agiosite_bricks": "ars_nouveau:gilded_sourcestone_mosaic"
+          },
+          "weight": 0.34
+        },
+        {
+          "requires": "ars_nouveau",
+          "swap": {
+            "aether_ii:agiosite_brick_slab": "ars_nouveau:sourcestone_slab",
+            "aether_ii:agiosite_brick_stairs": "ars_nouveau:sourcestone_stairs",
+            "aether_ii:agiosite_bricks": "ars_nouveau:sourcestone"
+          },
+          "weight": 0.319
+        },
+        {
+          "requires": "ars_nouveau",
+          "swap": {
+            "aether_ii:agiosite_brick_slab": "ars_nouveau:sourcestone_alternating_slab",
+            "aether_ii:agiosite_brick_stairs": "ars_nouveau:sourcestone_alternating_stairs",
+            "aether_ii:agiosite_bricks": "ars_nouveau:sourcestone_alternating"
+          },
+          "weight": 0.285
+        },
+        {
+          "requires": "ars_nouveau",
+          "swap": {
+            "aether_ii:agiosite_brick_slab": "ars_nouveau:sourcestone_basketweave_slab",
+            "aether_ii:agiosite_brick_stairs": "ars_nouveau:sourcestone_basketweave_stairs",
+            "aether_ii:agiosite_bricks": "ars_nouveau:sourcestone_basketweave"
+          },
+          "weight": 0.276
+        },
+        {
+          "requires": "ars_nouveau",
+          "swap": {
+            "aether_ii:agiosite_brick_slab": "ars_nouveau:sourcestone_mosaic_slab",
+            "aether_ii:agiosite_brick_stairs": "ars_nouveau:sourcestone_mosaic_stairs",
+            "aether_ii:agiosite_bricks": "ars_nouveau:sourcestone_mosaic"
+          },
+          "weight": 0.273
+        },
+        {
+          "requires": "minecraft",
+          "swap": {},
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "processor_type": "arcanavaria:block_swap",
+      "whole": true,
+      "mode": "random",
+      "sets": [
+        {
+          "requires": "malum",
+          "swap": {
+            "aether_ii:agiosite_capstone_bricks": "malum:smooth_twisted_rock"
+          },
+          "weight": 1.0
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "aether_ii:agiosite_capstone_bricks": "create:small_asurine_bricks"
+          },
+          "weight": 0.976
+        },
+        {
+          "requires": "malum",
+          "swap": {
+            "aether_ii:agiosite_capstone_bricks": "malum:polished_twisted_rock"
+          },
+          "weight": 0.877
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "aether_ii:agiosite_capstone_bricks": "create:polished_cut_asurine"
+          },
+          "weight": 0.772
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "aether_ii:agiosite_capstone_bricks": "create:cut_asurine_bricks"
+          },
+          "weight": 0.744
+        },
+        {
+          "requires": "aether_ii",
+          "swap": {
+            "aether_ii:agiosite_capstone_bricks": "aether_ii:agiosite_capstone_bricks"
+          },
+          "weight": 0.554
+        },
+        {
+          "requires": "aether_ii",
+          "swap": {
+            "aether_ii:agiosite_capstone_bricks": "aether_ii:agiosite_base_bricks"
+          },
+          "weight": 0.539
+        },
+        {
+          "requires": "neovitae",
+          "swap": {
+            "aether_ii:agiosite_capstone_bricks": "neovitae:dungeon_polished_st"
+          },
+          "weight": 0.495
+        },
+        {
+          "requires": "quark",
+          "swap": {
+            "aether_ii:agiosite_capstone_bricks": "quark:duskbound_block"
+          },
+          "weight": 0.466
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "aether_ii:agiosite_capstone_bricks": "create:cut_asurine"
+          },
+          "weight": 0.437
+        },
+        {
+          "requires": "aether_ii",
+          "swap": {
+            "aether_ii:agiosite_capstone_bricks": "aether_ii:agiosite_flagstones"
+          },
+          "weight": 0.349
+        },
+        {
+          "requires": "aether_ii",
+          "swap": {
+            "aether_ii:agiosite_capstone_bricks": "aether_ii:agiosite_keystone"
+          },
+          "weight": 0.341
+        },
+        {
+          "requires": "neovitae",
+          "swap": {
+            "aether_ii:agiosite_capstone_bricks": "neovitae:dungeon_brick1_st"
+          },
+          "weight": 0.34
+        },
+        {
+          "requires": "neovitae",
+          "swap": {
+            "aether_ii:agiosite_capstone_bricks": "neovitae:dungeon_brick3_st"
+          },
+          "weight": 0.328
+        },
+        {
+          "requires": "neovitae",
+          "swap": {
+            "aether_ii:agiosite_capstone_bricks": "neovitae:dungeon_brick2_st"
+          },
+          "weight": 0.327
+        },
+        {
+          "requires": "neovitae",
+          "swap": {
+            "aether_ii:agiosite_capstone_bricks": "neovitae:dungeon_tile_st"
+          },
+          "weight": 0.326
+        },
+        {
+          "requires": "neovitae",
+          "swap": {
+            "aether_ii:agiosite_capstone_bricks": "neovitae:dungeon_stone_st"
+          },
+          "weight": 0.326
+        },
+        {
+          "requires": "neovitae",
+          "swap": {
+            "aether_ii:agiosite_capstone_bricks": "neovitae:dungeon_smallbrick_st"
+          },
+          "weight": 0.325
+        },
+        {
+          "requires": "neovitae",
+          "swap": {
+            "aether_ii:agiosite_capstone_bricks": "neovitae:dungeon_pillar_special_st"
+          },
+          "weight": 0.318
+        },
+        {
+          "requires": "neovitae",
+          "swap": {
+            "aether_ii:agiosite_capstone_bricks": "neovitae:dungeon_pillar_center_st"
+          },
+          "weight": 0.318
+        },
+        {
+          "requires": "neovitae",
+          "swap": {
+            "aether_ii:agiosite_capstone_bricks": "neovitae:dungeon_tilespecial_st"
+          },
+          "weight": 0.289
+        },
+        {
+          "requires": "tropicraft",
+          "swap": {
+            "aether_ii:agiosite_capstone_bricks": "tropicraft:manganese_block"
+          },
+          "weight": 0.23
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "aether_ii:agiosite_capstone_bricks": "create:layered_asurine"
+          },
+          "weight": 0.215
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "aether_ii:agiosite_capstone_bricks": "dndecor:blue_small_deepslate_tiles"
+          },
+          "weight": 0.202
+        },
+        {
+          "requires": "malum",
+          "swap": {
+            "aether_ii:agiosite_capstone_bricks": "malum:chiseled_twisted_rock"
+          },
+          "weight": 0.111
+        },
+        {
+          "requires": "minecraft",
+          "swap": {},
+          "weight": 1.0
+        }
+      ]
+    }
+  ]
+}

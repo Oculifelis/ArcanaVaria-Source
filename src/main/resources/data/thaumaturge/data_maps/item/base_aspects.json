@@ -1,0 +1,292 @@
+{
+  "values": {
+    "arcanavaria:thaumium_whip": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "fundamentum"
+        }
+      ],
+      "value": [
+        {
+          "aspect": "thaumaturge:instrumentum",
+          "amount": 8
+        },
+        {
+          "aspect": "thaumaturge:motus",
+          "amount": 4
+        },
+        {
+          "aspect": "thaumaturge:aversio",
+          "amount": 4
+        },
+        {
+          "aspect": "thaumaturge:praecantatio",
+          "amount": 2
+        }
+      ]
+    },
+    "arcanavaria:void_whip": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "fundamentum"
+        }
+      ],
+      "value": [
+        {
+          "aspect": "thaumaturge:instrumentum",
+          "amount": 8
+        },
+        {
+          "aspect": "thaumaturge:motus",
+          "amount": 4
+        },
+        {
+          "aspect": "thaumaturge:aversio",
+          "amount": 6
+        },
+        {
+          "aspect": "thaumaturge:vacuos",
+          "amount": 4
+        },
+        {
+          "aspect": "thaumaturge:alienis",
+          "amount": 2
+        }
+      ]
+    },
+    "arcanavaria:elemental_whip": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "fundamentum"
+        }
+      ],
+      "value": [
+        {
+          "aspect": "thaumaturge:instrumentum",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:motus",
+          "amount": 4
+        },
+        {
+          "aspect": "thaumaturge:aer",
+          "amount": 3
+        },
+        {
+          "aspect": "thaumaturge:ignis",
+          "amount": 3
+        },
+        {
+          "aspect": "thaumaturge:aqua",
+          "amount": 3
+        },
+        {
+          "aspect": "thaumaturge:terra",
+          "amount": 3
+        },
+        {
+          "aspect": "thaumaturge:ordo",
+          "amount": 3
+        },
+        {
+          "aspect": "thaumaturge:perditio",
+          "amount": 3
+        }
+      ]
+    },
+    "arcanavaria:amberbark_lash": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "fundamentum"
+        }
+      ],
+      "value": [
+        {
+          "aspect": "thaumaturge:instrumentum",
+          "amount": 4
+        },
+        {
+          "aspect": "thaumaturge:motus",
+          "amount": 4
+        },
+        {
+          "aspect": "thaumaturge:herba",
+          "amount": 4
+        },
+        {
+          "aspect": "thaumaturge:victus",
+          "amount": 4
+        },
+        {
+          "aspect": "thaumaturge:ordo",
+          "amount": 2
+        }
+      ]
+    },
+    "arcanavaria:lattice_pipe": {
+      "value": [
+        {
+          "aspect": "thaumaturge:vitreus",
+          "amount": 2
+        },
+        {
+          "aspect": "thaumaturge:permutatio",
+          "amount": 1
+        }
+      ]
+    },
+    "arcanavaria:lattice_intake": {
+      "value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 3
+        },
+        {
+          "aspect": "thaumaturge:permutatio",
+          "amount": 2
+        },
+        {
+          "aspect": "thaumaturge:vacuos",
+          "amount": 1
+        }
+      ]
+    },
+    "arcanavaria:lattice_outlet": {
+      "value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 3
+        },
+        {
+          "aspect": "thaumaturge:permutatio",
+          "amount": 2
+        },
+        {
+          "aspect": "thaumaturge:ordo",
+          "amount": 1
+        }
+      ]
+    },
+    "arcanavaria:lattice_junction": {
+      "value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 3
+        },
+        {
+          "aspect": "thaumaturge:permutatio",
+          "amount": 3
+        },
+        {
+          "aspect": "thaumaturge:ordo",
+          "amount": 2
+        }
+      ]
+    },
+    "arcanavaria:lattice_prism": {
+      "value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 3
+        },
+        {
+          "aspect": "thaumaturge:permutatio",
+          "amount": 3
+        },
+        {
+          "aspect": "thaumaturge:vitreus",
+          "amount": 2
+        }
+      ]
+    },
+    "arcanavaria:lattice_synchronizer": {
+      "value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 3
+        },
+        {
+          "aspect": "thaumaturge:permutatio",
+          "amount": 2
+        },
+        {
+          "aspect": "thaumaturge:ordo",
+          "amount": 2
+        },
+        {
+          "aspect": "thaumaturge:motus",
+          "amount": 1
+        }
+      ]
+    },
+    "arcanavaria:thurible": {
+      "value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 4
+        },
+        {
+          "aspect": "thaumaturge:aer",
+          "amount": 3
+        },
+        {
+          "aspect": "thaumaturge:vitreus",
+          "amount": 2
+        },
+        {
+          "aspect": "thaumaturge:alkimia",
+          "amount": 2
+        }
+      ]
+    },
+    "arcanavaria:architects_lens": {
+      "value": [
+        {
+          "aspect": "thaumaturge:ordo",
+          "amount": 3
+        },
+        {
+          "aspect": "thaumaturge:vitreus",
+          "amount": 2
+        },
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 2
+        },
+        {
+          "aspect": "thaumaturge:fabrico",
+          "amount": 2
+        }
+      ]
+    },
+    "arcanavaria:blueprint_scroll": {
+      "value": [
+        {
+          "aspect": "thaumaturge:cognitio",
+          "amount": 1
+        },
+        {
+          "aspect": "thaumaturge:herba",
+          "amount": 1
+        }
+      ]
+    },
+    "arcanavaria:lab_journal": {
+      "value": [
+        {
+          "aspect": "thaumaturge:cognitio",
+          "amount": 4
+        },
+        {
+          "aspect": "thaumaturge:vacuos",
+          "amount": 1
+        }
+      ]
+    }
+  }
+}

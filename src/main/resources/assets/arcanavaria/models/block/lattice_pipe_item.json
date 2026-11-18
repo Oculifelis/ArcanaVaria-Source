@@ -1,0 +1,93 @@
+{
+  "render_type": "minecraft:translucent",
+  "ambientocclusion": false,
+  "parent": "minecraft:block/block",
+  "textures": {
+    "pipe": "arcanavaria:block/lattice_pipe",
+    "particle": "arcanavaria:block/lattice_pipe"
+  },
+  "elements": [
+    {
+      "from": [
+        5,
+        5,
+        0
+      ],
+      "to": [
+        11,
+        11,
+        16
+      ],
+      "faces": {
+        "east": {
+          "texture": "#pipe",
+          "uv": [
+            5,
+            0,
+            11,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#pipe",
+          "uv": [
+            5,
+            0,
+            11,
+            16
+          ]
+        },
+        "up": {
+          "texture": "#pipe",
+          "uv": [
+            5,
+            0,
+            11,
+            16
+          ]
+        },
+        "down": {
+          "texture": "#pipe",
+          "uv": [
+            5,
+            0,
+            11,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        5,
+        5,
+        0
+      ],
+      "to": [
+        11,
+        11,
+        16
+      ],
+      "faces": {
+        "north": {
+          "texture": "#pipe",
+          "uv": [
+            5,
+            5,
+            11,
+            11
+          ]
+        },
+        "south": {
+          "texture": "#pipe",
+          "uv": [
+            5,
+            5,
+            11,
+            11
+          ]
+        }
+      }
+    }
+  ]
+}

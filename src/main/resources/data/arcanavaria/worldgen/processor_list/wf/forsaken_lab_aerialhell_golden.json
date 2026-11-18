@@ -1,0 +1,68 @@
+{
+  "processors": [
+    {
+      "processor_type": "arcanavaria:markers"
+    },
+    {
+      "processor_type": "arcanavaria:block_swap",
+      "whole": true,
+      "mode": "random",
+      "sets": [
+        {
+          "requires": "create",
+          "swap": {
+            "aerialhell:cracked_golden_nether_bricks": "create:small_scoria_bricks"
+          },
+          "weight": 1.0
+        },
+        {
+          "requires": "dndecor",
+          "swap": {
+            "aerialhell:cracked_golden_nether_bricks": "dndecor:brown_small_deepslate_tiles"
+          },
+          "weight": 0.998
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "aerialhell:cracked_golden_nether_bricks": "create:scoria"
+          },
+          "weight": 0.74
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "aerialhell:cracked_golden_nether_bricks": "create:cut_scoria_bricks"
+          },
+          "weight": 0.731
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "aerialhell:cracked_golden_nether_bricks": "create:polished_cut_scoria"
+          },
+          "weight": 0.707
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "aerialhell:cracked_golden_nether_bricks": "create:layered_scoria"
+          },
+          "weight": 0.659
+        },
+        {
+          "requires": "create",
+          "swap": {
+            "aerialhell:cracked_golden_nether_bricks": "create:cut_scoria"
+          },
+          "weight": 0.533
+        },
+        {
+          "requires": "minecraft",
+          "swap": {},
+          "weight": 1.0
+        }
+      ]
+    }
+  ]
+}

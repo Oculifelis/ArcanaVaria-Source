@@ -1,0 +1,12 @@
+{
+  "name": "lab_trait.arcanavaria.blinking",
+  "colour": 12607743,
+  "particle": {
+    "type": "minecraft:portal"
+  },
+  "ability": {
+    "kind": "blink",
+    "every": 120,
+    "radius": 14
+  }
+}

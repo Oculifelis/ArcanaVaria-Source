@@ -1,0 +1,16 @@
+{
+  "values": [
+    {
+      "id": "tropicraft:beach",
+      "required": false
+    },
+    {
+      "id": "tropicraft:tropics",
+      "required": false
+    },
+    {
+      "id": "tropicraft:river",
+      "required": false
+    }
+  ]
+}

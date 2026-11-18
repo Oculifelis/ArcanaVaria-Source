@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:paper",
+    "minecraft:lapis_lazuli"
+  ],
+  "result": {
+    "id": "arcanavaria:blueprint_scroll",
+    "count": 2
+  }
+}

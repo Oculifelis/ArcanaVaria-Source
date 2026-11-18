@@ -1,0 +1,17 @@
+{
+  "aspect": "thaumaturge:vitium",
+  "target": "enemies",
+  "effects": [
+    {
+      "effect": "minecraft:poison",
+      "duration": 100,
+      "amplifier": 0
+    },
+    {
+      "effect": "minecraft:nausea",
+      "duration": 100,
+      "amplifier": 0
+    }
+  ],
+  "description": "thurible.arcanavaria.cloud.vitium"
+}

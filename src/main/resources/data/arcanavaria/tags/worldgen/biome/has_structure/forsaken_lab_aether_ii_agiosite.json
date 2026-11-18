@@ -1,0 +1,16 @@
+{
+  "values": [
+    {
+      "id": "aether_ii:hestveil_caverns",
+      "required": false
+    },
+    {
+      "id": "aether_ii:shimmering_basin",
+      "required": false
+    },
+    {
+      "id": "aether_ii:violet_highwoods",
+      "required": false
+    }
+  ]
+}
