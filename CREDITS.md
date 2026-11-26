@@ -2,12 +2,12 @@
 
 Copyright (C) 2026 Oculifelis.
 
-Arcana Varia's code and Oculifelis's own art are licensed under the **GNU Lesser General Public License, version 3
-or (at your option) any later version** (`LGPL-3.0-or-later`), from version 0.7.3. The LGPL text is in `LICENSE`.
-The GPL text it builds on is in `COPYING`. Both files and this one ship in the jar's `META-INF`. Versions before
-0.7.3 were released as All Rights Reserved.
+Arcana Varia's code and Oculifelis's own art are licensed under the **GNU General Public License, version 3
+or (at your option) any later version** (`GPL-3.0-or-later`). The GPL text is in `LICENSE`. It and this file ship in
+the jar's `META-INF`. Earlier versions were released under LGPL-3.0-or-later (from 0.7.3) or All Rights Reserved
+(before 0.7.3).
 
-Third-party work keeps its own licence, listed below. The LGPL does not cover it.
+Third-party work keeps its own licence, listed below. The GPL does not cover it.
 
 ## Oculifelis
 Code, design, the structures' block layouts and processors, and the hand-drawn art not listed below.
@@ -27,8 +27,8 @@ Code, design, the structures' block layouts and processors, and the hand-drawn a
 
 ## Thaumaturge by Leclowndu93150 and contributors
 The textures below are drawn on, recoloured from or copied from Thaumaturge's own art (its metals, lab stone,
-runes, warded glass and similar). Thaumaturge's authors keep their rights to that art. **The LGPL does not cover
-these textures**; nobody may take them out of Arcana Varia under the LGPL. Some of them also carry the Scythes
+runes, warded glass and similar). Thaumaturge's authors keep their rights to that art. **The GPL does not cover
+these textures**; nobody may take them out of Arcana Varia under the GPL. Some of them also carry the Scythes
 Vanilla or Malcolm Riley material above. All paths are under `assets/arcanavaria/`, each a `.png`.
 
 - `textures/block/`: `aspect_lock_front`, `aspect_lock_front_open`, `beam_emitter_front`, `beam_mirror`, `beam_receptor`, `beam_receptor_on`, `guardian_altar_side`, `guardian_altar_top`, `guardian_altar_top_awake`, `lab_stone`, `lattice_intake`, `lattice_outlet`, `lattice_pipe`, `lattice_prism`, `lattice_side`, `rune_lock_front`, `rune_lock_front_open`, `rune_stone_0`, `rune_stone_1`, `rune_stone_2`, `rune_stone_3`, `rune_stone_4`, `rune_stone_5`, `rune_stone_6`, `rune_stone_7`, `rune_stone_side`, `thurible_body`, `thurible_fill`, `ward_core_side`, `ward_core_side_cleared`, `ward_core_side_sealed`, `ward_core_top`

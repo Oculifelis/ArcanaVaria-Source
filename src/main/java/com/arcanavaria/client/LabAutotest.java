@@ -8,6 +8,11 @@ import com.arcanavaria.lab.RuneStoneBlock;
 import com.arcanavaria.lab.WardCoreBlock;
 import com.arcanavaria.lab.WardCoreBlockEntity;
 import com.arcanavaria.lab.boss.GuardianAltarBlockEntity;
+import com.arcanavaria.lab.walker.CrucibleWalker;
+import com.arcanavaria.lab.walker.WalkerAct;
+import com.arcanavaria.lab.walker.WalkerMode;
+import java.util.EnumSet;
+import java.util.Set;
 import com.leclowndu93150.thaumaturge.api.aspect.IAspect;
 import com.leclowndu93150.thaumaturge.content.item.PhialItem;
 import java.util.List;
@@ -137,6 +142,58 @@ final class LabAutotest {
                 altar.phase().getSerializedName(), level.getBlockState(CORE).getValue(WardCoreBlock.WARD).getSerializedName(),
                 WardCoreBlockEntity.isSealed(p), drops);
         log.info("AVTEST lab shell breakable after clear={} (want true)", p.gameMode.destroyBlock(SHELL) && level.getBlockState(SHELL).isAir());
+    }
+
+    /** How long the lab test watches the Crucible Walker fight before killing it: two full loops, the second in phase two. */
+    static final int WATCH = 900;
+    private static final Set<WalkerAct> ACTS = EnumSet.noneOf(WalkerAct.class);
+    private static final Set<WalkerMode> MODES = EnumSet.noneOf(WalkerMode.class);
+    private static WalkerAct lastAct;
+    private static WalkerMode lastMode;
+    private static float lastHp;
+
+    /**
+     * Every tick of the watch: logs each change of move or mode, and every hit on the player. Halves the walker at the
+     * midpoint so phase two (and its steam burst) shows. At the end, a summary with what it wants.
+     */
+    static void walkerWatch(ServerPlayer p, Logger log, int t) {
+        ServerLevel level = (ServerLevel) p.level();
+        List<CrucibleWalker> all = level.getEntitiesOfClass(CrucibleWalker.class, new AABB(ALTAR).inflate(24));
+        if (t == 0) {
+            ACTS.clear();
+            MODES.clear();
+            lastAct = null;
+            lastMode = null;
+            lastHp = p.getHealth();
+            log.info("AVTEST walker watch start walkers={} (want 1)", all.size());
+        }
+        if (t % 400 == 0) {
+            keepAlive(p);
+        }
+        if (all.isEmpty()) {
+            return;
+        }
+        CrucibleWalker w = all.get(0);
+        if (w.act() != lastAct || w.mode() != lastMode) {
+            log.info("AVTEST walker t={} act={} mode={} p2={} hp={} dist={} target={}", t, w.act(), w.mode(), w.phaseTwo(),
+                    (int) w.getHealth(), String.format("%.1f", w.distanceTo(p)), w.getTarget() == null ? "none" : "player");
+            lastAct = w.act();
+            lastMode = w.mode();
+        }
+        ACTS.add(w.act());
+        MODES.add(w.mode());
+        if (p.getHealth() < lastHp - 0.01F) {
+            log.info("AVTEST walker t={} hit player during act={} for {}", t, w.act(), String.format("%.1f", lastHp - p.getHealth()));
+        }
+        lastHp = p.getHealth();
+        if (t == WATCH / 2) {
+            w.setHealth(w.getMaxHealth() * 0.45F);
+            log.info("AVTEST walker halved");
+        }
+        if (t == WATCH - 1) {
+            log.info("AVTEST walker summary acts={} modes={} p2={} tint={} (want START SWIPE|STOMP|LOB CHARGE|RAY BURST, all three modes, true)",
+                    ACTS, MODES, w.phaseTwo(), Integer.toHexString(w.tint()));
+        }
     }
 
     static void deathSetUp(ServerPlayer p, Logger log) {

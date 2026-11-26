@@ -16,10 +16,10 @@ public final class WardenRegistry {
     public static final DeferredRegister.Entities ENTITIES = DeferredRegister.createEntities(MODID);
     public static final DeferredRegister<AttachmentType<?>> ATTACHMENTS = DeferredRegister.create(NeoForgeRegistries.ATTACHMENT_TYPES, MODID);
 
-    /** 1.8 wide, 3.2 tall: the shoulders ride well above a player's head; the antlers reach higher still. */
+    /** 2.6 wide, 5.0 tall by default (boss_moves hitbox_* overrides it): mantle height; the antlers reach higher still. */
     public static final DeferredHolder<EntityType<?>, EntityType<GreatwoodWarden>> GREATWOOD_WARDEN = ENTITIES.registerEntityType(
         "greatwood_warden", GreatwoodWarden::new, MobCategory.MONSTER,
-        b -> b.sized(1.8F, 3.2F).eyeHeight(2.9F).clientTrackingRange(10).fireImmune());
+        b -> b.sized(2.6F, 5.0F).eyeHeight(4.6F).clientTrackingRange(10).fireImmune());
     public static final DeferredHolder<EntityType<?>, EntityType<RootSpike>> ROOT_SPIKE = ENTITIES.registerEntityType(
         "root_spike", RootSpike::new, MobCategory.MISC, b -> b.sized(0.8F, 1.6F).clientTrackingRange(8).updateInterval(Integer.MAX_VALUE));
     public static final DeferredHolder<EntityType<?>, EntityType<WardenSplinter>> SPLINTER = ENTITIES.registerEntityType(

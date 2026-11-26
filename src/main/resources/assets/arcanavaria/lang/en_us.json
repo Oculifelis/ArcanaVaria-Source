@@ -1,4 +1,5 @@
 {
+  "key.category.arcanavaria.lens": "Arcana Varia",
   "block.arcanavaria.aspect_lock": "Aspect Lock",
   "block.arcanavaria.beam_emitter": "Sun Lens",
   "block.arcanavaria.beam_mirror": "Beam Mirror",
@@ -30,6 +31,7 @@
   "enchantment.arcanavaria.soul_devourer.desc": "Killing a monster with the scythe can heal you 1, 2 or 3 hearts (40%, 60% or 80% chance, depending on the level).",
   "entity.arcanavaria.greatwood_warden": "Greatwood Warden",
   "entity.arcanavaria.exanimator": "The Exanimator",
+  "entity.arcanavaria.crucible_walker": "Crucible Walker",
   "entity.arcanavaria.root_spike": "Root",
   "entity.arcanavaria.thurible_cloud": "Thurible Cloud",
   "entity.arcanavaria.warden_splinter": "Greatwood Splinter",
@@ -53,6 +55,8 @@
   "item.arcanavaria.void_whip": "Void Whip",
   "item.arcanavaria.warden_amber_heart": "Warden's Amber Heart",
   "item.arcanavaria.warden_amber_heart.used": "Your heart already beats with the grove's.",
+  "tooltip.arcanavaria.warden_amber_heart": "Use it to gain 2 hearts of max health for good.",
+  "tooltip.arcanavaria.warden_amber_heart.once": "Works once per player.",
   "itemGroup.arcanavaria": "Arcana Varia",
   "journal.arcanavaria.forsaken_laboratories": "Journal of the Last Warden",
   "journal.arcanavaria.lab_guardians": "Notes on the Failed Experiments",

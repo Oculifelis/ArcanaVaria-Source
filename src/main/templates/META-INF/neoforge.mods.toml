@@ -6,9 +6,11 @@ license="${mod_license}"
 modId="${mod_id}"
 version="${mod_version}"
 displayName="${mod_name}"
+logoFile="arcanavaria_logo.png"
+logoBlur=false
 displayURL="https://www.curseforge.com/minecraft/mc-mods/arcana-varia"
 authors="Oculifelis"
-credits="Scythes after Scythes Vanilla by Drift007_: sprites, in-hand model, sounds, stats and the Soul Devourer, Grim Harvest, Eclipse and Reaper's Step enchantments (MIT / CC0, see licenses/scythes_vanilla-LICENSE.txt). Warden's Amber Heart sprite from unused-textures by Malcolm Riley (CC BY 4.0, see licenses/malcolm_riley-CC-BY-4.0.txt). Thaumaturge by Leclowndu93150 and contributors; textures drawn on Thaumaturge art are not covered by the LGPL. See META-INF/CREDITS.md."
+credits="Scythes after Scythes Vanilla by Drift007_: sprites, in-hand model, sounds, stats and the Soul Devourer, Grim Harvest, Eclipse and Reaper's Step enchantments (MIT / CC0, see licenses/scythes_vanilla-LICENSE.txt). Warden's Amber Heart sprite from unused-textures by Malcolm Riley (CC BY 4.0, see licenses/malcolm_riley-CC-BY-4.0.txt). Thaumaturge by Leclowndu93150 and contributors; textures drawn on Thaumaturge art are not covered by the GPL. See META-INF/CREDITS.md."
 description='''
 Assorted Thaumaturge odds and ends: sealed Wizard Towers and Forsaken Laboratories with puzzles and guardians, the
 Thurible, the Architect's Lens, the Alembic Lattice, Thaumium, Void and Elemental Scythes with four scythe

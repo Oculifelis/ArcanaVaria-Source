@@ -94,9 +94,9 @@ tasks.withType(JavaCompile).configureEach {
     options.encoding = 'UTF-8'
 }
 
-// LGPL-3.0-or-later: the licence texts and credits ship in the jar's META-INF
+// GPL-3.0-or-later: the licence text and credits ship in the jar's META-INF
 tasks.named('jar') {
-    from([file('LICENSE'), file('COPYING'), file('CREDITS.md'), file('LICENSE-third-party.md')]) {
+    from([file('LICENSE'), file('CREDITS.md'), file('LICENSE-third-party.md')]) {
         into 'META-INF'
     }
 }

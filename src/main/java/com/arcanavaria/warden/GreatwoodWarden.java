@@ -23,8 +23,10 @@ import net.minecraft.world.BossEvent;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.damagesource.DamageTypes;
 import net.minecraft.world.entity.Entity;
+import net.minecraft.world.entity.EntityDimensions;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.Pose;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.goal.FloatGoal;
@@ -59,7 +61,8 @@ public class GreatwoodWarden extends Monster {
     private static final EntityDataAccessor<Boolean> DATA_PHASE_TWO = SynchedEntityData.defineId(GreatwoodWarden.class, EntityDataSerializers.BOOLEAN);
 
     private static final double SLAM_RADIUS = 4.5, BURST_RADIUS = 3.5;
-    private static final int WIPE_TICKS = 1200, MEND_COOLDOWN = 400;
+    private static final int WIPE_TICKS = 1200, MEND_COOLDOWN = 400, CHASE_PATIENCE = 100;
+    private static final double CHASE_RANGE = 12.0;
     private static final ParticleOptions AMBER = new DustParticleOptions(0xFFB028, 1.4F);
     private static final ParticleOptions LEAF = new DustParticleOptions(0x5E9A3A, 1.2F);
 
@@ -79,6 +82,7 @@ public class GreatwoodWarden extends Monster {
     private Vec3 aim = Vec3.ZERO;
     private final List<Vec3> lanes = new ArrayList<>();
     private Vec3 burrowTo = Vec3.ZERO;
+    private int repathIn;
 
     public GreatwoodWarden(EntityType<? extends GreatwoodWarden> type, Level level) {
         super(type, level);
@@ -259,7 +263,7 @@ public class GreatwoodWarden extends Monster {
             case MEND -> this.tickMend(level, t);
             case STUN -> {
                 if (t % 6 == 0) {
-                    level.sendParticles(ParticleTypes.CRIT, this.getX(), this.getY() + 3.2, this.getZ(), 4, 0.5, 0.1, 0.5, 0.0);
+                    level.sendParticles(ParticleTypes.CRIT, this.getX(), this.getY() + 5.0, this.getZ(), 4, 0.7, 0.1, 0.7, 0.0);
                 }
             }
             case BURROW -> this.tickBurrow(level, t, target);
@@ -310,16 +314,22 @@ public class GreatwoodWarden extends Monster {
         if (this.finale == WardenState.Finale.PENDING && this.getHealth() < this.getMaxHealth() * 0.2F) {
             this.finale = WardenState.Finale.QUEUED;
         }
-        boolean far = this.home.distSqr(this.blockPosition()) > 32 * 32;
-        if (far) {
-            this.getNavigation().moveTo(this.home.getX() + 0.5, this.home.getY(), this.home.getZ() + 0.5, 1.0);
-        } else {
-            this.getNavigation().moveTo(target, 1.0);
+        // Chase: no home tether while it has a target (it used to walk home whenever it was 32 blocks from the Heartseed
+        // spot, so a player fighting past that line was never followed). Re-path every few ticks, a bit faster when far.
+        double d = Math.sqrt(this.distanceToSqr(target));
+        double chase = AVDataMaps.move(this, "chase_range", CHASE_RANGE);
+        if (--this.repathIn <= 0 || this.getNavigation().isDone()) {
+            this.getNavigation().moveTo(target, d > chase ? AVDataMaps.move(this, "chase_speed", 1.25) : 1.0);
+            this.repathIn = 8;
         }
         if (t < (this.phaseTwo() ? 18 : 30)) {
             return;
         }
-        double d = Math.sqrt(this.distanceToSqr(target));
+        // Out past chase range it keeps walking instead of standing still to cast; after 5 s of chasing without closing
+        // in, it fires a ranged move anyway.
+        if (d > chase && this.finale != WardenState.Finale.QUEUED && t < CHASE_PATIENCE) {
+            return;
+        }
         WardenState next;
         if (this.finale == WardenState.Finale.QUEUED) {
             next = ROOTS;
@@ -597,10 +607,43 @@ public class GreatwoodWarden extends Monster {
     }
 
     // ------------------------------------------------------------------------------------------------ helpers
-    /** The amber heart in the chest, where the ray starts. */
+    /** The great eye in the chest wound, where the ray starts. */
     public Vec3 heart() {
         Vec3 fwd = Vec3.directionFromRotation(0, this.yBodyRot);
-        return this.position().add(0, 2.25, 0).add(fwd.scale(0.7));
+        return this.position().add(0, 3.55, 0).add(fwd.scale(1.0));
+    }
+
+    /** Hitbox from the boss_moves data map (hitbox_width, hitbox_height, hitbox_eye_height), else the registered size. */
+    @Override
+    public EntityDimensions getDefaultDimensions(Pose pose) {
+        EntityDimensions base = super.getDefaultDimensions(pose);
+        float w = (float) AVDataMaps.move(this, "hitbox_width", base.width());
+        float h = (float) AVDataMaps.move(this, "hitbox_height", base.height());
+        float eye = (float) AVDataMaps.move(this, "hitbox_eye_height", base.eyeHeight());
+        return EntityDimensions.scalable(w, h).withEyeHeight(eye);
+    }
+
+    @Override
+    public void tick() {
+        super.tick();
+        if (this.tickCount == 1) {
+            this.refreshDimensions();                           // data maps can arrive after the entity is built
+        }
+        Level level = this.level();
+        if (level.isClientSide() && this.isAlive() && this.random.nextInt(3) == 0) {
+            Vec3 fwd = Vec3.directionFromRotation(0, this.yBodyRot);
+            Vec3 side = new Vec3(-fwd.z, 0, fwd.x);
+            if (this.random.nextBoolean()) {                    // flux seeping from the chest wounds
+                Vec3 p = this.position().add(fwd.scale(0.95)).add(side.scale((this.random.nextDouble() - 0.5) * 2.2))
+                    .add(0, 3.0 + this.random.nextDouble() * 1.4, 0);
+                level.addParticle(ParticleTypes.WITCH, p.x, p.y, p.z, 0, 0.02, 0);
+            } else {                                            // motes shed by the runes on the antlers
+                double s = this.random.nextBoolean() ? 1.0 : -1.0;
+                Vec3 p = this.position().add(side.scale(s * 1.3)).add(fwd.scale(0.4))
+                    .add((this.random.nextDouble() - 0.5) * 1.2, 6.2 + this.random.nextDouble() * 0.6, (this.random.nextDouble() - 0.5) * 1.2);
+                level.addParticle(ParticleTypes.PORTAL, p.x, p.y, p.z, 0, -0.05, 0);
+            }
+        }
     }
 
     private List<LivingEntity> victims(ServerLevel level, AABB box) {

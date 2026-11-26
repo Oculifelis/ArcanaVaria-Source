@@ -124,10 +124,12 @@ public final class AVRegistry {
         LatticeRegistry.register(bus);
         ThuribleRegistry.register(bus);
         LensRegistry.register(bus);
+        com.arcanavaria.fx.SwingFxPacket.register(bus);
         LabRegistry.register(bus);
         ITEMS.register(bus);
         TABS.register(bus);
         WardenRegistry.register(bus);
         com.arcanavaria.exanimator.ExanimatorRegistry.register(bus);
+        com.arcanavaria.lab.walker.WalkerRegistry.register(bus);
     }
 }

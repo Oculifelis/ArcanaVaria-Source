@@ -1,12 +1,9 @@
 {
   "name": "lab_archetype.arcanavaria.hollow_magus",
-  "entity": "minecraft:wither_skeleton",
+  "entity": "arcanavaria:crucible_walker",
   "health": 200,
   "damage": 9,
   "armor": 8,
-  "scale": 1.6,
-  "equipment": {
-    "mainhand": "minecraft:stone_sword"
-  },
+  "scale": 0.8,
   "bar": "white"
 }

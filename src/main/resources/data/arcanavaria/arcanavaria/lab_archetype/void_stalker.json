@@ -1,9 +1,9 @@
 {
   "name": "lab_archetype.arcanavaria.void_stalker",
-  "entity": "minecraft:enderman",
+  "entity": "arcanavaria:crucible_walker",
   "health": 200,
   "damage": 10,
   "armor": 4,
-  "scale": 1.5,
+  "scale": 0.8,
   "bar": "purple"
 }

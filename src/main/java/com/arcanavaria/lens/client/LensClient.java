@@ -38,7 +38,7 @@ public final class LensClient {
     private static final int GHOST = 0xFFD060, CORNER = 0xFFD060, ANCHOR = 0xC080FF;
     private static final int DRAWN = 1200;
     private static List<BlockPos> preview = List.of();
-    private static boolean destructionPreview;
+    private static boolean destructionPreview, exchangePreview;
 
     public static List<BlockPos> preview() {
         return preview;
@@ -46,6 +46,10 @@ public final class LensClient {
 
     public static boolean destructionPreview() {
         return destructionPreview;
+    }
+
+    public static boolean exchangePreview() {
+        return exchangePreview;
     }
 
     private LensClient() {
@@ -83,6 +87,7 @@ public final class LensClient {
         }
         preview = List.of();
         destructionPreview = false;
+        exchangePreview = false;
         ItemStack lens = LensRegistry.held(p);
         if (lens == null) {
             return;
@@ -98,6 +103,7 @@ public final class LensClient {
             } else {
                 BlockState selected = ArchitectsLensItem.selected(p, lens);
                 if (selected != null) {
+                    exchangePreview = settings.exchange();
                     preview = LensShapes.collect(p, s.mode(), settings, hit.getBlockPos(), hit.getDirection(), selected)
                             .stream().map(com.arcanavaria.lens.bg2.StatePos::pos).toList();
                 }

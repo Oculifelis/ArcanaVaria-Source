@@ -50,10 +50,12 @@ public final class AVDataMaps {
 
     /**
      * {@code data/<ns>/data_maps/entity_type/boss_moves.json}: a boss's move numbers by name (damage, radius,
-     * cooldown in ticks, ...). A name left out keeps the built-in value.
+     * cooldown in ticks, hitbox size, ...). A name left out keeps the built-in value. Sent to clients, which need
+     * the hitbox numbers too.
      */
     public static final DataMapType<EntityType<?>, Map<String, Double>> BOSS_MOVES = DataMapType.builder(
-            ArcanaVaria.id("boss_moves"), Registries.ENTITY_TYPE, Codec.unboundedMap(Codec.STRING, Codec.DOUBLE)).build();
+            ArcanaVaria.id("boss_moves"), Registries.ENTITY_TYPE, Codec.unboundedMap(Codec.STRING, Codec.DOUBLE))
+            .synced(Codec.unboundedMap(Codec.STRING, Codec.DOUBLE), false).build();
 
     /** The named move number for this creature's type, or {@code def}. */
     public static double move(net.minecraft.world.entity.Entity entity, String key, double def) {

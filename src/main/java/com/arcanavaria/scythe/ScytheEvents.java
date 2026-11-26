@@ -2,6 +2,7 @@ package com.arcanavaria.scythe;
 
 import com.arcanavaria.AVDataMaps;
 import com.arcanavaria.AVRegistry;
+import com.arcanavaria.fx.SwingFxPacket;
 import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
@@ -18,6 +19,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.enchantment.Enchantment;
 import net.minecraft.world.item.enchantment.EnchantmentHelper;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.phys.Vec3;
 import net.neoforged.bus.api.EventPriority;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.entity.living.LivingDamageEvent;
@@ -93,6 +95,18 @@ public final class ScytheEvents {
         }
         double x = player.getX(), y = player.getY() + player.getBbHeight() * 0.5, z = player.getZ();
         double yaw = Math.toRadians(player.getYRot());
+        if (player.getMainHandItem().is(AVRegistry.ELEMENTAL_SCYTHE.get())) {
+            // A glowing crescent in a random primal, with a ring of the six primals on each enemy in reach (client/SwingFx).
+            Vec3 look = Vec3.directionFromRotation(0, player.getYRot());
+            java.util.List<Vec3> hits = new java.util.ArrayList<>();
+            for (LivingEntity e : level.getEntitiesOfClass(LivingEntity.class, player.getBoundingBox().inflate(3.0, 0.5, 3.0),
+                    e -> e != player && e.isAlive() && e.position().subtract(player.position()).dot(look) > 0)) {
+                hits.add(e.position().add(0, e.getBbHeight() * 0.6, 0));
+            }
+            SwingFxPacket.sweep(player, player.getRandom().nextInt(6), new Vec3(x, y, z), player.getYRot(), hits);
+            level.playSound(null, x, y, z, AVRegistry.SCYTHE_SWEEP.get(), SoundSource.PLAYERS, 0.8f, 0.9f + player.getRandom().nextFloat() * 0.2f);
+            return;
+        }
         for (int i = -2; i <= 2; i++) {
             double angle = yaw + i * 0.45;
             double px = x - Math.sin(angle) * 1.7, pz = z + Math.cos(angle) * 1.7;

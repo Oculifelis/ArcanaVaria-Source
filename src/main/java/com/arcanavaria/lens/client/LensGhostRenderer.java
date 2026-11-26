@@ -37,13 +37,16 @@ public final class LensGhostRenderer {
         pose.translate(-camera.x, -camera.y, -camera.z);
         var buffers = minecraft.renderBuffers().bufferSource();
         var vertices = buffers.getBuffer(GHOST);
+        // Build is Ordo pale gold and white, exchange is Permutatio green, destroy is Perditio dark.
+        boolean destroy = LensClient.destructionPreview(), exchange = LensClient.exchangePreview();
+        float[] fill = destroy ? new float[] {0.16F, 0.12F, 0.2F, 0.32F} : exchange ? new float[] {0.42F, 0.72F, 0.46F, 0.16F}
+                : new float[] {1F, 0.93F, 0.72F, 0.14F};
         for (var position : LensClient.preview()) {
-            LensGhostBoxes.renderBoxSolid(pose.last().pose(), vertices, position, 1F,
-                    LensClient.destructionPreview() ? 0.3F : 0.75F, 0.2F, 0.035F);
+            LensGhostBoxes.renderBoxSolid(pose.last().pose(), vertices, position, fill[0], fill[1], fill[2], fill[3]);
         }
         buffers.endBatch(GHOST);
-        java.awt.Color outline = LensClient.destructionPreview() ? new java.awt.Color(1F, 0.3F, 0.2F, 0.45F)
-                : new java.awt.Color(1F, 0.75F, 0.2F, 0.45F);
+        java.awt.Color outline = destroy ? new java.awt.Color(0.36F, 0.24F, 0.44F, 0.9F) : exchange ? new java.awt.Color(0.6F, 0.86F, 0.6F, 0.85F)
+                : new java.awt.Color(1F, 0.97F, 0.85F, 0.85F);
         for (var position : LensClient.preview()) {
             LensGhostBoxes.renderLines(pose, position, position, outline, buffers);
         }

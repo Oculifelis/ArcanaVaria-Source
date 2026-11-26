@@ -8,6 +8,8 @@
   ],
   "client": [
     "WindowNoFocusMixin",
+    "TestNoAudioMixin",
+    "TestNoGrabMixin",
     "FundamentumScytheInputMixin"
   ],
   "injectors": {

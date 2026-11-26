@@ -4,6 +4,7 @@ import static com.arcanavaria.ArcanaVaria.LOG;
 import static com.arcanavaria.ArcanaVaria.id;
 
 import com.arcanavaria.lab.LabRegistry;
+import com.arcanavaria.lab.walker.CrucibleWalker;
 import com.arcanavaria.thurible.CloudEffect;
 import com.leclowndu93150.thaumaturge.api.entity.trait.MobTraits;
 import com.leclowndu93150.thaumaturge.registry.TTMobTraits;
@@ -109,6 +110,9 @@ public final class LabBosses {
         for (ResourceKey<LabTrait> key : traitKeys) {
             traitLookup.get(key).map(Holder::value).ifPresent(t -> apply(mob, key, t));
         }
+        if (mob instanceof CrucibleWalker walker && !traitKeys.isEmpty()) {
+            traitLookup.get(traitKeys.get(0)).map(Holder::value).ifPresent(t -> walker.tintWith(t.colour()));
+        }
         mob.setHealth(mob.getMaxHealth());
         mob.setPersistenceRequired();
         mob.setData(LabRegistry.BOSS.get(), new BossData(altar, bodyKey, traitKeys));
@@ -207,7 +211,17 @@ public final class LabBosses {
             }
             t.ability().ifPresent(a -> {
                 if (boss.tickCount % a.every() == 0 && boss.getTarget() != null) {
-                    use(level, boss, data, t, a, boss.getTarget());
+                    if (boss instanceof CrucibleWalker walker) {
+                        // the walker freezes in the trait's colour first, so the move can be seen coming
+                        walker.queueTraitMove(t.colour(), () -> {
+                            LivingEntity target = boss.getTarget();
+                            if (target != null && boss.isAlive()) {
+                                use(level, boss, data, t, a, target);
+                            }
+                        });
+                    } else {
+                        use(level, boss, data, t, a, boss.getTarget());
+                    }
                 }
             });
         }

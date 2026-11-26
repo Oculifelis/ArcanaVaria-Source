@@ -11,7 +11,11 @@ import net.minecraft.world.entity.ai.attributes.AttributeInstance;
 import net.minecraft.world.entity.ai.attributes.AttributeModifier;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.player.Player;
+import java.util.function.Consumer;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.TooltipFlag;
+import net.minecraft.world.item.component.TooltipDisplay;
 import net.minecraft.world.level.Level;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
@@ -46,6 +50,12 @@ public class AmberHeartItem extends Item {
             player.getItemInHand(hand).consume(1, player);
         }
         return InteractionResult.SUCCESS;
+    }
+
+    @Override
+    public void appendHoverText(ItemStack stack, TooltipContext ctx, TooltipDisplay display, Consumer<Component> out, TooltipFlag flag) {
+        out.accept(Component.translatable("tooltip.arcanavaria.warden_amber_heart").withStyle(ChatFormatting.GRAY));
+        out.accept(Component.translatable("tooltip.arcanavaria.warden_amber_heart.once").withStyle(ChatFormatting.DARK_GRAY));
     }
 
     static void apply(Player player) {

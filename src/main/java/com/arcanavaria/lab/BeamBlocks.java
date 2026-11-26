@@ -5,7 +5,6 @@ import java.util.ArrayList;
 import java.util.List;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
-import net.minecraft.core.particles.DustParticleOptions;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
@@ -36,7 +35,6 @@ import org.jspecify.annotations.Nullable;
  */
 public final class BeamBlocks {
     public static final int RANGE = 32;
-    private static final DustParticleOptions BEAM = new DustParticleOptions(0xFFE9A8, 0.7F);
 
     private BeamBlocks() {
     }
@@ -109,23 +107,14 @@ public final class BeamBlocks {
             if (level.getGameTime() % 4 != 0) {
                 return;
             }
+            if (level.isClientSide()) {
+                return;     // the client draws the beam itself (lab/client/SunbeamRenderer)
+            }
             Direction dir = state.getValue(BlockStateProperties.HORIZONTAL_FACING);
             BlockPos[] hit = new BlockPos[1];
-            List<Vec3> path = trace(level, pos, dir, hit);
-            if (!level.isClientSide()) {
-                if (hit[0] != null && level.getBlockEntity(hit[0]) instanceof ReceptorTick r) {
-                    r.hit(level);
-                }
-                return;
-            }
-            var rnd = level.getRandom();
-            for (int i = 1; i < path.size(); i++) {
-                Vec3 a = path.get(i - 1), b = path.get(i);
-                int n = (int) Math.ceil(a.distanceTo(b) * 2);
-                for (int k = 0; k < n; k++) {
-                    Vec3 p = a.lerp(b, (k + rnd.nextFloat()) / n);
-                    level.addParticle(BEAM, p.x, p.y, p.z, 0, 0, 0);
-                }
+            trace(level, pos, dir, hit);
+            if (hit[0] != null && level.getBlockEntity(hit[0]) instanceof ReceptorTick r) {
+                r.hit(level);
             }
         }
     }

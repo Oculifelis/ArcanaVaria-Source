@@ -1,6 +1,7 @@
 package com.arcanavaria.client;
 
 import com.arcanavaria.ArcanaVaria;
+import com.arcanavaria.lab.client.SunbeamRender;
 import com.fundamentum.whip.WhipStyle;
 import com.fundamentum.whip.WhipsClient;
 import com.mojang.blaze3d.vertex.PoseStack;
@@ -54,6 +55,37 @@ final class WhipGlowStyle implements WhipStyle {
         float scale = this.flows ? 0.5F : 1.0F;
         collector.submitCustomGeometry(pose, RenderTypes.entityTranslucentEmissive(this.glow, false),
             (at, buffer) -> ribbon(at, buffer, cord, offset, scale, 0.995));
+        if (this.flows && SwingFx.cordRgb >= 0) {
+            int rgb = SwingFx.cordRgb;
+            collector.submitCustomGeometry(pose, SunbeamRender.fx("line", false), (at, buffer) -> halo(at, buffer, cord, 5.0, SunbeamRender.argb(0.45F, rgb)));
+            collector.submitCustomGeometry(pose, SunbeamRender.fx("line", true), (at, buffer) -> halo(at, buffer, cord, 3.5, SunbeamRender.argb(0.9F, rgb)));
+        }
+    }
+
+    /** A soft band of {@code argb} along the cord, {@code widen} times its width, for the primal the cord carries. */
+    private static void halo(PoseStack.Pose at, VertexConsumer buffer, Cord cord, double widen, int argb) {
+        Vec3[] p = cord.points();
+        int n = p.length;
+        Vec3[] left = new Vec3[n], right = new Vec3[n];
+        for (int i = 0; i < n; i++) {
+            Vec3 tangent = p[Math.min(n - 1, i + 1)].subtract(p[Math.max(0, i - 1)]);
+            Vec3 side = tangent.cross(p[i].scale(-1));
+            side = side.lengthSqr() < 1.0E-10 ? new Vec3(0, 1, 0) : side.normalize();
+            double half = Math.max(0.05, Mth.lerp(cord.along(i), cord.whip().width, cord.whip().tipWidth) * 0.5 * widen);
+            Vec3 at0 = p[i].scale(0.99);
+            left[i] = at0.add(side.scale(half));
+            right[i] = at0.subtract(side.scale(half));
+        }
+        for (int i = 0; i < n - 1; i++) {
+            float v0 = (float) cord.along(i), v1 = (float) cord.along(i + 1);
+            for (Vec3[] q : new Vec3[][] {{left[i], right[i], right[i + 1], left[i + 1]}}) {
+                float[] u = {0, 1, 1, 0}, v = {v0, v0, v1, v1};
+                for (int k = 0; k < 4; k++) {
+                    buffer.addVertex(at, (float) q[k].x, (float) q[k].y, (float) q[k].z).setColor(argb).setUv(u[k], v[k])
+                        .setOverlay(OverlayTexture.NO_OVERLAY).setLight(LightCoordsUtil.FULL_BRIGHT).setNormal(at, 0, 1, 0);
+                }
+            }
+        }
     }
 
     /** The camera-facing strip Fundamentum draws (u across, v from handle to tip, tapering), pulled `near` toward the camera. */

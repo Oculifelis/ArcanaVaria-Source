@@ -1,12 +1,9 @@
 {
   "name": "lab_archetype.arcanavaria.hellforged_fiend",
-  "entity": "minecraft:piglin_brute",
+  "entity": "arcanavaria:crucible_walker",
   "health": 240,
   "damage": 11,
   "armor": 10,
-  "scale": 1.7,
-  "equipment": {
-    "mainhand": "minecraft:golden_axe"
-  },
+  "scale": 0.8,
   "bar": "red"
 }

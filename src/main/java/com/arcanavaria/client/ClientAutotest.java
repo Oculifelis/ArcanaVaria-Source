@@ -19,6 +19,7 @@ import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.phys.Vec3;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.CameraType;
+import net.neoforged.fml.ModList;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.Screenshot;
 import net.minecraft.client.gui.screens.PauseScreen;
@@ -51,6 +52,7 @@ import org.slf4j.Logger;
 public final class ClientAutotest {
     private static final String MODE = System.getProperty("arcanavaria.autotest");
     private static final Logger LOG = LogUtils.getLogger();
+    private static int lensDoneAt = -1, sunDoneAt = -1, fxDoneAt = -1;
     private static final String WORLD = "avtest";
     private static final long TIMEOUT_NANOS = 6L * 60L * 1_000_000_000L;
 
@@ -135,6 +137,50 @@ public final class ClientAutotest {
             }
             return;
         }
+        if ("lenssun".equals(MODE)) {
+            // -Pautotest=lenssun: the lensghost, sunbeam, fxpreview and wardenview stages, in one client run
+            if (lensDoneAt < 0) {
+                if (LensGhostAutotest.step(mc, worldTicks, LOG, ClientAutotest::onServer, ClientAutotest::shot)) {
+                    lensDoneAt = worldTicks;
+                }
+            } else if (sunDoneAt < 0) {
+                if (SunbeamAutotest.step(mc, worldTicks - lensDoneAt, ClientAutotest::onServer, ClientAutotest::shot)) {
+                    sunDoneAt = worldTicks;
+                }
+            } else if (fxDoneAt < 0) {
+                if (!ModList.get().isLoaded("fundamentum")
+                        || FxPreviewAutotest.step(mc, worldTicks - sunDoneAt, ClientAutotest::onServer, ClientAutotest::shot)) {
+                    fxDoneAt = worldTicks;
+                }
+            } else if (WardenViewAutotest.step(mc, worldTicks - fxDoneAt, ClientAutotest::onServer, ClientAutotest::shot)) {
+                LOG.info("AVTEST done (lenssun)");
+                finish(mc);
+            }
+            return;
+        }
+        if ("lensghost".equals(MODE)) {
+            // -Pautotest=lensghost: the Lens block preview in its build, exchange and destroy colours (client/LensGhostAutotest)
+            if (LensGhostAutotest.step(mc, worldTicks, LOG, ClientAutotest::onServer, ClientAutotest::shot)) {
+                LOG.info("AVTEST done (lensghost)");
+                finish(mc);
+            }
+            return;
+        }
+        if ("wardenview".equals(MODE)) {
+            if (worldTicks > 60 && WardenViewAutotest.step(mc, worldTicks - 60, ClientAutotest::onServer, ClientAutotest::shot)) {
+                LOG.info("AVTEST done (wardenview)");
+                finish(mc);
+            }
+            return;
+        }
+        if ("sunbeam".equals(MODE)) {
+            // -Pautotest=sunbeam: the Sun Lens beam in a dark room, each look from two angles (client/SunbeamAutotest)
+            if (SunbeamAutotest.step(mc, worldTicks, ClientAutotest::onServer, ClientAutotest::shot)) {
+                LOG.info("AVTEST done (sunbeam)");
+                finish(mc);
+            }
+            return;
+        }
         if (worldTicks == 1) {
             LOG.info("AVTEST joined");
         } else if (worldTicks == 60) {
@@ -156,6 +202,9 @@ public final class ClientAutotest {
                 worldTicks = LAB_AT - 1;
             } else if ("structures".equals(MODE)) {
                 worldTicks = STRUCT_AT - 1;
+            } else if ("chase".equals(MODE)) {
+                // -Pautotest=chase: the Warden follows a player who moves far from its Heartseed spot
+                worldTicks = CHASE_AT - 1;
             } else if ("exanimator".equals(MODE)) {
                 // -Pautotest=exanimator: the Exanimator boss fight only
                 worldTicks = EXAN_AT - 1;
@@ -182,6 +231,8 @@ public final class ClientAutotest {
             }
         } else if (worldTicks == 1390) {
             shot(mc, "loot");
+        } else if (worldTicks >= CHASE_AT) {
+            chaseStage(mc, worldTicks - CHASE_AT);
         } else if (worldTicks >= EXAN_AT) {
             exanimatorStage(mc, worldTicks - EXAN_AT);
         } else if (worldTicks >= STRUCT_AT) {
@@ -220,11 +271,65 @@ public final class ClientAutotest {
     private static final int THURIBLE_AT = LATTICE_AT + 400;
     private static final int LENS_AT = THURIBLE_AT + 310;
     private static final int LAB_AT = LENS_AT + 120;
-    private static final int SCYTHES_AT = LAB_AT + 460;
+    private static final int SCYTHES_AT = LAB_AT + 460 + LabAutotest.WATCH;
     private static final int WHIPS_AT = SCYTHES_AT + 3 * 30;
     /** Far past every other stage; only -Pautotest=structures jumps here. */
     private static final int STRUCT_AT = 100000;
     private static final int EXAN_AT = 200000;
+    private static final int CHASE_AT = 300000;
+    private static float chaseHomeGap = -1;
+    private static boolean chaseOk1, chaseOk2;
+
+    /**
+     * The Warden must follow: the player stands 40 blocks from the Heartseed spot (past the old 32-block home tether),
+     * then moves 40 more across. After each move the Warden has to close to within 14 blocks. Also checks the Amber
+     * Heart tooltip.
+     */
+    private static void chaseStage(Minecraft mc, int t) {
+        if (t == 0) {
+            mc.options.setCameraType(CameraType.THIRD_PERSON_BACK);
+            onServer(mc, ClientAutotest::summonWarden);
+            ItemStack heart = new ItemStack(AVRegistry.AMBER_HEART.get());
+            String tip = heart.getTooltipLines(net.minecraft.world.item.Item.TooltipContext.of(mc.level), mc.player,
+                net.minecraft.world.item.TooltipFlag.NORMAL).stream().map(c -> c.getString()).reduce("", (x, y) -> x + " | " + y);
+            LOG.info("AVTEST amber tooltip ok={} [{}]", tip.contains("2 hearts") && tip.contains("once per player"), tip);
+        } else if (t == 100) {
+            onServer(mc, p -> chaseTp(p, "tp @a 0.5 -60 50.5 180 10"));
+        } else if (t == 500) {
+            onServer(mc, p -> chaseCheck(p, 1));
+            onServer(mc, p -> chaseTp(p, "tp @a 40.5 -60 50.5 90 10"));
+        } else if (t == 900) {
+            onServer(mc, p -> chaseCheck(p, 2));
+            shot(mc, "chase");
+        } else if (t == 920) {
+            LOG.info("AVTEST chase result first={} second={} homeGap={} -> {}", chaseOk1, chaseOk2,
+                String.format("%.1f", chaseHomeGap), chaseOk1 && chaseOk2 && chaseHomeGap > 32 ? "PASS" : "FAIL");
+            LOG.info("AVTEST done (chase)");
+            finish(mc);
+        }
+        if (t > 100 && t < 900 && t % 20 == 0) {
+            onServer(mc, ClientAutotest::logWarden);
+        }
+    }
+
+    private static void chaseTp(ServerPlayer p, String cmd) {
+        MinecraftServer server = p.level().getServer();
+        server.getCommands().performPrefixedCommand(server.createCommandSourceStack(), cmd);
+    }
+
+    private static void chaseCheck(ServerPlayer p, int leg) {
+        GreatwoodWarden w = warden(p);
+        boolean ok = w != null && w.distanceTo(p) < 14.0F;
+        if (leg == 1) {
+            chaseOk1 = ok;
+        } else {
+            chaseOk2 = ok;
+            if (w != null) {
+                chaseHomeGap = (float) Math.sqrt(w.blockPosition().distSqr(new BlockPos(0, -60, 10)));
+            }
+        }
+        LOG.info("AVTEST chase leg {} ok={} dist={}", leg, ok, w == null ? "none" : String.format("%.1f", w.distanceTo(p)));
+    }
 
     /** The Exanimator: rises (START), fights a player it can't hurt, Eclipse at half health, killed, drop logged. */
     private static void exanimatorStage(Minecraft mc, int t) {
@@ -538,17 +643,24 @@ public final class ClientAutotest {
             mc.options.setCameraType(CameraType.THIRD_PERSON_BACK);
         } else if (t == 215) {
             shot(mc, "lab_guardian");
-        } else if (t == 240) {
+        } else if (t > 215 && t <= 215 + LabAutotest.WATCH) {
+            // the Crucible Walker fights for WATCH ticks; shots through the loop
+            int w = t - 216;
+            onServer(mc, p -> LabAutotest.walkerWatch(p, LOG, w));
+            if (w > 0 && w % 75 == 0) {
+                shot(mc, "lab_walker" + (w / 75));
+            }
+        } else if (t == 240 + LabAutotest.WATCH) {
             onServer(mc, p -> LabAutotest.boss(p, LOG, true));
             mc.options.setCameraType(CameraType.FIRST_PERSON);
-        } else if (t == 270) {
+        } else if (t == 270 + LabAutotest.WATCH) {
             shot(mc, "lab_cleared");
             onServer(mc, p -> LabAutotest.deathSetUp(p, LOG));
-        } else if (t == 300) {
+        } else if (t == 300 + LabAutotest.WATCH) {
             onServer(mc, p -> LabAutotest.die(p, LOG));
-        } else if (t == 330 && mc.player != null) {
+        } else if (t == 330 + LabAutotest.WATCH && mc.player != null) {
             mc.player.respawn();
-        } else if (t == 380) {
+        } else if (t == 380 + LabAutotest.WATCH) {
             onServer(mc, p -> LabAutotest.afterRespawn(p, LOG));
         }
     }

@@ -11,7 +11,7 @@ import net.minecraft.util.Mth;
  * procedural animation: every pose is a function of the synced state and the ticks since it began, laid on top of the
  * rest pose. Timings match the server's state table in {@link GreatwoodWarden}.
  *
- * <p>Rig: root > body > (torso > (head > antler_l/r, arm_l > fore_l, arm_r > fore_r, crystals*), leg_l > shin_l,
+ * <p>Rig: root > body > (torso > (head > antler_l/r > runes_l/r, arm_l > fore_l, arm_r > fore_r, crystals*), leg_l > shin_l,
  * leg_r > shin_r).
  */
 public class GreatwoodWardenModel extends EntityModel<GreatwoodWardenRenderState> {
@@ -21,6 +21,7 @@ public class GreatwoodWardenModel extends EntityModel<GreatwoodWardenRenderState
     private final ModelPart armL, armR, foreL, foreR;
     private final ModelPart legL, legR;
     private final ModelPart antlerL, antlerR;
+    private final ModelPart runesL, runesR;
 
     public GreatwoodWardenModel(ModelPart root) {
         super(root);
@@ -35,6 +36,8 @@ public class GreatwoodWardenModel extends EntityModel<GreatwoodWardenRenderState
         this.legR = this.body.getChild("leg_r");
         this.antlerL = this.head.getChild("antler_l");
         this.antlerR = this.head.getChild("antler_r");
+        this.runesL = this.antlerL.getChild("runes_l");
+        this.runesR = this.antlerR.getChild("runes_r");
     }
 
     /** Smooth 0..1 between a and b. */
@@ -60,6 +63,10 @@ public class GreatwoodWardenModel extends EntityModel<GreatwoodWardenRenderState
         this.torso.xRot += 0.025F * breath;
         this.antlerL.zRot += 0.03F * Mth.sin(age * 0.05F);
         this.antlerR.zRot -= 0.03F * Mth.sin(age * 0.05F + 1.0F);
+        this.runesL.yRot += age * 0.06F;                            // flux runes circling the antler forks
+        this.runesR.yRot -= age * 0.06F;
+        this.runesL.y += 0.8F * Mth.sin(age * 0.09F);
+        this.runesR.y += 0.8F * Mth.sin(age * 0.09F + 1.5F);
         float sp = Math.min(1.0F, s.walkAnimationSpeed * 1.5F);
         float wp = s.walkAnimationPos * 0.5F;
         this.legL.xRot += Mth.cos(wp) * 0.55F * sp;

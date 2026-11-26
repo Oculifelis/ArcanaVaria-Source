@@ -1,6 +1,7 @@
 package com.arcanavaria.whip;
 
 import com.arcanavaria.ArcanaVaria;
+import com.arcanavaria.fx.SwingFxPacket;
 import com.fundamentum.whip.WhipCordFx;
 import com.fundamentum.whip.WhipDefinition;
 import com.fundamentum.whip.WhipHit;
@@ -15,6 +16,7 @@ import net.minecraft.world.effect.MobEffect;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.monster.Enemy;
 import net.minecraft.world.phys.Vec3;
 
 /**
@@ -100,7 +102,9 @@ public final class AVWhips {
                 public void landed(WhipHit hit, boolean hurt) {
                     LivingEntity target = hit.living();
                     if (hurt && target != null) {
-                        primal(hit, target, hit.player.getRandom().nextInt(6));
+                        int which = hit.player.getRandom().nextInt(6);
+                        primal(hit, target, which);
+                        jump(hit, target, which);
                     }
                 }
             })
@@ -127,6 +131,26 @@ public final class AVWhips {
         int c = PRIMALS[which];
         hit.player.level().sendParticles(new DustParticleOptions(c, 1.2F), target.getX(), target.getY() + target.getBbHeight() * 0.6,
             target.getZ(), 10, 0.3, 0.3, 0.3, 0.0);
+    }
+
+    /** The primal jumps on to the nearest other enemy within 4 blocks of the target, drawn as a vis arc (client/SwingFx). */
+    static void jump(WhipHit hit, LivingEntity target, int which) {
+        LivingEntity next = null;
+        double best = Double.MAX_VALUE;
+        for (LivingEntity e : target.level().getEntitiesOfClass(LivingEntity.class, target.getBoundingBox().inflate(4.0),
+                e -> e != target && e != hit.player && e.isAlive() && e instanceof Enemy)) {
+            double d = e.distanceToSqr(target);
+            if (d < best) {
+                best = d;
+                next = e;
+            }
+        }
+        if (next == null) {
+            return;
+        }
+        primal(hit, next, which);
+        SwingFxPacket.jump(hit.player, which, target.position().add(0, target.getBbHeight() * 0.6, 0),
+            next.position().add(0, next.getBbHeight() * 0.6, 0));
     }
 
     private static void effect(WhipHit hit, LivingEntity target, Holder<MobEffect> effect, int ticks, int amplifier) {

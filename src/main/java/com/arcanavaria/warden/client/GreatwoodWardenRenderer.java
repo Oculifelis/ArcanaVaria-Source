@@ -15,7 +15,7 @@ public class GreatwoodWardenRenderer extends MobRenderer<GreatwoodWarden, Greatw
     private static final Identifier GLOW = ArcanaVaria.id("textures/entity/greatwood_warden_glow.png");
 
     public GreatwoodWardenRenderer(EntityRendererProvider.Context ctx) {
-        super(ctx, new GreatwoodWardenModel(ctx.bakeLayer(WardenClient.WARDEN_LAYER)), 1.4F);
+        super(ctx, new GreatwoodWardenModel(ctx.bakeLayer(WardenClient.WARDEN_LAYER)), 2.0F);
         // the amber heart, eyes, sap veins, fungi and crystals: steady, flaring while it charges the ray or mends
         this.addLayer(new LivingEntityEmissiveLayer<>(this, s -> GLOW, (s, age) -> s.glow,
             new GreatwoodWardenModel(ctx.bakeLayer(WardenClient.WARDEN_LAYER)), RenderTypes::eyes, false));
